@@ -1,0 +1,142 @@
+/*
+*
+*    1. Newsletter style 01
+*
+*    2. Newsletter style 02
+*
+*    RESPONSIVE
+*
+*/
+
+/*---------- 1. Newsletter style 01  ----------*/
+.slz-shortcode-send-mail{
+    width:60%;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+}
+.slz-shortcode-send-mail .slz-title-shortcode{
+    text-transform: uppercase;
+    color: #153042;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.slz-shortcode-send-mail .sc-newslettter-des{
+    margin-bottom: 30px;
+}
+.slz-shortcode-send-mail .sc-newsletter-content .form-control{
+    margin-bottom: 30px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.slz-shortcode-send-mail .sc-newsletter-content .form-control:focus{
+    border-bottom-color: #DB0F31;
+}
+.slz-shortcode-send-mail .sc-newsletter-content .btn{
+    min-width: 160px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    padding:11px 20px;
+    text-transform: uppercase;
+    background-color: #DB0F31;
+    color:#FFFFFF;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.slz-shortcode-send-mail .sc-newsletter-content .btn:hover{
+    background-color: #153042;
+}
+
+/*---------- 2. Newsletter style 02  ----------*/
+
+.slz-shortcode-send-mail2{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.slz-shortcode-send-mail2 .slz-title-shortcode{
+    text-transform: uppercase;
+    color: #153042;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.slz-shortcode-send-mail2 .sc-newslettter-des{
+    margin-bottom: 30px;
+}
+.slz-shortcode-send-mail2 .slz-input-group .input-group-button > .btn{
+    height: auto;
+}
+.slz-shortcode-send-mail2 .slz-input-group .btn{
+    min-width: 160px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    padding:11px 20px;
+    height: auto;
+    text-transform: uppercase;
+    background-color: #DB0F31;
+    color:#FFFFFF;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.slz-shortcode-send-mail2 .slz-input-group .btn:hover{
+    background-color: #153042;
+}
+
+
+/*=====================================
+=            RESPONSIVE          =
+=====================================*/
+@media (max-width:1024px){
+
+}
+
+@media (max-width:768px){}
+
+@media (max-width:767px){
+    .slz-shortcode-send-mail,
+    .slz-shortcode-send-mail2 {
+        width:100%;
+    }
+}
+
+@media (max-width:600px){
+    .slz-shortcode-send-mail2 .slz-input-group{
+        display: block;
+        width:100%;
+    }
+    .slz-shortcode-send-mail2 .slz-input-group .form-control{
+        text-align: center;
+    }
+    .slz-shortcode-send-mail2 .slz-input-group .input-group-button{
+        display: block;
+        width:100%;
+    }
+    .slz-shortcode-send-mail2 .slz-input-group .input-group-button > .btn{
+        display: block;
+        margin:auto;
+
+    }
+    .slz-shortcode-send-mail2 .slz-input-group .input-group-button{
+        display: block;
+    }
+}
+
+@media (max-width:480px){}

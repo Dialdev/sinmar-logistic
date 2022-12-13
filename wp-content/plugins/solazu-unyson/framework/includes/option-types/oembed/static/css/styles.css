@@ -1,0 +1,19 @@
+.slz-oembed-preview img,
+.slz-oembed-preview iframe,
+.slz-oembed-preview embed
+{
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+.slz-oembed-preview a {
+	display: inline-block;
+}
+
+.slz-oembed-preview img {
+	display: block;
+	height: auto;
+}
+.slz-oembed-preview {
+	padding-top: 7px;
+}

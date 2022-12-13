@@ -1,0 +1,11 @@
+#slz-ext-backups-demo-list .theme .theme-actions {
+	opacity: 1;
+}
+
+#slz-ext-backups-demo-list .theme a.more-details {
+	text-decoration: none;
+}
+
+#slz-ext-backups-demo-list .slz-ext-backups-demo-item.active .theme-actions {
+	display: none;
+}

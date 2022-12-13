@@ -1,0 +1,181 @@
+# Translation of Plugins - Q2W3 Fixed Widget - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Q2W3 Fixed Widget - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-02-25 05:23:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Q2W3 Fixed Widget - Stable (latest release)\n"
+
+#: q2w3-fixed-widget.php:393
+msgid "If MutationObserver disabled, plugin will use Refresh Interval to reflect page changes (version 4 behavior)"
+msgstr "如果 MutationObserver 停用，外掛將使用刷新間隔來變更頁面異動。(version 4 behavior)"
+
+#: q2w3-fixed-widget.php:393
+msgid "Disable MutationObserver:"
+msgstr "停用 MutationObserver："
+
+#: q2w3-fixed-widget.php:353
+msgid "Note for cache plugin users. Don't forget to clear the cache after options change!"
+msgstr "使用快取外掛用戶請注意：設定完畢後別忘記清除快取！"
+
+#: q2w3-fixed-widget.php:379
+msgid "Works the same way as Disable Width option."
+msgstr "與停用寬度選項用途一樣。"
+
+#: q2w3-fixed-widget.php:379
+msgid "Disable Height:"
+msgstr "禁止高度："
+
+#: q2w3-fixed-widget.php:377
+msgid "Use this option to disable plugin on portable devices. When the browser screen width is less then specified value, the plugin is disabled!"
+msgstr "使用此設定可以在行動裝置停用此外掛。當瀏覽器的尺寸小於此寬度時，將會禁用此外掛功能。"
+
+#: q2w3-fixed-widget.php:377
+msgid "Disable Width:"
+msgstr "禁用寬度："
+
+#: q2w3-fixed-widget.php:375
+msgid "Used only for compatibility with browsers without MutationObserver API support! Set 0 to completely disable."
+msgstr "僅使用瀏覽器相容設定(不包括MutationObserver API支援)！設置 0 為完全禁止使用。"
+
+#: q2w3-fixed-widget.php:373
+msgid "Here you need to provide html tag id. The position of that html element will determine margin bottom value."
+msgstr "這裡你必須提供一個CSS的ID。小工具將會透過這個ID的區塊作為判斷值，當抵達這個ID的位置將自動停止捲動，否則小工具將會與底部重疊。"
+
+#. Author URI of the plugin/theme
+msgid "http://www.q2w3.ru/"
+msgstr "http://www.q2w3.ru/"
+
+#. Author of the plugin/theme
+msgid "Max Bond"
+msgstr "Max Bond"
+
+#. Description of the plugin/theme
+msgid "Fixes positioning of the selected widgets, when the page is scrolled down."
+msgstr "當頁面滑動時，可以固定所選的小工具。"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.q2w3.ru/q2w3-fixed-widget-wordpress-plugin/"
+msgstr "http://www.q2w3.ru/q2w3-fixed-widget-wordpress-plugin/"
+
+#. Plugin Name of the plugin/theme
+msgid "Q2W3 Fixed Widget"
+msgstr "Q2W3 Fixed Widget"
+
+#: q2w3-fixed-widget.php:411
+msgid "Russian (www.q2w3.ru)"
+msgstr "俄文 (www.q2w3.ru)"
+
+#: q2w3-fixed-widget.php:409
+msgid "English (wordpress.org)"
+msgstr "英文 (wordpress.org)"
+
+#: q2w3-fixed-widget.php:407
+msgid "Support forums:"
+msgstr "支援論壇："
+
+#: q2w3-fixed-widget.php:417
+msgid "RATE THE PLUGIN"
+msgstr "評分此外掛"
+
+#: q2w3-fixed-widget.php:401
+msgid "widget_display_callback hook priority:"
+msgstr "widget_display_callback 掛鈎優先權："
+
+#: q2w3-fixed-widget.php:399
+msgid "Enable this option only if you have problems with other scroll oriented javascript code"
+msgstr "如果你遇到和滾動方面Javascript代碼問題，請勾選啟用此選項。"
+
+#: q2w3-fixed-widget.php:399
+msgid "Use jQuery(window).load() hook:"
+msgstr "使用 jQuery(window).load() 掛鈎："
+
+#: q2w3-fixed-widget.php:397
+msgid "Enable this option for themes with responsive sidebar"
+msgstr "回應式網頁側邊欄請勾選啟用此選項"
+
+#: q2w3-fixed-widget.php:397
+msgid "Inherit widget width from the parent container:"
+msgstr "從父層項目繼承小工具寬度："
+
+#: q2w3-fixed-widget.php:395
+msgid "Enable this option for debug purposes (frontend problems and etc.)"
+msgstr "若要除錯請打勾起用此選項。(例如前端問題..等)"
+
+#: q2w3-fixed-widget.php:395
+msgid "Enable plugin for logged in users only:"
+msgstr "僅針對已登入使用者套用此外掛："
+
+#: q2w3-fixed-widget.php:391
+msgid "Auto fix widget id:"
+msgstr "自動修復小工具ID："
+
+#: q2w3-fixed-widget.php:385
+msgid "Custom HTML IDs (each one on a new line):"
+msgstr "自訂HTML ID(每一行一個)："
+
+#: q2w3-fixed-widget.php:375
+msgid "milliseconds"
+msgstr "毫秒"
+
+#: q2w3-fixed-widget.php:375
+msgid "Refresh interval:"
+msgstr "重整間隔："
+
+#: q2w3-fixed-widget.php:373
+msgid "Stop ID:"
+msgstr "停止的CSS ID："
+
+#: q2w3-fixed-widget.php:371
+msgid "Margin Bottom:"
+msgstr "下方邊界："
+
+#: q2w3-fixed-widget.php:369 q2w3-fixed-widget.php:371
+#: q2w3-fixed-widget.php:377 q2w3-fixed-widget.php:379
+msgid "px"
+msgstr "像素(px)"
+
+#: q2w3-fixed-widget.php:369
+msgid "Margin Top:"
+msgstr "上方邊界："
+
+#: q2w3-fixed-widget.php:355
+msgid "Save Changes"
+msgstr "儲存變更。"
+
+#: q2w3-fixed-widget.php:327
+msgid "Settings saved."
+msgstr "設定已儲存。"
+
+#: q2w3-fixed-widget.php:319
+msgid "Help for developer"
+msgstr "幫助開發人員"
+
+#: q2w3-fixed-widget.php:317
+msgid "Help for users"
+msgstr "幫助一般使用者"
+
+#: q2w3-fixed-widget.php:315
+msgid "Custom IDs"
+msgstr "自訂 ID"
+
+#: q2w3-fixed-widget.php:313
+msgid "Compatibility"
+msgstr "相容性選項"
+
+#: q2w3-fixed-widget.php:311
+msgid "General Options"
+msgstr "一般選項"
+
+#: q2w3-fixed-widget.php:219 q2w3-fixed-widget.php:323
+msgid "Fixed Widget Options"
+msgstr "Fixed Widget 選項"
+
+#: q2w3-fixed-widget.php:185
+msgid "Fixed widget"
+msgstr "固定此小工具"

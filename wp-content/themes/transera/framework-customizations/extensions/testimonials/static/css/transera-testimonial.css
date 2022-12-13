@@ -1,0 +1,111 @@
+/*----------  Testimonial 02  ----------*/
+
+.slz-testimonial-02 .slick-slider {
+	margin: 0;
+}
+.slz-testimonial-02 .slick-dots {
+	padding: 0;
+}
+.slz-testimonial-02 .testimonial-img {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	overflow: hidden;
+}
+.slz-testimonial-02 .img-wrapper {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: transparent;
+}
+.slz-testimonial-02 .testimonial-info {
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.slz-testimonial-02 .testimonial-info .icons {
+	padding-bottom: 0;
+	width: 55px;
+	height: 55px;
+	margin: 0 auto;
+}
+.slz-testimonial-02 .testimonial-info .name {
+	font-weight: 600;
+	color: #18364a;
+	padding-bottom: 0;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+.slz-testimonial-02 .testimonial-info .position {
+	padding-bottom: 0;
+	color: #666c72;
+	margin-top: 5px;
+}
+.slz-testimonial-02 .testimonial-info .quote-item {
+	margin-top: 25px;
+	color: #666c72;
+}
+
+.slz-testimonial .btn {
+	color: #18364a;
+	display: none !important;
+}
+
+.slz-testimonial .btn:hover {
+	color: #da0f32;
+}
+
+/*----------  Responsive  ----------*/
+@media screen and (max-width: 1024px) {
+	.slz-testimonial-02 .slick-dots {
+		right: -30px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.slz-testimonial-02 .slick-dots {
+		right: -20px;
+	}
+	.slz-testimonial-02 .testimonial-info {
+		padding-left: 50px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.slz-testimonial-02 .img-wrapper:before {
+		padding-top: 101%;
+	}
+	.slz-testimonial-02 .slick-dots {
+		left: 50%;
+		right: auto;
+	    bottom: -30px;
+	    top: auto;
+	    transform: translateX(-50%);
+	    -webkit-transform: translateX(-50%);
+	    -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	    -o-transform: translateX(-50%);
+	}
+	.slz-testimonial-02 .slick-dots li {
+		display: inline-block;
+	}
+}
+@media screen and (max-width: 414px) {
+
+    .slz-testimonial-02 .slick-list {
+        padding-top: 0;
+    }
+
+    .slz-testimonial-02 .item {
+        padding: 0;
+    }
+	.slz-testimonial-02 .testimonial-img {
+		position: relative;
+		margin: 0 auto;
+		top: auto;
+		width: 50%;
+	}
+	.slz-testimonial-02 .testimonial-info {
+	    width: 100%;
+    	padding: 20px 0 0 0;
+    	box-shadow: none;
+	}
+	.slz-testimonial-02 .testimonial-info .quote-item {
+		margin-top: 15px;
+	}
+}

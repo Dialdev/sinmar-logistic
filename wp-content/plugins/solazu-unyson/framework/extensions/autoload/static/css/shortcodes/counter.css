@@ -1,0 +1,138 @@
+/*
+*  STYLE FOR COUNTER
+*
+*
+*  [Table of contents]
+*
+*  [&. Content / #key]
+*  [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+*
+*  Summary:
+*
+*
+*  1. Counter
+*  2. Counter Left
+*  3. Counter Right
+*
+*
+*/
+
+
+/*----------  1. Counter  ----------*/
+    .slz-counter-item-1 {
+        color: #666c72;
+        text-align: center;
+    }
+
+    .slz-counter-item-1 .wrapper-icon {
+        font-size: 60px;
+    }
+
+    .slz-counter-item-1 .icon-cell,
+    .slz-counter-item-1 .img-cell {
+        display: block;
+        text-align: center;
+    }
+
+    .slz-counter-item-1 .icon-cell + .content-cell,
+    .slz-counter-item-1 .img-cell + .content-cell {
+        margin-top: 15px;
+    }
+
+    .slz-counter-item-1 .content-cell + .icon-cell,
+    .slz-counter-item-1 .content-cell + .img-cell {
+        margin-top: 15px;
+    }
+
+    .slz-counter-item-1 .content-cell .number {
+        line-height: 1;
+        font-size: 40px;
+        font-weight: 600;
+        color: #18364a;
+        display: inline-block;
+    }
+
+    .slz-counter-item-1 .suffix {
+        display: inline-block;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 1;
+        color: #18364a;
+        margin-left: 15px;
+    }
+
+    .slz-counter-item-1 .content-cell .title {
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+
+    .slz-counter-item-1 .line {
+        width: 50px;
+        height: 2px;
+        background-color: #18364a;
+        margin: 5px 0; 
+        display: inline-block;
+    }
+    
+/*----------  2. Counter Left  ----------*/
+    .slz-counter-item-1.counter-left {
+        display: table;
+        width: 100%;
+        text-align: left;
+    }
+
+    .slz-counter-item-1.counter-left .icon-cell,
+    .slz-counter-item-1.counter-left .img-cell,
+    .slz-counter-item-1.counter-left .content-cell {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .slz-counter-item-1.counter-left .icon-cell,
+    .slz-counter-item-1.counter-left .img-cell {
+        width: 100px;
+    }
+
+    .slz-counter-item-1.counter-left .content-cell {
+        margin-top: 0;
+        padding-left: 15px;
+    }
+
+    .slz-counter-item-1.layout-2.counter-left {
+        direction: rtl;
+    }
+    .slz-counter-item-1.layout-2.counter-left .content-number{
+        direction: ltr;
+    }
+
+/*----------  3. Counter Right  ----------*/
+    .slz-counter-item-1.counter-right {
+        display: table;
+        width: 100%;
+        text-align: right;
+    }
+
+    .slz-counter-item-1.counter-right .icon-cell,
+    .slz-counter-item-1.counter-right .img-cell,
+    .slz-counter-item-1.counter-right .content-cell{
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .slz-counter-item-1.counter-right .icon-cell,
+    .slz-counter-item-1.counter-right .img-cell {
+        width: 100px;
+        float: right;
+    }
+
+    .slz-counter-item-1.counter-right .content-cell {
+        margin-top: 0;
+        padding-left: 0;
+        padding-right: 15px;
+        float: right;
+        width: calc(100% - 100px);
+    }
+
+    .slz-counter-item-1.layout-2.counter-right .icon-cell {
+        float: none;
+    }

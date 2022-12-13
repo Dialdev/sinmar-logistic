@@ -1,0 +1,536 @@
+/*
+ *
+ *    [Table of contents]
+ *
+ *    [&. Content / #key]
+ *    [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ *    Summary: Widgets
+ *
+ *    0. About Us
+ *    1. News Tweets
+ *    2. Categories
+ *    3. Contact
+ *    4. Gallery
+ *    5. Recent Post
+ *    6. Tags
+ *    7. Newsletter
+ *    8. Material Download
+ *
+ *
+ *
+ */
+
+
+    .slz-widget .title-widget span{
+        position:relative;
+        display:inline-block;
+        padding:0px 5px;
+    }
+    .slz-widget .title-widget span:before{
+        content:"";
+        position:absolute;
+        width:10px;
+        height:2px;
+        top:8px;
+        right:100%;
+        background-color:#DA0F32;
+    }
+    .slz-widget .title-widget span:after{
+        content:"";
+        position:absolute;
+        width:15px;
+        height:2px;
+        top:15px;
+        right:100%;
+        background-color:#DA0F32;
+    }
+
+    .slz-widget.tags-links {
+        padding-left: 0;
+    }
+
+    .slz-widget.tags-links:before {
+        content: none;
+    }
+
+    .entry-content .slz-widget ul, .slz-widget ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+/*----------  0. About Us  -------------*/
+
+	.widget-title.title-widget.logo-title {
+        border: none;
+        padding: 0;
+        min-height: 60px;
+    }
+
+    .widget-title.title-widget.logo-title img {
+        height: 100%;
+    }
+
+    .slz-widget-about-us .social {
+    	margin-top: 20px;
+    }
+
+/*----------  1. News Tweets  ----------*/
+	.slz-new-tweet .list-news-tweet .recent-post {
+		background-color: #f7f8f9;
+		border-radius: 8px;
+	}
+
+	.slz-new-tweet .list-news-tweet .recent-post .post-info .link:hover {
+		color: #db0f31;
+	}
+
+/*----------  2. Categories  -----------*/
+    .slz-widget-category .widget-content a,
+    .slz-widget-categories .link,
+    .slz-widget-categories2 .link {
+        color: #666c72;
+        line-height: 30px;
+        font-size: 14px;
+        border-bottom: none;
+        padding: 5px 0;
+        margin-bottom: 5px;
+    }
+
+    .slz-widget-category .widget-content a:last-child,
+    .slz-categories2 .link:first-child,
+    .slz-categories .two-column .link {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .slz-widget-category .slz-categories .link > .text {
+        font-size: inherit;
+    }
+
+    .slz-widget-category .slz-categories .link > .badge {
+        line-height: inherit;
+        font-size: inherit;
+        padding: 0;
+    }
+
+    .slz-widget-category .widget-content a:hover,
+    .slz-widget-categories .link:hover,
+    .slz-widget-categories2 .link:hover {
+        color: #db0f31;
+    }
+
+    .slz-categories .link,
+    .slz-categories2 .link,
+    .slz-widget-categories .link,
+    .slz-widget-categories2 .link {
+        border-radius: 5px;
+        position: relative;
+        transition: all 0.3s ease;
+    }
+
+    .slz-categories .link:hover,
+    .slz-categories2 .link:hover,
+    .slz-widget-categories .link:hover,
+    .slz-widget-categories2 .link:hover {
+        padding-left: 12px;
+        padding-right: 12px;
+        box-shadow: 2px 3px 9px 1px rgba( 0, 0, 0, 0.1 );
+    }
+
+    .slz-categories2 .link > .icons {
+        display: none;
+    }
+
+    .slz-widget-categories2 .link {
+        border-top: none;
+    }
+
+    .slz-widget-categories2 .link:first-child {
+        padding-top: 5px;
+    }
+
+    .slz-widget-categories2 .link:last-child {
+        padding-bottom: 5px;
+    }
+
+    .slz-widget-categories2 .link > .icons {
+        width: 20px;
+        position: relative;
+        top: -2px;
+        height: 30px;
+    }
+
+    .slz-widget-categories2 .link > .icons:before {
+        content: "\f111";
+        font-size: 7px;
+    }
+
+/*------------  3. Contact  --------------*/
+    .slz-widget-contact-info .item > .icons {
+        width: 20px;
+    }
+
+    .slz-widget-contact-info .item .text {
+        padding-left: 20px;
+    }
+
+/*------------  4. Gallery  ---------------*/
+    .slz-widget-gallery.slz-widget ul li,
+    .slz-gallery.slz-widget ul li {
+        padding: 5px;
+    }
+
+    .slz-widget-gallery .thumb, .slz-gallery .thumb,
+    .slz-widget-gallery .thumb:after,
+    .slz-gallery .thumb:after {
+        border-radius: 5px;
+    }
+
+    .slz-widget-gallery .thumb:before,
+    .slz-gallery .thumb:before {
+        padding-top: 100%;
+    }
+
+/*----------  5. Recent Post  -----------*/
+    .slz-widget-recent-post .media {
+        padding-top: 0;
+        border: none;
+    }
+
+    .slz-widget-recent-post .wrapper-image {
+        width: 120px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .slz-widget-recent-post .wrapper-image:before {
+        padding-top: 60%;
+    }
+
+    .slz-widget-recent-post .media-heading {
+        color: #18364a;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .slz-widget-recent-post .wrapper-image:after {
+        opacity: 0;
+        border-radius: 5px;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .slz-widget-recent-post .wrapper-image img {
+        border-radius: 5px;
+    }
+
+    .slz-widget-recent-post .media:hover .wrapper-image:after {
+        opacity: 1;
+    }
+
+    .slz-widget-recent-post .media-heading:hover {
+        color: #db0f31;
+    }
+
+    .slz-widget-recent-post .meta-info {}
+
+    .slz-widget-recent-post .meta-info .link {
+        color: #989b9f;
+        font-weight: 400;
+        font-style: italic;
+        position: relative;
+    }
+
+    .slz-widget-recent-post .meta-info .link:hover {
+        color: #db0f31;
+    }
+
+    .slz-widget-recent-post .meta-info:before {
+        content: none;
+    }
+
+    .slz-widget-recent-post .meta-info .link:before {
+        font-family: "FontAwesome";
+        content: "\f111";
+        color: inherit;
+        font-size: 7px;
+        font-style: normal;
+        position: relative;
+        top: -2px;
+        margin-right: 5px;
+    }
+
+    .slz-widget-recent-post .media {
+        margin-top: 25px;
+    }
+
+/*--------------  6. Tags  ------------------*/
+
+    .slz-widgets .widget.slz-tag ul li {
+        padding: 0;
+    }
+
+    .slz-tag li {
+        display: inline-block;
+        vertical-align: top;
+        padding: 0px;
+        margin: 0 10px 10px 0px;
+        color: #666c72;
+    }
+
+    .slz-tag .tag {
+        display: block;
+        background-color: transparent;
+        padding: 2px 15px;
+        font-size: 14px;
+        line-height: 24px;
+        height: auto;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        color: inherit;
+        overflow: hidden;
+        position: relative;
+        z-index: 2;
+        -webkit-transition: all .3s ease;
+         -moz-transition: all .3s ease;
+           -o-transition: all .3s ease;
+              transition: all .3s ease;
+    }
+
+    .slz-tag .tag:hover {
+        background-color: transparent;
+        color: #666c72;
+        box-shadow: 2px 3px 9px 1px rgba( 0, 0, 0, 0.1 );
+    }
+
+/*------------  7. Newsletter  -----------*/
+    .slz-widget-send-mail {
+        text-align: center;
+    }
+
+    .slz-widget-send-mail .slz-btn {
+        display: inline-block;
+        border: none;
+        position: relative;
+        padding: 0 0 0 36px;
+        line-height: 26px;
+        height: auto;
+        background-color: transparent;
+        color: #18364a;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease
+    }
+
+    .slz-widget-send-mail .slz-btn:before {
+        border-radius: 50%;
+        content: "\f178";
+        font-family: "FontAwesome";
+        width: 26px;
+        height: 26px;
+        line-height: 26px;
+        text-align: center;
+        color: #fff;
+        background-color: #18364a;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: auto;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+    }
+
+    .slz-widget-send-mail .slz-btn:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 1px;
+        background-color: #18364a;
+        transition: all 0.5s ease;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+    }
+
+    .slz-widget-send-mail .slz-btn:hover {
+        padding-left: 0;
+        padding-right: 36px;
+        color: #db0f31;
+    }
+
+    .slz-widget-send-mail .slz-btn:hover:before {
+        left: calc(100% - 26px);
+        background-color: #db0f31;
+    }
+
+    .slz-widget-send-mail .slz-btn:hover:after {
+        width: calc(100% - 36px);
+        background-color: #db0f31;
+    }
+
+    .slz-widget-send-mail .widget-content .form-control:focus {
+        border-color: #db0f31;
+    }
+
+    .slz-widget-send-mail2 .slz-input-group .form-control[type="text"] {
+        display: none;
+    }
+
+    .slz-widget-send-mail2 .slz-input-group {
+        margin-bottom: 0;
+        padding: 0;
+        border: none;
+        border-bottom: 1px solid #e9ebef;
+    }
+
+    .slz-widget-send-mail2 .btn,
+    .slz-widget-send-mail2 .btn:active {
+        background-color: transparent;
+        box-shadow: none;
+        padding-right: 20px;
+    }
+
+    .slz-widget-send-mail2 .btn-text {
+        display: none;
+    }
+
+    .slz-widget-send-mail2 .btn-icon {
+        color: #db0f31;
+        margin-right: 0 !important;
+    }
+
+    .slz-widget-send-mail2 .btn-icon:before {
+        content: "\f178";
+    }
+
+/*------------  8. Material Download  -----------*/
+    .sc_material_download .slz-title-shortcode {
+        font-size: 20px;
+        font-weight: 700;
+        color: #18364a;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        border-bottom: 2px solid #da0f32;
+        text-align: center;
+        margin-top: 0;
+    }
+    .slz-widget-material-download .slz-btn,
+    .sc_material_download .slz-btn {
+        display: block;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        background-color: transparent;
+        padding: 0 30px;
+        margin-left: 0;
+        color: #666c72;
+        font-size: 14px;
+        border-color: #d8dade;
+        position: relative;
+        text-align: left;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+    .slz-widget-material-download .slz-btn:last-child,
+    .sc_material_download .slz-btn:last-child {
+        margin-bottom: 0;
+    }
+    .slz-widget-material-download .slz-btn:before,
+    .sc_material_download .slz-btn:before {
+        position: absolute;
+        content: '';
+        background-color: #db0f30;
+        width: 100%;
+        height: 100%;
+        top: -100%;
+        left: 0;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        z-index: 0;
+    }
+    .slz-widget-material-download .slz-btn .icons,
+    .sc_material_download .slz-btn .icons {
+        color: #a1a5ab;
+        z-index: 1;
+        position: relative;
+    }
+    .slz-widget-material-download .slz-btn .btn-text,
+    .sc_material_download .slz-btn .btn-text {
+        min-width: 250px;
+        display: inline-block;
+        z-index: 1;
+        position: relative;
+        margin-left: 5px;
+    }
+    .slz-widget-material-download .slz-btn .btn-icon,
+    .sc_material_download .slz-btn .btn-icon {
+        margin-left: 0px;
+        position: absolute;
+        top: 50%;
+        right: 30px;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        color: #d8d8d8;
+    }
+    .slz-widget-material-download .slz-btn:hover,
+    .sc_material_download .slz-btn:hover {
+        border-color: #db0f30;
+    }
+    .slz-widget-material-download .slz-btn:hover:before,
+    .sc_material_download .slz-btn:hover:before {
+        top: 0;
+    }
+    .slz-widget-material-download .slz-btn:hover .icons,
+    .slz-widget-material-download .slz-btn:hover .btn-text,
+    .slz-widget-material-download .slz-btn:hover .btn-icon,
+    .sc_material_download .slz-btn:hover .icons,
+    .sc_material_download .slz-btn:hover .btn-text,
+    .sc_material_download .slz-btn:hover .btn-icon {
+        color: #fff;
+    }
+/* tai css */
+.slz-categories .two-column .link ,
+.slz-categories .link{
+    line-height: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+/*.slz-categories .two-column .link {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}*/
+.entry-content .tags-links ul{
+    margin: 0;
+    padding: 0;
+}
+.slz-categories .link > .badge{
+    float: right;
+}
+.slz-categories2 .link,
+.slz-categories2 .link:first-child{
+    padding-bottom: 9px;
+    padding-top: 9px;
+}
+.slz-categories2 .link:last-child {
+    padding-bottom: 9px;
+}
+.slz-shortcode.slz-categories2 a.link:hover,
+.slz-shortcode.slz-categories a.link:hover{
+    color: #da0f32;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-shadow: 2px 3px 9px 1px rgba( 0, 0, 0, 0.1 );
+}

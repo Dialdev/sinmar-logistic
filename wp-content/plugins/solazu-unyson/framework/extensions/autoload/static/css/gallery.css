@@ -1,0 +1,401 @@
+/*
+*  STYLE DEFAULT FOR GALLERY
+*
+*
+*  [Table of contents]
+*
+*  [&. Content / #key]
+*  [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+*
+*  Summary:
+*
+*
+*  1. Gallery Feature
+*  2. Gallery Tab
+*  3. Custom CSS
+*  n. Responsive 
+*
+*
+*/
+
+
+/*----------  1. Gallery Feature  --------*/
+    .slz-service-carousel .service-slider-wrapper {
+        position: relative;
+        background: url(../img/iphone-mockup.png) no-repeat;
+        background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+    }
+
+    .slz-service-carousel .service-slider-wrapper .slide-carousel {
+        padding: 75px 20px;
+        position: relative;
+    }
+
+    .slz-service-carousel .slz-tab-list .slz-sv-item {
+        position: relative;
+    }
+
+    .slz-service-carousel .slz-tab-list .slz-sv-item .wrapper-icon {
+        position: relative;
+        z-index: 10;
+        background: #fff;
+    }
+
+    .slz-service-carousel .slz-tab-list .slz-sv-item .direction-line {
+        position: absolute;
+        background: #337ab7;
+        width: 0%;
+        height: 1px;
+        left: 50%;
+        top: 55px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    .slz-service-carousel .slz-tab-list .slz-sv-item .direction-line .point {
+        position: absolute;
+        left: 100%;
+        top: 50%;
+        width: 15px;
+        height: 15px;
+        -webkit-transform: translate(0, -50%) scale(0);
+        -moz-transform: translate(0, -50%) scale(0);
+        -ms-transform: translate(0, -50%) scale(0);
+        transform: translate(0, -50%) scale(0);
+        background: #337ab7;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition-delay: 0.3s;
+        transition: all 0.5s ease;
+        transition-delay: 0.3s;
+        -webkit-transition-delay: 0.3s;
+    }
+
+    .slz-service-carousel .slz-tab-list .slz-sv-item.active .direction-line {
+        width: 70%;
+    }
+
+    .slz-service-carousel .slz-tab-list .slz-sv-item.active .direction-line .point {
+        -webkit-transform: translate(0, -50%) scale(1);
+        -moz-transform: translate(0, -50%) scale(1);
+        -ms-transform: translate(0, -50%) scale(1);
+        transform: translate(0, -50%) scale(1);
+    }
+
+    .slz-service-carousel .slz-tab-list .slz-sv-item.active .wrapper-icon {
+        background: #337ab7;
+        border-color: #337ab7;
+    }
+
+    .slz-service-carousel .slz-tab-list .slz-sv-item.active .wrapper-icon .slz-icon {
+        color: #fff;
+    }
+
+    .slz-service-carousel .right-side .slz-tab-list .slz-sv-item .direction-line {
+        left: auto;
+        right: 50%;
+    }
+
+    .slz-service-carousel .right-side .slz-tab-list .slz-sv-item .direction-line .point {
+        left: auto;
+        right: 100%;
+    }
+
+    .slz-service-carousel .service-slider-wrapper .item {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .slz-service-carousel.style-1 .service-slider-wrapper .item:before,
+    .slz-service-carousel.style-2:not(.no-picture-fr) .service-slider-wrapper .item:before {
+        content: "";
+        display: block;
+        padding-top: 158%;
+    }
+
+    .slz-service-carousel.style-1 .service-slider-wrapper .item > img,
+    .slz-service-carousel.style-2:not(.no-picture-fr) .service-slider-wrapper .item > img {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: auto;
+        max-width: initial;
+        -webkit-transform: translate(-50%, 0);
+        -moz-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+    }
+
+    .slz-service-carousel.style-2.no-picture-fr .service-slider-wrapper .slide-carousel {
+        padding: 0px;
+    }
+
+    .slz-service-carousel.style-2.no-picture-fr .service-slider-wrapper {
+        background: none;
+    }
+
+/*----------  2. Gallery Tab  ------------*/
+    .slz-gallery-tab-01 {
+        position: relative;
+    }
+
+    .slz-gallery-tab-01 .tab-content > .tab-pane {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        max-height: 0;
+    }
+
+    .slz-gallery-tab-01 .tab-content > .tab-pane .gallery-list {
+        margin-bottom: 0;
+    }
+
+    .slz-gallery-tab-01 .tab-content > .active {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+        max-height: none;
+    }
+
+    .slz-gallery-tab-01 .tab-content > .active .gallery-list {
+        margin-bottom: 30px;
+    }
+
+    .slz-gallery-tab-01 .gallery-list {
+        margin: 0 -15px;
+    }
+
+    .slz-gallery-tab-01 .gallery-list .slick-arrow {
+        opacity: 0;
+        visibility: hidden;
+        z-index: 100;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .slz-gallery-tab-01 .gallery-list .slick-arrow:before {
+        font-family: 'FontAwesome';
+        color: #26292c;
+        font-size: 40px;
+    }
+
+    .slz-gallery-tab-01 .gallery-list .slick-prev {
+        top: 0;
+        left: 39%;
+    }
+
+    .slz-gallery-tab-01 .gallery-list .slick-prev:before {
+        content: "\f104";
+    }
+
+    .slz-gallery-tab-01 .gallery-list .slick-next {
+        top: 100%;
+        right: 39%;
+    }
+
+    .slz-gallery-tab-01 .gallery-list .slick-next:before {
+        content: "\f105";
+    }
+
+    .slz-gallery-tab-01 .gallery-list:hover .slick-prev {
+        opacity: 1;
+        visibility: visible;
+        top: 50%;
+    }
+
+    .slz-gallery-tab-01 .gallery-list:hover .slick-next {
+        opacity: 1;
+        visibility: visible;
+        top: 50%;
+    }
+
+    .slz-gallery-tab-01 .item {
+        padding: 0 15px;
+    }
+
+/*----------  3. Custom CSS  -------------*/
+    .sc_isotope_post .slz-block-gallery-01 .block-content .block-title,
+    .sc_isotope_post .slz-block-gallery-01 .block-content .icon-block a {
+        pointer-events: auto;
+    }
+
+    .sc_gallery_tab .tab-pane{
+        display: none;
+    }
+
+    .sc_gallery_tab .tab-pane.active{
+        display: block;
+    }
+
+/*=====================================
+=            n. Responsive            =
+=====================================*/
+
+    @media screen and (max-width: 1024px) {
+        .slz-gallery-feature .slz-tab-list .slz-sv-item {
+            margin-bottom: 20px;
+        }
+
+        .slz-gallery-feature .service-slider-wrapper .slide-carousel {
+            padding: 70px 20px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .slz-gallery-feature .slz-tab-list .slz-sv-item,
+        .slz-gallery-feature .slz-tab-list .slz-sv-item:last-child {
+            margin-bottom: 40px;
+        }
+
+        .slz-gallery-feature .slz-icon-box-1.style-vertical .icon-cell {
+            display: inline-block;
+        }
+
+        .slz-gallery-feature .slz-icon-box-1.style-vertical .content-cell {
+            display: inline-block;
+            width: calc(100% - 70px);
+            padding-top: 0;
+            vertical-align: top;
+            padding: 0 10px;
+            text-align: left;
+            margin-top: 0;
+        }
+
+        .slz-gallery-feature .slz-icon-box-1 {
+            padding: 0;
+        }
+
+        .slz-gallery-feature .slz-tab-list .slz-sv-item .direction-line {
+            left: 0;
+            top: 50%;
+            -webkit-transform: translateX(-100%);
+            -moz-transform: translateX(-100%);
+            -ms-transform: translateX(-100%);
+            -o-transform: translateX(-100%);
+            transform: translateX(-100%);
+        }
+
+        .slz-gallery-feature .slz-tab-list .slz-sv-item .direction-line .point {
+            left: 0;
+        }
+
+        .slz-gallery-feature .slz-tab-list .slz-sv-item.active .direction-line .point {
+            -webkit-transform: translate(-50%, -50%) scale(1);
+            -moz-transform: translate(-50%, -50%) scale(1);
+            -ms-transform: translate(-50%, -50%) scale(1);
+            -o-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        .slz-gallery-feature .slz-tab-list .slz-sv-item.active .direction-line {
+            width: 30%;
+        }
+
+        .slz-gallery-feature .right-side .slz-tab-list .slz-sv-item .direction-line,
+        .slz-gallery-feature .right-side .slz-tab-list .slz-sv-item .direction-line .point {
+            left: 0;
+            right: auto;
+        }
+
+        .slz-service-carousel.slz-gallery-feature > div > [class^="col-xs"]:first-child,
+        .slz-service-carousel.slz-gallery-feature > div > [class*="col-xs"]:first-child{
+            float: none;
+            margin: 0 auto 30px;
+        }
+
+        .slz-gallery-feature .slz-tab-list .slz-sv-item .direction-line .point,
+        .slz-gallery-feature .slz-tab-list .slz-sv-item .direction-line {
+            display: none;
+        }
+
+        .slz-service-carousel.style-1 .service-slider-wrapper .item:before, 
+        .slz-service-carousel.style-2:not(.no-picture-fr) .service-slider-wrapper .item:before {
+            padding-top: 178%;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .slz-gallery-feature .service-slider-wrapper .slide-carousel {
+            padding: 65px 20px;
+        }
+
+        .slz-gallery-feature .slz-icon-box-1 .wrapper-icon {
+            width: 55px;
+            height: 55px;
+            line-height: 53px;
+        }
+
+        .slz-gallery-feature .slz-tab-list .slz-sv-item .direction-line .point,
+        .slz-gallery-feature .slz-tab-list .slz-sv-item .direction-line {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .slz-gallery-feature .row > div {
+            width: 100%;
+        }
+
+        .slz-gallery-feature .row > div:first-child {
+            margin-bottom: 30px;
+            padding: 0px 65px;
+        }
+
+        .slz-gallery-feature .slz-icon-box-1.style-vertical .content-cell {
+            text-align: left;
+        }
+
+        .slz-gallery-feature .slz-tab-list .slz-sv-item .direction-line {
+            display: none;
+        }
+
+        .slz-gallery-feature .service-slider-wrapper .slide-carousel {
+            padding: 70px 18px;
+        }
+
+        .slz-gallery-feature.style-2.no-picture-fr .service-slider-wrapper .slide-carousel {
+            padding: 0px 15px;
+        }
+
+        .slz-gallery-feature .slz-icon-box-1.style-vertical .content-cell {
+            text-align: left;
+        }
+    }
+
+    @media screen and (max-width: 380px) {
+        .slz-gallery-feature .row > div:first-child {
+            padding: 0 45px;
+        }
+
+        .slz-gallery-feature.style-2.no-picture-fr .row > div:first-child {
+            padding: 0px 15px;
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        .slz-gallery-feature .row > div:first-child {
+            padding: 0 20px;
+        }
+
+        .slz-gallery-feature.style-2.no-picture-fr .row > div:first-child {
+            padding: 0px 15px;
+        }
+
+        .slz-gallery-feature .slz-icon-box-1 .wrapper-info .block-title {
+            font-size: 17px;
+        }
+    }
+    
+/*=====  End of n. Responsive  ======*/

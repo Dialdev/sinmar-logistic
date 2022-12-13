@@ -1,0 +1,32 @@
+
+
+
+.slz-counter-item-1 .content-cell .number {
+    color: #18364a;
+    width: 165px;
+    height: 165px;
+    line-height: 161px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px solid rgba(0,0,0,0.5);
+}
+
+
+.slz-counter-item-1 .content-cell .title {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.slz-counter-item-1.counter-left .content-cell {
+    text-align: left;
+}
+
+.slz-counter-item-1.counter-right .content-cell {
+    text-align: right;
+}
+
+.slz-counter-item-1.counter-center .content-cell {
+    text-align: center;
+}

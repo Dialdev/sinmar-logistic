@@ -1,0 +1,521 @@
+/*
+*
+*    1. Team style slz-block-team-05
+*
+*    RESPONSIVE
+*
+*/
+
+/*----------  1. team style slz-block-team-05  ----------*/
+
+.layout-5.sc_team_list .slz-list-block > .item{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.slz-block-team-05 .team-image{
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.slz-block-team-05 .team-content{
+    z-index:10;
+    overflow: hidden;
+}
+
+
+.slz-block-team-05 .team-social .social-item{
+	width: 100%;
+	text-align:center;
+    line-height: 50px;
+    display: block; 
+}
+.slz-block-team-05 .team-social >.social-item{
+    display: table-row;
+    vertical-align: middle;
+    line-height: initial;
+}
+
+.slz-block-team-05 .team-social >.social-item >.icons{
+    line-height: initial;
+    display: table-cell;
+}
+.slz-block-team-05 .team-social >.social-item:hover{
+    background-color: #18364A;
+}
+
+
+.slz-block-team-05 .team-social .social-wrapper{
+    display: table-row;
+    vertical-align: middle;
+}
+
+/* fix remove backfround-color:#c60a2b; */
+.slz-block-team-05 .team-social .social-item .icons{
+    border-bottom-color:#c60a2b;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.slz-block-team-05 .team-social >.social-item >.icons{
+    line-height: 49px;
+    display: table-cell;
+}
+.slz-block-team-05 .main-content {
+    border-left: 1px solid #c60a2b;
+}
+
+.slz-block-team-05 .main-content .title{
+    font-size:18px;
+    font-weight:700;
+    color:#FFFFFF;
+    text-transform:uppercase;
+}
+.slz-block-team-05 .main-content .title:hover{
+    color:#18364A;
+}
+.slz-block-team-05 .main-content .btn{
+    display: inline-block;
+    position: relative;
+    padding: 0px 36px;
+    line-height: 26px;
+    background-color: transparent;
+    color: #18364a;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+/* fix bottom:0;-->bottom:-5px; */
+.slz-block-team-05 .main-content .btn:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 1px;
+    background-color: #18364a;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+.slz-block-team-05 .main-content .btn .btn-icon{
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    background-color: #18364a;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: auto;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+/* fix remove padding-left:0; */
+.slz-block-team-05 .main-content .btn:hover{
+    /*padding-left:0px;*/
+}
+.slz-block-team-05 .main-content .btn:hover:before{
+        width: calc(100% - 36px);
+}
+
+/* fix remove left: calc(100% - 26px); */
+.slz-block-team-05 .main-content .btn:hover .btn-icon{
+   /* left: calc(100% - 26px);*/
+}
+.slz-block-team-05 .team-social{
+	height: 100%;
+
+}
+.slz-block-team-05 .team-social .btn-more{
+	width:100%;
+	padding:0px;
+	height: 50px;
+    margin: 0;
+	line-height: 50px;
+	text-align: center;
+	font-size:20px;
+	color:#FFFFFF;
+	display: inline-block;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.slz-block-team-05 .team-social .social-wrapper:hover .btn-more{
+	background-color: #153042;
+}
+.slz-block-team-05 .team-social .btn-more:before{
+	display: inline-block;
+	content: "\22C5";
+	font-size: inherit;
+}
+.slz-block-team-05 .team-social .btn-more:after{
+	display: inline-block;
+	content: "\22C5";
+	font-size: inherit;
+}
+/* fix bottom:0;->top:200px; */
+.slz-block-team-05 .team-social .more-social-wrapper{
+    position: absolute;
+    left: 49px;
+    bottom: 0;
+    width: calc(100% - 49px);
+    max-height: 100%;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+    text-align: left;
+    background-color: rgba(228, 19, 55, 1);
+    pointer-events:none;
+    -webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+
+}
+
+.slz-block-team-05 .main-content .team-text{
+	max-height:60%;
+    margin-bottom: 0;
+}
+/* tai css them class*/
+.slz-column-3 .slz-block-team-05 .main-content .team-text{
+	max-height: 100px;
+}
+.slz-column-2 .slz-block-team-05 .main-content .team-text{
+    max-height: 100px;
+}
+
+.slz-block-team-05 .team-social .social-wrapper:hover  .more-social-wrapper{
+	opacity: 1;
+	visibility: visible;
+	 pointer-events:auto;
+}
+.slz-block-team-05 .team-social .more-social-wrapper .social-item{
+	display: inline-block;
+	margin-right: 10px;
+	padding:0;
+	width:50px;
+	border-bottom:none;
+}
+.slz-block-team-05 .team-social .more-social-wrapper .social-item .icons{
+	border-bottom:none;
+}
+.slz-column-4 .slz-block-team-05 .team-content{
+	left: 5px;
+	top: 5px;
+	bottom: 5px;
+	right: 5px;
+	overflow: hidden;
+}
+
+.slz-column-4 .slz-block-team-05 .team-social{
+	width:40px;
+}
+.slz-column-4 .slz-block-team-05 .team-social .social-item{
+	height: 40px;
+}
+.slz-column-4 .slz-block-team-05 .team-social .social-item .icons{
+	line-height: 40px;
+}
+.slz-column-4 .slz-block-team-05 .team-social .btn-more{
+	height: 40px;
+	line-height: 40px;
+}
+.slz-column-4  .slz-block-team-05 .team-social .more-social-wrapper{
+	left: 39px;
+	-moz-transform: translateY(-40px);
+	-webkit-transform: translateY(-40px);
+	-o-transform: translateY(-40px);
+	-ms-transform: translateY(-40px);
+	transform: translateY(-40px);
+}
+.slz-column-4 .slz-block-team-05 .team-social .more-social-wrapper .social-item{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+}
+/*---------- Team detail ----------*/
+.teams-detail-wrapper  .slz-about-me-02 .image-wrapper {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+.slz-teams .teams-detail-wrapper .slz-about-me-02{
+    border:none;
+    display:block;
+    font-size:0;
+}
+.slz-teams .teams-detail-wrapper .slz-about-me-02 .block-wrapper{
+    border:none;
+    padding:0px;
+}
+.slz-teams .slz-about-me-02{
+}
+.slz-teams .slz-about-me-02 .image-wrapper img{
+    -webkit-border-radius:3px;
+    border-radius:3px;
+}
+.teams-detail-wrapper .slz-about-me-02 .image-wrapper:after{
+    content:none;
+}
+.teams-detail-wrapper .slz-about-me-02 .name{
+    font-size:18px;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-bottom: 10px;
+}
+.teams-detail-wrapper .slz-about-me-02 .heading-wrapper {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ededed;
+}
+.slz-about-me-02 .heading-wrapper .heading-left {
+    float: left;
+}
+.teams-detail-wrapper .slz-about-me-02 .name {
+    font-weight: 700;
+    font-size: 24px;
+    color: #18364A;
+    line-height: 30px;
+    text-transform: capitalize;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: top;
+}
+.teams-detail-wrapper .slz-about-me-02 .heading-wrapper .heading-right {
+    float: right;
+}
+.teams-detail-wrapper .slz-about-me-02 .social-list {
+  	margin: 0 0 0 10px;
+  	padding: 0;
+  	display: inline-block;
+}
+
+.teams-detail-wrapper .slz-about-me-02 .social-list li {
+  	padding: 0;
+  	margin: 0;
+  	display: inline-block;
+  	font-size: 14px;
+}
+
+.teams-detail-wrapper .slz-about-me-02 .social-list li:last-child {
+  	margin-right: 0;
+}
+.teams-detail-wrapper .slz-about-me-02 .social-list li:last-child a{
+    margin-right: 0;
+}
+
+.teams-detail-wrapper .slz-about-me-02 .social-list .link {
+  	font-size: 14px;
+  	line-height: 28px;
+  	width: 24px;
+
+}
+.teams-detail-wrapper .slz-about-me-02 .image-wrapper img {
+    margin: 0 auto;
+    max-width: 380px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+.teams-detail-wrapper .slz-about-me-02 .content-wrapper {
+    width: calc(100% - 380px);
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 25px;
+    font-size:14px;
+}
+.teams-detail-wrapper .slz-about-me-02 .content-text {
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+.sc_team_list .slz-list-block > .item {
+    margin-top: 30px;
+}
+
+
+.slz-post-footer .meta-content:before{
+    content: '\f02c';
+    font-family: "FontAwesome";
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+    line-height: 28px;
+    font-style: normal;
+    color: #18364a;
+}
+.slz-block-item-01 .block-content{
+    background-color: #fff;
+}
+
+
+.slz-blog-detail .slz-block-item-01 .block-info li:before{
+    content: '\f111';
+}
+.slz-blog-detail .slz-block-item-01 .sub-content .block-info li:before{
+    content: none;
+}
+.slz-blog-detail .block-info li:before{
+    content: none;
+}
+.slz-blog-detail .block-info i{
+    margin-right: 5px;
+}
+.slz-blog-detail .block-info{
+   margin-bottom: 20px;
+}
+.slz-blog-detail .block-info li{
+    margin-bottom: 5px;
+}
+
+.sc_carousel_posts .slz-carousel-wrapper .slick-arrow{
+    color: #666c72;
+}
+.slz-carousel-wrapper .slick-arrow.btn-prev{
+    border-radius: 50px;
+}
+.slz-carousel-wrapper .slick-arrow.btn-next{
+    border-radius: 50px;
+}
+.slz-carousel-wrapper .block-read-more:before{
+    bottom: -5px;
+}
+.slz-carousel-wrapper .block-read-more:hover{
+    padding-left: 36px;
+}
+.slz-carousel-wrapper .block-read-more:hover i{
+    left: 0;
+}
+.btn-loadmore-wrapper .slz-btn:hover{
+  border-color:#18364a;
+}
+.slz-related-post .slz-block-item-01 .block-image + .block-content {
+    padding: 15px 0 5px 0;
+}
+
+.slz-carousel-wrapper-02 .team-info .info-description .item {
+    display: inline-block;
+}
+
+.slz-carousel-wrapper-02 .team-info .info-description .item:after {
+    content: "/";
+    color: inherit;
+    line-height: inherit;
+    margin: 0 10px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.slz-carousel-wrapper-02 .team-info .info-description .item:last-child:after {
+    content: none;
+}
+
+/*=====================================
+=            RESPONSIVE               =
+=====================================*/
+
+@media (max-width:1024px){
+    .slz-block-team-05 .main-content{
+        padding:40px 15px;
+    }
+    .slz-column-3 .slz-block-team-05 .main-content .title{
+        font-size: 16px;
+    }
+
+    .slz-carousel-wrapper-02 .slz-carousel-img-wrapper {
+        width: 400px;
+        height: auto;
+    }
+
+    .slz-carousel-wrapper-02 .slz-carousel-info-wrapper{
+        padding: 40px 40px 40px 180px;
+    }
+}
+
+@media (max-width:768px){
+
+    .teams-detail-wrapper .slz-about-me-02 .image-wrapper img{
+        max-width:210px;
+    }
+    .teams-detail-wrapper .slz-about-me-02 .content-wrapper{
+        width:calc(100% - 210px);
+    }
+    .slz-carousel-wrapper-02 .slz-carousel-img-wrapper {
+        width: 250px;
+        top: 0;
+    }
+
+    .slz-carousel-wrapper-02 .slz-carousel-info-wrapper {
+        padding: 30px 30px 30px 100px;
+    }
+
+
+}
+
+@media (max-width:767px){
+    .slz-carousel-wrapper-02 .slz-carousel-img-wrapper {
+        width: 200px;
+
+    }
+
+    .slz-carousel-wrapper-02 .slz-carousel-info-wrapper {
+        padding: 30px 30px 30px 100px;
+    }
+
+    .slz-carousel-wrapper-02 .slz-carousel-img-wrapper {
+        width: auto;
+        position: relative;
+    }
+
+    .slz-carousel-wrapper-02 .slz-carousel-info-wrapper {
+        margin: 0;
+        padding: 30px;
+        width: 100%;
+    }
+}
+
+@media (max-width:600px){
+    .teams-detail-wrapper .slz-about-me-02 .image-wrapper img{
+        max-width:120px;
+    }
+    .teams-detail-wrapper .slz-about-me-02 .content-wrapper{
+        width:calc(100% - 120px);
+    }
+    .slz-about-me-02 .heading-wrapper .heading-left{
+        float:none;
+        display:block;
+    }
+    .teams-detail-wrapper .slz-about-me-02 .heading-wrapper .heading-right{
+        float:none;
+        display:block;
+    }
+}
+
+@media (max-width:480px){
+    .teams-detail-wrapper  .slz-about-me-02 .image-wrapper{
+        margin-bottom:20px;
+    }
+    .teams-detail-wrapper .slz-about-me-02 .image-wrapper img{
+        max-width:100%;
+        display:block;
+    }
+    .teams-detail-wrapper .slz-about-me-02 .content-wrapper{
+        width:100%;
+        display:block;
+        padding-left: 0;
+        text-align: center;
+    }
+    .teams-detail-wrapper .slz-about-me-02 .social-list {
+        margin: 10px 0 0;
+    }
+}

@@ -1,0 +1,8645 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-02-28 19:32+0700\n"
+"PO-Revision-Date: 2017-02-18 16:14+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_attr__;eac_attr_e;esc_attr_x;esc_html__;"
+"esc_html_e;esc_html_x;_n:1,2;_n_noop;_n_noop:1,2;_nx:1,2;_nx_noop:1,2;"
+"esc_html;nx:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Category"
+msgstr ""
+
+msgid "Add Category"
+msgstr ""
+
+msgid "Choose special category to filter"
+msgstr ""
+
+msgid "Default no filter by category."
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "Tag"
+msgstr ""
+
+msgid "Add Tag"
+msgstr ""
+
+msgid "-All tags-"
+msgstr ""
+
+msgid "Choose special tag to filter"
+msgstr ""
+
+msgid "Default no filter by tag."
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Add Author"
+msgstr ""
+
+msgid "-All authors-"
+msgstr ""
+
+msgid "Choose special author to filter"
+msgstr ""
+
+msgid "Default no filter by author."
+msgstr ""
+
+msgid "Post format"
+msgstr ""
+
+msgid "Add post format"
+msgstr ""
+
+msgid "- No filter -"
+msgstr ""
+
+msgid "Video"
+msgstr ""
+
+msgid "Image"
+msgstr ""
+
+msgid "Choose special post format to filter"
+msgstr ""
+
+msgid "Default no filter by post format."
+msgstr ""
+
+msgid "Pagination"
+msgstr ""
+
+msgid "-No paging-"
+msgstr ""
+
+msgid "Ajax Paging"
+msgstr ""
+
+msgid "Next Prev Paging"
+msgstr ""
+
+msgid "Load More Button"
+msgstr ""
+
+msgid "Paging ( Load Page )"
+msgstr ""
+
+msgid "Show pagination."
+msgstr ""
+
+msgid "Ajax Dropdown - Filter default text"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "The default text for first item."
+msgstr ""
+
+msgid "Ajax Filter"
+msgstr ""
+
+msgid "Show Ajax Dropdown - Filter type"
+msgstr ""
+
+msgid "Filter by categories"
+msgstr ""
+
+msgid "Filter by authors"
+msgstr ""
+
+msgid "Filter by tag slug"
+msgstr ""
+
+msgid ""
+"Show the ajax dropdown filter. If no items are seleted in \"Filter\" tab, "
+"the ajax dropdown filter will show all items ( ex: all categories, all tags, "
+"all author )"
+msgstr ""
+
+msgid "- Latest -"
+msgstr ""
+
+msgid "A to Z"
+msgstr ""
+
+msgid "Z to A"
+msgstr ""
+
+msgid "Random posts today"
+msgstr ""
+
+msgid "Random posts a week ago"
+msgstr ""
+
+msgid "Random posts a month ago"
+msgstr ""
+
+msgid "Random Posts"
+msgstr ""
+
+msgid "Most Commented"
+msgstr ""
+
+msgid "Popular"
+msgstr ""
+
+msgid "Framework requirements not met:"
+msgstr ""
+
+msgid "minimum required version is"
+msgstr ""
+
+msgid "maximum required version is"
+msgstr ""
+
+msgid "and"
+msgstr ""
+
+msgid "Current WordPress version is %s, %s"
+msgstr ""
+
+msgid "Current Framework version is %s, %s"
+msgstr ""
+
+msgid "Current version of the %s extension is %s, %s"
+msgstr ""
+
+msgid "%s extension is required"
+msgstr ""
+
+msgid "%s extension is required (%s)"
+msgstr ""
+
+msgid "Framework"
+msgstr ""
+
+msgid "Done"
+msgstr ""
+
+msgid "Ah, Sorry"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Ok"
+msgstr ""
+
+msgid "Theme Settings"
+msgstr ""
+
+msgid "leave a review"
+msgstr ""
+
+msgid "Facebook"
+msgstr ""
+
+msgid ""
+"Unyson WordPress Framework is the fastest and easiest way to develop a "
+"premium theme. I highly recommend it"
+msgstr ""
+
+msgid "Twitter"
+msgstr ""
+
+msgid ""
+"If you like Solazu Unyson, {wp_review_link}, share on {facebook_share_link} "
+"or {twitter_share_link}."
+msgstr ""
+
+msgid "You have no permissions to change settings options"
+msgstr ""
+
+msgid "The options were successfully reset"
+msgstr ""
+
+msgid "The options were successfully saved"
+msgstr ""
+
+msgid "Unknown collected group"
+msgstr ""
+
+msgid "Undefined option type: %s"
+msgstr ""
+
+msgid "Undefined container type: %s"
+msgstr ""
+
+msgid "Extension %s is invalid."
+msgstr ""
+
+msgid "WordPress Shortcodes"
+msgstr ""
+
+msgid "Lets you insert Unyson shortcodes inside any wp-editor"
+msgstr ""
+
+msgid "Backup & Demo Content"
+msgstr ""
+
+msgid ""
+"This extension lets you create an automated backup schedule, import demo "
+"content or even create a demo content archive for migration purposes."
+msgstr ""
+
+msgid "Sliders"
+msgstr ""
+
+msgid ""
+"Adds a sliders module to your website from where you'll be able to create "
+"different built in jQuery sliders for your homepage and rest of the pages."
+msgstr ""
+
+msgid "Portfolio"
+msgstr ""
+
+msgid ""
+"This extension will add a fully fledged portfolio module that will let you "
+"display your projects using the built in portfolio pages."
+msgstr ""
+
+msgid "Mega Menu"
+msgstr ""
+
+msgid ""
+"The Mega Menu extension adds a user-friendly drop down menu that will let "
+"you easily create highly customized menu configurations."
+msgstr ""
+
+msgid "Breadcrumbs"
+msgstr ""
+
+msgid ""
+"Creates a simplified navigation menu for the pages that can be placed "
+"anywhere in the theme. This will make navigating the website much easier."
+msgstr ""
+
+msgid "SEO"
+msgstr ""
+
+msgid ""
+"This extension will enable you to have a fully optimized WordPress website "
+"by adding optimized meta titles, keywords and descriptions."
+msgstr ""
+
+msgid "Events"
+msgstr ""
+
+msgid ""
+"This extension adds a fully fledged Events module to your theme. It comes "
+"with built in pages that contain a calendar where events can be added."
+msgstr ""
+
+msgid "Analytics"
+msgstr ""
+
+msgid ""
+"Enables the possibility to add the Google Analytics tracking code that will "
+"let you get all the analytics about visitors, page views and more."
+msgstr ""
+
+msgid "Feedback"
+msgstr ""
+
+msgid ""
+"Adds the possibility to leave feedback (comments, reviews and rating) about "
+"your products, articles, etc. This replaces the default comments system."
+msgstr ""
+
+msgid "Learning"
+msgstr ""
+
+msgid ""
+"This extension adds a Learning module to your theme. Using this extension "
+"you can add courses, lessons and tests for your users to take."
+msgstr ""
+
+msgid "Shortcodes"
+msgstr ""
+
+msgid "Builder"
+msgstr ""
+
+msgid "Forms"
+msgstr ""
+
+msgid ""
+"This extension adds the possibility to create a contact form. Use the drag & "
+"drop form builder to create any contact form you'll ever want or need."
+msgstr ""
+
+msgid "Mailer"
+msgstr ""
+
+msgid ""
+"This extension will let you set some global email options and it is used by "
+"other extensions (like Forms) to send emails."
+msgstr ""
+
+msgid "Social"
+msgstr ""
+
+msgid ""
+"Use this extension to configure all your social related APIs. Other "
+"extensions will use the Social extension to connect to your social accounts."
+msgstr ""
+
+msgid "Backup"
+msgstr ""
+
+msgid ""
+"This extension lets you set up daily, weekly or monthly backup schedule. You "
+"can choose between a full backup or a data base only backup."
+msgstr ""
+
+msgid "Media"
+msgstr ""
+
+msgid "Population method"
+msgstr ""
+
+msgid "Styling"
+msgstr ""
+
+msgid ""
+"This extension lets you control the website visual style. Starting from "
+"predefined styles to changing specific fonts and colors across the website."
+msgstr ""
+
+msgid "Translations"
+msgstr ""
+
+msgid ""
+"This extension lets you translate your website in any language or even add "
+"multiple languages for your users to change at their will from the front-end."
+msgstr ""
+
+msgid "Cannot remove the old extensions backup dir"
+msgstr ""
+
+msgid "Cannot create the extensions backup dir"
+msgstr ""
+
+msgid "Cannot backup the extensions"
+msgstr ""
+
+msgid "Cannot clear the extensions directory"
+msgstr ""
+
+msgid "Cannot recreate the extensions directory"
+msgstr ""
+
+msgid "Cannot recover the extensions"
+msgstr ""
+
+msgid "Cannot activate hidden standalone extension %s"
+msgstr ""
+
+msgid "Changes Log"
+msgstr ""
+
+msgid "Welcome"
+msgstr ""
+
+msgid ""
+"Cannot find welcome page. You can create welcome page at : /theme/framework-"
+"customizations/views/welcome.php."
+msgstr ""
+
+msgid ""
+"Cannot find change log page. You can create change log page at : /theme/"
+"framework-customizations/views/change-log.php."
+msgstr ""
+
+msgid "You are not allowed to install extensions."
+msgstr ""
+
+msgid "All supported extensions are already installed."
+msgstr ""
+
+msgid "Install Compatible Extension"
+msgid_plural "Install Compatible Extensions"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Install Extension"
+msgid_plural "Install Extensions"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Invalid nonce."
+msgstr ""
+
+msgid "Cannot remove temporary directory: %s"
+msgstr ""
+
+msgid "You have no permissions to install extensions"
+msgstr ""
+
+msgid "No extensions provided"
+msgstr ""
+
+msgid "WP Filesystem is not initialized"
+msgstr ""
+
+msgid "Extension \"%s\" is already installed."
+msgstr ""
+
+msgid "Extension \"%s\" is not available for install."
+msgstr ""
+
+msgid "Parent extension \"%s\" not available."
+msgstr ""
+
+msgid "Downloading the \"%s\" extension..."
+msgstr ""
+
+msgid "Installing the \"%s\" extension..."
+msgstr ""
+
+msgid "The %s extension has been successfully installed."
+msgstr ""
+
+msgid "Activating extension..."
+msgid_plural "Activating extensions..."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Extension has been successfully activated."
+msgid_plural "Extensions has been successfully activated."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Cannot install extension"
+msgid_plural "Cannot install extensions"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "You are not allowed to delete extensions."
+msgstr ""
+
+msgid "Delete Extension"
+msgid_plural "Delete Extensions"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "You have no permissions to uninstall extensions"
+msgstr ""
+
+msgid "Deleting the \"%s\" extension..."
+msgstr ""
+
+msgid "Cannot delete the \"%s\" extension."
+msgstr ""
+
+msgid "The %s extension has been successfully deleted."
+msgstr ""
+
+msgid "Cannot uninstall extension"
+msgid_plural "Cannot uninstall extensions"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Extension not specified."
+msgstr ""
+
+msgid "Extension \"%s\" is not installed."
+msgstr ""
+
+msgid "Extension \"%s\" does not exist or is not active."
+msgstr ""
+
+msgid "%s extension does not have settings."
+msgstr ""
+
+msgid "Extension has no Install Instructions"
+msgstr ""
+
+msgid "Invalid request method."
+msgstr ""
+
+msgid "No extension specified."
+msgstr ""
+
+msgid "You have no permissions to activate extensions"
+msgstr ""
+
+msgid "Extension \"%s\" does not exist."
+msgstr ""
+
+msgid "Cannot activate extension"
+msgid_plural "Cannot activate extensions"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "You have no permissions to deactivate extensions"
+msgstr ""
+
+msgid "Cannot deactivate extension"
+msgid_plural "Cannot activate extensions"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "You are not allowed to save extensions settings."
+msgstr ""
+
+msgid "Invalid extension."
+msgstr ""
+
+msgid "Extension does not have settings options."
+msgstr ""
+
+msgid "Extensions settings successfully saved."
+msgstr ""
+
+msgid "Extension \"%s\" has no download sources."
+msgstr ""
+
+msgid "Cannot create temporary directory: %s"
+msgstr ""
+
+msgid "Invalid download source: %s"
+msgstr ""
+
+msgid "Cannot remove the \"%s\" extension downloaded zip."
+msgstr ""
+
+msgid "Cannot access the unzipped directory files."
+msgstr ""
+
+msgid "The unzipped \"%s\" extension directory not found."
+msgstr ""
+
+msgid "Cannot read directory \"%s\"."
+msgstr ""
+
+msgid "Cannot delete \"%s\"."
+msgstr ""
+
+msgid "Cannot create the \"%s\" directory."
+msgstr ""
+
+msgid "Cannot move \"%s\" to \"%s\"."
+msgstr ""
+
+msgid "Cannot activate the %s extension because it is not installed. %s"
+msgstr ""
+
+msgid "Install"
+msgstr ""
+
+msgid "Install theme compatible extensions"
+msgstr ""
+
+msgid "Temporary directory cannot be removed: %s"
+msgstr ""
+
+msgid "Temporary directory cannot be created: %s"
+msgstr ""
+
+msgid "Failed to extract relative directory from: %s"
+msgstr ""
+
+msgid "Failed to create directory %s"
+msgstr ""
+
+msgid "Failed to copy extension to %s"
+msgstr ""
+
+msgid "Temporary directory does not exist: %s"
+msgstr ""
+
+msgid "Cannot obtain WP Filesystem dir for %s"
+msgstr ""
+
+msgid "Go to extensions page"
+msgstr ""
+
+msgid "Return to Extensions page"
+msgstr ""
+
+msgid "\"%s\" extension github source \"user_repo\" parameter is required"
+msgstr ""
+
+msgid "Github error:"
+msgstr ""
+
+msgid "Failed to access Github repository \"%s\" releases. (Response code: %d)"
+msgstr ""
+
+msgid "Failed to access Github repository \"%s\" releases. (%s)"
+msgstr ""
+
+msgid "Failed to access Github repository \"%s\" releases."
+msgstr ""
+
+msgid "\"%s\" extension github repository \"%s\" has no releases."
+msgstr ""
+
+msgid "Cannot download the \"%s\" extension zip. (Response code: %d)"
+msgstr ""
+
+msgid "Cannot download the \"%s\" extension zip. %s"
+msgstr ""
+
+msgid "Cannot download the \"%s\" extension zip."
+msgstr ""
+
+msgid "Cannot save the \"%s\" extension zip."
+msgstr ""
+
+msgid "You are about to remove the following extension:"
+msgid_plural "You are about to remove the following extensions:"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Are you sure you wish to delete this extension?"
+msgid_plural "Are you sure you wish to delete these extensions?"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Yes, Delete this extension"
+msgid_plural "Yes, Delete these extensions"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "No, Return me to the extension list"
+msgstr ""
+
+msgid "Click to view entire list of directories which will be deleted"
+msgstr ""
+
+msgid "Install Instructions"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "%s Settings"
+msgstr ""
+
+msgid "%s Install Instructions"
+msgstr ""
+
+msgid "Unknown tab:"
+msgstr ""
+
+msgid "Compatible"
+msgstr ""
+
+msgid "with your current theme"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Parent extension \"%s\" is disabled"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "You need to update WordPress to %s: %s"
+msgstr ""
+
+msgid "Update WordPress"
+msgstr ""
+
+msgid "WordPress needs to be updated to %s"
+msgstr ""
+
+msgid "Maximum supported WordPress version is %s"
+msgstr ""
+
+msgid "You need to update %s to %s: %s"
+msgstr ""
+
+msgid "Update %s"
+msgstr ""
+
+msgid "%s needs to be updated to %s"
+msgstr ""
+
+msgid "Maximum supported %s version is %s"
+msgstr ""
+
+msgid "You need to update the %s extension to %s: %s"
+msgstr ""
+
+msgid "The %s extension needs to be updated to %s"
+msgstr ""
+
+msgid "Maximum supported %s extension version is %s"
+msgstr ""
+
+msgid "The %s extension is disabled"
+msgstr ""
+
+msgid "Activate %s"
+msgstr ""
+
+msgid "The %s extension is not installed: %s"
+msgstr ""
+
+msgid "Install %s"
+msgstr ""
+
+msgid "The %s extension is not installed"
+msgstr ""
+
+msgid "View Requirements"
+msgstr ""
+
+msgid "Welcome to"
+msgstr ""
+
+msgid "Plugins"
+msgstr ""
+
+msgid "Extension Manager"
+msgstr ""
+
+msgid "Backup Data"
+msgstr ""
+
+msgid "Demo Install"
+msgstr ""
+
+msgid "Active Extensions"
+msgstr ""
+
+msgid "No extensions activated yet"
+msgstr ""
+
+msgid "Check the available extensions below"
+msgstr ""
+
+msgid "Available Extensions"
+msgstr ""
+
+msgid "Show other extensions"
+msgstr ""
+
+msgid "Hide other extensions"
+msgstr ""
+
+msgid ""
+"We've detected that your current theme is compatible with the following "
+"extension and it is recommended that you install it to fully benefit from "
+"your theme."
+msgid_plural ""
+"We've detected that your current theme is compatible with the following "
+"extensions and it is recommended that you install them to fully benefit from "
+"your theme."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "You are about to install the following extension:"
+msgid_plural "You are about to install the following extensions:"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Are you sure you wish to install this extension?"
+msgid_plural "Are you sure you wish to install these extensions?"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Yes, Install this extension"
+msgid_plural "Yes, Install these extensions"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Theme requirements not met:"
+msgstr ""
+
+msgid "Option type %s has no default value"
+msgstr ""
+
+msgid "Article 01"
+msgstr ""
+
+msgid "Article 02"
+msgstr ""
+
+msgid "Article 03"
+msgstr ""
+
+msgid "Article 04"
+msgstr ""
+
+msgid "Continue reading"
+msgstr ""
+
+msgid "Pages:"
+msgstr ""
+
+msgid "Format"
+msgstr ""
+
+msgid ", "
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+msgid "Posted on"
+msgstr ""
+
+msgid "<li>One Comment</li>"
+msgid_plural "<li>%1$s Comments</li>"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Tags"
+msgstr ""
+
+msgid "No default view (views/view.php) found for article: %s"
+msgstr ""
+
+msgid "article \"%s\" from %s was already defined at %s"
+msgstr ""
+
+msgid "Class file found for article %s but no class %s found"
+msgstr ""
+
+msgid "The class %s must extend from WP_Article"
+msgstr ""
+
+msgid "File not specified"
+msgstr ""
+
+msgid "Filesystem access required"
+msgstr ""
+
+msgid "Invalid filesystem credentials"
+msgstr ""
+
+msgid "Unknown error"
+msgstr ""
+
+msgid "Access Denied"
+msgstr ""
+
+msgid "Archive not found"
+msgstr ""
+
+msgid "Failed to open file"
+msgstr ""
+
+msgid "Forbidden"
+msgstr ""
+
+msgid "Invalid demo"
+msgstr ""
+
+msgid "A content install is currently running"
+msgstr ""
+
+msgid "Demo Content Install"
+msgstr ""
+
+msgid "Error"
+msgstr ""
+
+msgid ""
+"IMPORTANT: Installing this demo content will delete the content you "
+"currently have on your website. However, we create a backup of your current "
+"content in (Tools > Backup). You can restore the backup from there at any "
+"time in the future."
+msgstr ""
+
+msgid "Important"
+msgstr ""
+
+msgid "You need to activate %s."
+msgstr ""
+
+msgid "zip extension"
+msgstr ""
+
+msgid "Live Preview"
+msgstr ""
+
+msgid "Installing"
+msgstr ""
+
+msgid "We are currently installing your content."
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid "Response code: %d"
+msgstr ""
+
+msgid "Invalid JSON response"
+msgstr ""
+
+msgid ""
+"HTTP Loopback Connections are not enabled on this server. If you need to "
+"contact your web host, tell them that when PHP tries to connect back to the "
+"site at the URL `{url}` and it gets the error `{error}`. There may be a "
+"problem with the server configuration (eg local DNS problems, mod_security, "
+"etc) preventing connections from working properly."
+msgstr ""
+
+msgid "Failed to create dir: %s"
+msgstr ""
+
+msgid "Failed to copy: %s"
+msgstr ""
+
+msgid "Full Backup"
+msgstr ""
+
+msgid "Content Backup"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid ""
+"Warning! \n"
+"You are about to delete a backup, it will be lost forever. \n"
+"Are you sure?"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "No archives found"
+msgstr ""
+
+msgid ""
+"Warning! \n"
+"The restore will replace all of your content."
+msgstr ""
+
+msgid "Restore Backup"
+msgstr ""
+
+msgid "View Activity Log"
+msgstr ""
+
+msgid "Hide Activity Log"
+msgstr ""
+
+msgid "%s ago"
+msgstr ""
+
+msgid "Backup Schedule"
+msgstr ""
+
+msgid "Once Weekly"
+msgstr ""
+
+msgid "Once a month"
+msgstr ""
+
+msgid "Full"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Monthly"
+msgstr ""
+
+msgid "Weekly"
+msgstr ""
+
+msgid "Daily"
+msgstr ""
+
+msgid "Backup Schedule Active"
+msgstr ""
+
+msgid "Next backup on"
+msgstr ""
+
+msgid "No backup schedule created yet! We advise you to do it asap!"
+msgstr ""
+
+msgid "Interval"
+msgstr ""
+
+msgid "Select how often do you want to backup your website."
+msgstr ""
+
+msgid "Age Limit"
+msgstr ""
+
+msgid "Age limit of backups in months"
+msgstr ""
+
+msgid "Age limit of backups in weeks"
+msgstr ""
+
+msgid "Age limit of backups in days"
+msgstr ""
+
+msgid "undefined"
+msgstr ""
+
+msgid "Task type not registered"
+msgstr ""
+
+msgid "Execution stopped (next step did not started)"
+msgstr ""
+
+msgid "The execution failed. Please check error.log"
+msgstr ""
+
+msgid "Invalid execution end time"
+msgstr ""
+
+msgid "Invalid execution result"
+msgstr ""
+
+msgid "Invalid token"
+msgstr ""
+
+msgid "Invalid tasks hash"
+msgstr ""
+
+msgid "Database export"
+msgstr ""
+
+msgid "Destination dir not specified"
+msgstr ""
+
+msgid "Database table disappeared"
+msgstr ""
+
+msgid "Cannot create file"
+msgstr ""
+
+msgid "Cannot reopen file"
+msgstr ""
+
+msgid "Cannot export CREATE TABLE sql"
+msgstr ""
+
+msgid "Cannot get next database table"
+msgstr ""
+
+msgid "Database restore"
+msgstr ""
+
+msgid "Source dir not specified"
+msgstr ""
+
+msgid "Database file not found"
+msgstr ""
+
+msgid ""
+"PHP class SplFileObject is required but not available. Please contact your "
+"hosting"
+msgstr ""
+
+msgid "Invalid sub task %s"
+msgstr ""
+
+msgid "Cannot drop temporary table: %s"
+msgstr ""
+
+msgid "Cannot open db file"
+msgstr ""
+
+msgid "Cannot move cursor in db file"
+msgstr ""
+
+msgid "Failed to decode line %d from db file."
+msgstr ""
+
+msgid "Cannot read line %d from db file"
+msgstr ""
+
+msgid "Required params not found"
+msgstr ""
+
+msgid "Cannot do full db restore because backup is missing some tables"
+msgstr ""
+
+msgid "Failed to drop tmp table %s"
+msgstr ""
+
+msgid "Failed to create tmp table %s"
+msgstr ""
+
+msgid "Tried to insert data in table that was not imported %s"
+msgstr ""
+
+msgid "Failed to insert row from line %d into table %s"
+msgstr ""
+
+msgid "Invalid json type %s in db file"
+msgstr ""
+
+msgid "Cannot read line from db file"
+msgstr ""
+
+msgid "Failed to restore options keeping step"
+msgstr ""
+
+msgid "Failed to keep option: %s"
+msgstr ""
+
+msgid "Tables drop failed"
+msgstr ""
+
+msgid "Tables rename failed."
+msgstr ""
+
+msgid "Directory Cleanup"
+msgstr ""
+
+msgid "Dir not specified"
+msgstr ""
+
+msgid "Cannot remove directory"
+msgstr ""
+
+msgid "Cannot create directory"
+msgstr ""
+
+msgid "Cannot create file: %s"
+msgstr ""
+
+msgid "Files Export"
+msgstr ""
+
+msgid "Source dirs not specified"
+msgstr ""
+
+msgid "Destination not specified"
+msgstr ""
+
+msgid "Source dir %s is empty"
+msgstr ""
+
+msgid "Failed to get dir chmod"
+msgstr ""
+
+msgid "Failed to create destination dir"
+msgstr ""
+
+msgid "Failed to restore dir listing from: %s"
+msgstr ""
+
+msgid "Files Restore"
+msgstr ""
+
+msgid "Invalid source dir"
+msgstr ""
+
+msgid "No filesystem access, credentials required"
+msgstr ""
+
+msgid "No filesystem access, invalid credentials"
+msgstr ""
+
+msgid "Filesystem init failed"
+msgstr ""
+
+msgid "Cannot convert Filesystem path: %s"
+msgstr ""
+
+msgid "Failed to list dir: %s"
+msgstr ""
+
+msgid "Failed to remove dir: %s"
+msgstr ""
+
+msgid "Failed to remove file: %s"
+msgstr ""
+
+msgid "Failed to copy file: %s"
+msgstr ""
+
+msgid "Image Sizes Remove"
+msgstr ""
+
+msgid "Uploads dir not specified"
+msgstr ""
+
+msgid "Image Sizes Restore"
+msgstr ""
+
+msgid "Archive Unzip"
+msgstr ""
+
+msgid "Zip file not specified"
+msgstr ""
+
+msgid "Destination dir is not empty"
+msgstr ""
+
+msgid "Zip extension missing"
+msgstr ""
+
+msgid "Cannot open zip (Error code: %s)"
+msgstr ""
+
+msgid "Archive Zip"
+msgstr ""
+
+msgid "Source dir does not exist"
+msgstr ""
+
+msgid "Cannot close the zip file"
+msgstr ""
+
+msgid "Cannot move zip in destination dir"
+msgstr ""
+
+msgid "Invalid destination dir"
+msgstr ""
+
+msgid "Invalid type: %s"
+msgstr ""
+
+msgid "Args not specified for type: %s"
+msgstr ""
+
+msgid "Local Download"
+msgstr ""
+
+msgid "Source not specified"
+msgstr ""
+
+msgid "Invalid source"
+msgstr ""
+
+msgid "Invalid source type"
+msgstr ""
+
+msgid "Cannot open zip: %s"
+msgstr ""
+
+msgid "Unhandled type"
+msgstr ""
+
+msgid "Downloading..."
+msgstr ""
+
+msgid "Download finished. Doing unzip..."
+msgstr ""
+
+msgid "Downloading... %s of %s"
+msgstr ""
+
+msgid "Downloading... %s"
+msgstr ""
+
+msgid "Url not specified"
+msgstr ""
+
+msgid "Invalid url"
+msgstr ""
+
+msgid "File id not specified"
+msgstr ""
+
+msgid "Invalid file id"
+msgstr ""
+
+msgid "Version not specified"
+msgstr ""
+
+msgid "Zip open failed (code %d). Please try again"
+msgstr ""
+
+msgid "Zip extract failed"
+msgstr ""
+
+msgid "Failed to close the zip after extract"
+msgstr ""
+
+msgid "Request failed. Error code: %d"
+msgstr ""
+
+msgid "Invalid byte position"
+msgstr ""
+
+msgid "Empty response body"
+msgstr ""
+
+msgid "File ended without content"
+msgstr ""
+
+msgid "Failed to write data to file"
+msgstr ""
+
+msgid "Here you can create a backup schedule for your website."
+msgstr ""
+
+msgid "will save your themes, plugins, uploads and full database."
+msgstr ""
+
+msgid ""
+"will save your uploads and database without private data like users, admin "
+"email, etc."
+msgstr ""
+
+msgid "Edit Backup Schedule"
+msgstr ""
+
+msgid "Create Full Backup Now"
+msgstr ""
+
+msgid "Create Content Backup Now"
+msgstr ""
+
+msgid "Archives"
+msgstr ""
+
+msgid "Unknown task"
+msgstr ""
+
+msgid "Nothing running in background"
+msgstr ""
+
+msgid "Custom Widgets"
+msgstr ""
+
+msgid "Enter Name of the new Widget Area here"
+msgstr ""
+
+msgid "Enter class display on front-end"
+msgstr ""
+
+msgid "Add Widget Area"
+msgstr ""
+
+msgid "Causes base"
+msgstr ""
+
+msgid "Causes category base"
+msgstr ""
+
+msgid "Donation"
+msgstr ""
+
+msgid "Add New"
+msgstr ""
+
+msgid "Add New %s"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Edit %s"
+msgstr ""
+
+msgid "New %s"
+msgstr ""
+
+msgid "All %s"
+msgstr ""
+
+msgid "View %s"
+msgstr ""
+
+msgid "Search %s"
+msgstr ""
+
+msgid "No %s Found"
+msgstr ""
+
+msgid "No %s Found In Trash"
+msgstr ""
+
+msgid "Create a donation item"
+msgstr ""
+
+msgid "Causes"
+msgstr ""
+
+msgid "Create a cause item"
+msgstr ""
+
+msgid "Cause %s"
+msgstr ""
+
+msgid "Parent %s"
+msgstr ""
+
+msgid "Parent %s:"
+msgstr ""
+
+msgid "New %s Name"
+msgstr ""
+
+msgid "%s"
+msgstr ""
+
+msgid "Name( Last, First )"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Cause"
+msgstr ""
+
+msgid "Money"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Goal"
+msgstr ""
+
+msgid "Raised"
+msgstr ""
+
+msgid "Location"
+msgstr ""
+
+msgid "Time"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Approve"
+msgstr ""
+
+msgid "Amount Of Donation"
+msgstr ""
+
+msgid "Amount of this donation. ( example: $50 -> input 50 )."
+msgstr ""
+
+msgid "Payment Method"
+msgstr ""
+
+msgid "First Name"
+msgstr ""
+
+msgid "First name of persional information."
+msgstr ""
+
+msgid "Last Name"
+msgstr ""
+
+msgid "Last name of persional information."
+msgstr ""
+
+msgid "Email Name"
+msgstr ""
+
+msgid "Email of persional information."
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Phone of persional information."
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Address of persional information."
+msgstr ""
+
+msgid "Donation Options"
+msgstr ""
+
+msgid "Urgent"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Goal number of this cause. ( example: $50 -> input 50 )."
+msgstr ""
+
+msgid "Cause location address."
+msgstr ""
+
+msgid "People benefits"
+msgstr ""
+
+msgid "People benefits number of this cause."
+msgstr ""
+
+msgid "Donation URL"
+msgstr ""
+
+msgid "Input donation URL for buton donate method."
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Description of this cause."
+msgstr ""
+
+msgid "Unapprove"
+msgstr ""
+
+msgid "This is a variable product used for booking processed with WooCommerce"
+msgstr ""
+
+msgid "This is a product variation"
+msgstr ""
+
+msgid "Gallery"
+msgstr ""
+
+msgid "<span class=\"meta-nav\">&larr;</span> Previous Post"
+msgstr ""
+
+msgid "Next Post <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+msgid "Share to "
+msgstr ""
+
+msgid "Categories:"
+msgstr ""
+
+msgid "All Status"
+msgstr ""
+
+msgid "All Causes"
+msgstr ""
+
+msgid "Money From"
+msgstr ""
+
+msgid "To"
+msgstr ""
+
+msgid "Donate now"
+msgstr ""
+
+msgid "Raised: "
+msgstr ""
+
+msgid "Goal: "
+msgstr ""
+
+msgid "Share"
+msgstr ""
+
+msgid "Remaining time:"
+msgstr ""
+
+msgid "Location:"
+msgstr ""
+
+msgid "Donor(s):"
+msgstr ""
+
+msgid "People Benefits:"
+msgstr ""
+
+msgid "This extension use add to donation."
+msgstr ""
+
+msgid "SLZ Causes Block"
+msgstr ""
+
+msgid "Show post type Causes with layouts"
+msgstr ""
+
+msgid "United States"
+msgstr ""
+
+msgid "India"
+msgstr ""
+
+msgid "One"
+msgstr ""
+
+msgid "Two"
+msgstr ""
+
+msgid "Three"
+msgstr ""
+
+msgid "Four"
+msgstr ""
+
+msgid "-Choose Social-"
+msgstr ""
+
+msgid "Google Plus"
+msgstr ""
+
+msgid "Pinterest"
+msgstr ""
+
+msgid "Linkedint"
+msgstr ""
+
+msgid "Digg"
+msgstr ""
+
+msgid "Column"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Choose number of column to show"
+msgstr ""
+
+msgid "Show Goal and Raised?"
+msgstr ""
+
+msgid "If choose Yes, block will be show pagination."
+msgstr ""
+
+msgid "Show Social Share?"
+msgstr ""
+
+msgid "Show or hide social share for cause."
+msgstr ""
+
+msgid "List Of Social to Share"
+msgstr ""
+
+msgid "Choose social to share"
+msgstr ""
+
+msgid "-All Causes-"
+msgstr ""
+
+msgid "-All Causes Categories-"
+msgstr ""
+
+msgid "Layout"
+msgstr ""
+
+msgid "Choose layout will be displayed."
+msgstr ""
+
+msgid "Display By"
+msgstr ""
+
+msgid "Choose causes category or special causes to display"
+msgstr ""
+
+msgid "Choose Causes Category."
+msgstr ""
+
+msgid "Add Cause"
+msgstr ""
+
+msgid "Choose special causes to show"
+msgstr ""
+
+msgid ""
+"Default display All Causes if no cause is selected and Number cause is empty."
+msgstr ""
+
+msgid "Show Donation Button?"
+msgstr ""
+
+msgid "Show or hide donation button instead read more button."
+msgstr ""
+
+msgid "Limit Posts"
+msgstr ""
+
+msgid ""
+"Add limit posts per page. Set -1 or empty to show all. The number of posts "
+"to display. If it blank the number posts will be the number from Settings -> "
+"Reading"
+msgstr ""
+
+msgid "Offset Post"
+msgstr ""
+
+msgid ""
+"Enter offset to pass over posts. If you want to start on record 6, using "
+"offset 5"
+msgstr ""
+
+msgid "Sort By"
+msgstr ""
+
+msgid "Select order to display list properties."
+msgstr ""
+
+msgid "Show Pagination ?"
+msgstr ""
+
+msgid "Show Progress Bar?"
+msgstr ""
+
+msgid "Show or hide progress bar of donation money to the cause."
+msgstr ""
+
+msgid "Button Text"
+msgstr ""
+
+msgid "Add button text."
+msgstr ""
+
+msgid "Extra Class"
+msgstr ""
+
+msgid "Add extra class to block"
+msgstr ""
+
+msgid "SLZ Causes Carousel"
+msgstr ""
+
+msgid "Auto Play"
+msgstr ""
+
+msgid "Auto play slider"
+msgstr ""
+
+msgid "Slider"
+msgstr ""
+
+msgid "Display slide dot"
+msgstr ""
+
+msgid "Display slider dot"
+msgstr ""
+
+msgid "Display slide arrows"
+msgstr ""
+
+msgid "Display slide infinite"
+msgstr ""
+
+msgid "Speed slider"
+msgstr ""
+
+msgid " days left"
+msgstr ""
+
+msgid "Read more"
+msgstr ""
+
+msgid "slz_causes"
+msgstr ""
+
+msgid "SLZ: Causes"
+msgstr ""
+
+msgid "A list image from post type \"Causes\"."
+msgstr ""
+
+msgid "Offset Posts"
+msgstr ""
+
+msgid "Enter category slug"
+msgstr ""
+
+msgid "Event base"
+msgstr ""
+
+msgid "Events category base"
+msgstr ""
+
+msgid "Event"
+msgstr ""
+
+msgid "Create a event item"
+msgstr ""
+
+msgid "Event Donation"
+msgstr ""
+
+msgid "Events Donation"
+msgstr ""
+
+msgid "Create a event donation item"
+msgstr ""
+
+msgid "Event %s"
+msgstr ""
+
+msgid "Checkbox"
+msgstr ""
+
+msgid "Thumbnail"
+msgstr ""
+
+msgid "Categorys"
+msgstr ""
+
+msgid "Event Range"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "-Empty Event Status-"
+msgstr ""
+
+msgid "Images Gallery"
+msgstr ""
+
+msgid ""
+"Add images to gallery. Images should have minimum size: 800x600. Bigger size "
+"images will be cropped automatically."
+msgstr ""
+
+msgid "Others"
+msgstr ""
+
+msgid "Goal Donation"
+msgstr ""
+
+msgid "Input Goal Donation for Event"
+msgstr ""
+
+msgid "Input Address for Event"
+msgstr ""
+
+msgid "Attributes"
+msgstr ""
+
+msgid "Add event attributes"
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Start And End Of Event"
+msgstr ""
+
+msgid "Set start and end events datetime"
+msgstr ""
+
+msgid "Event Location"
+msgstr ""
+
+msgid "Where does the event take place?"
+msgstr ""
+
+msgid "Hide Event When Expired"
+msgstr ""
+
+msgid "Ticket Price"
+msgstr ""
+
+msgid "Price to sale the ticket of the event"
+msgstr ""
+
+msgid "Number Ticket"
+msgstr ""
+
+msgid "Number of the ticket of the event"
+msgstr ""
+
+msgid "Show Button"
+msgstr ""
+
+msgid "Choose button that display in single page."
+msgstr ""
+
+msgid "Buy Ticket"
+msgstr ""
+
+msgid "Button Buy Ticket Text"
+msgstr ""
+
+msgid "Input text for Buy Ticket button"
+msgstr ""
+
+msgid "Button Buy Ticket URL"
+msgstr ""
+
+msgid "Input URL for payment method on button Buy Ticket"
+msgstr ""
+
+msgid "Button Donation Text"
+msgstr ""
+
+msgid "Input text for Donation button."
+msgstr ""
+
+msgid "Button Donation URL"
+msgstr ""
+
+msgid ""
+"Input URL for Donation button when payment method is set custom link in "
+"theme settings."
+msgstr ""
+
+msgid "Banner Ticket Background Image"
+msgstr ""
+
+msgid "Upload image .png or .jpg"
+msgstr ""
+
+msgid "Artists & Band"
+msgstr ""
+
+msgid "Artists & Band."
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Ticket Name"
+msgstr ""
+
+msgid "Number of Ticket"
+msgstr ""
+
+msgid "Items"
+msgstr ""
+
+msgid "Items of ticket."
+msgstr ""
+
+msgid "Item"
+msgstr ""
+
+msgid "Event Options"
+msgstr ""
+
+msgid "book now"
+msgstr ""
+
+msgid "Not found!"
+msgstr ""
+
+msgid " ( Donation )"
+msgstr ""
+
+msgid "Exceeds the ticket class allows"
+msgstr ""
+
+msgid "All Events"
+msgstr ""
+
+msgid "All Event Categories"
+msgstr ""
+
+msgid "to"
+msgstr ""
+
+msgid "Price:"
+msgstr ""
+
+msgid "from "
+msgstr ""
+
+msgid "Donation Now"
+msgstr ""
+
+msgid "Buy ticket"
+msgstr ""
+
+msgid "Ticket Prices"
+msgstr ""
+
+msgid "Read More"
+msgstr ""
+
+msgid "AM"
+msgstr ""
+
+msgid "PM"
+msgstr ""
+
+msgid "days"
+msgstr ""
+
+msgid "hours"
+msgstr ""
+
+msgid "mins"
+msgstr ""
+
+msgid "secs"
+msgstr ""
+
+msgid "How much would you like to donate?"
+msgstr ""
+
+msgid "This extension use add to events."
+msgstr ""
+
+msgid "SLZ Events Block"
+msgstr ""
+
+msgid "Banner of events"
+msgstr ""
+
+msgid "United Kingdom"
+msgstr ""
+
+msgid "Spain"
+msgstr ""
+
+msgid "Show"
+msgstr ""
+
+msgid "Hide"
+msgstr ""
+
+msgid "-All Event Categories-"
+msgstr ""
+
+msgid "-All Event-"
+msgstr ""
+
+msgid "Five"
+msgstr ""
+
+msgid "Six"
+msgstr ""
+
+msgid "Choose team category or special events to display"
+msgstr ""
+
+msgid "Choose Event Category."
+msgstr ""
+
+msgid "Add Event"
+msgstr ""
+
+msgid "Choose special event to show"
+msgstr ""
+
+msgid ""
+"Default display All Event if no event is selected and Number event is empty."
+msgstr ""
+
+msgid "Title Color"
+msgstr ""
+
+msgid "Choose a custom color for title."
+msgstr ""
+
+msgid "Custom Options"
+msgstr ""
+
+msgid "Choose show or hide image."
+msgstr ""
+
+msgid "Choose show or hide description."
+msgstr ""
+
+msgid "Event Time"
+msgstr ""
+
+msgid "Choose show or hide event time."
+msgstr ""
+
+msgid "Choose show or hide event location."
+msgstr ""
+
+msgid "Columns"
+msgstr ""
+
+msgid "Choose number column will be displayed."
+msgstr ""
+
+msgid "Title Shortcode"
+msgstr ""
+
+msgid "Add title for shortcode."
+msgstr ""
+
+msgid "Show Search Bar"
+msgstr ""
+
+msgid "Choose Search Bar display."
+msgstr ""
+
+msgid "Choose pagination display."
+msgstr ""
+
+msgid "concert name"
+msgstr ""
+
+msgid "when"
+msgstr ""
+
+msgid "artists & bands"
+msgstr ""
+
+msgid "find concert"
+msgstr ""
+
+msgid "SLZ Events Carousel"
+msgstr ""
+
+msgid "Slide To Show"
+msgstr ""
+
+msgid "Enter number of items to show."
+msgstr ""
+
+msgid "Slide Custom"
+msgstr ""
+
+msgid "Is Auto Play ?"
+msgstr ""
+
+msgid "Choose YES to slide auto play."
+msgstr ""
+
+msgid "Is Dots Navigation ?"
+msgstr ""
+
+msgid "Choose YES to show dot navigation."
+msgstr ""
+
+msgid "Is Arrows Navigation ?"
+msgstr ""
+
+msgid "Choose YES to show arrow navigation."
+msgstr ""
+
+msgid "Is Loop Infinite ?"
+msgstr ""
+
+msgid "Choose YES to slide loop infinite."
+msgstr ""
+
+msgid "Speed Slide"
+msgstr ""
+
+msgid "Enter number value. Unit is millisecond. Example: 600."
+msgstr ""
+
+msgid "Image display"
+msgstr ""
+
+msgid "Description display"
+msgstr ""
+
+msgid "Event time display"
+msgstr ""
+
+msgid "Event location display"
+msgstr ""
+
+msgid "Countdown display"
+msgstr ""
+
+msgid "Choose show or hide event countdown."
+msgstr ""
+
+msgid "Title shortcode"
+msgstr ""
+
+msgid "Limit post"
+msgstr ""
+
+msgid ""
+"Sorry, nothing matched your search criteria. Please try again with other "
+"criteria."
+msgstr ""
+
+msgid "Or Donate Only"
+msgstr ""
+
+msgid "Event Schedule"
+msgstr ""
+
+msgid "at"
+msgstr ""
+
+msgid "slz_events"
+msgstr ""
+
+msgid "SLZ: Events"
+msgstr ""
+
+msgid "Category ID"
+msgstr ""
+
+msgid "Enter categories ID of gallery (Ex 1,2,3)"
+msgstr ""
+
+msgid "Footer 01"
+msgstr ""
+
+msgid "-- Select widget area --"
+msgstr ""
+
+msgid "-- Select Menu --"
+msgstr ""
+
+msgid "Light"
+msgstr ""
+
+msgid "Dark"
+msgstr ""
+
+msgid "Footer Top Settings"
+msgstr ""
+
+msgid "Enable Footer Top"
+msgstr ""
+
+msgid "Enable the footer top?"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Choose Widget Area"
+msgstr ""
+
+msgid "Choose widget area will show in footer top"
+msgstr ""
+
+msgid "Custom Style"
+msgstr ""
+
+msgid "Change the style of footer top"
+msgstr ""
+
+msgid "Background Color"
+msgstr ""
+
+msgid "Select background color for footer top"
+msgstr ""
+
+msgid "Background Image"
+msgstr ""
+
+msgid "Upload the background image .png or .jpg"
+msgstr ""
+
+msgid "Background Attachment"
+msgstr ""
+
+msgid "Background Size"
+msgstr ""
+
+msgid "Background Position"
+msgstr ""
+
+msgid "Border Bottom Color"
+msgstr ""
+
+msgid "Choose border top color"
+msgstr ""
+
+msgid "Text Color"
+msgstr ""
+
+msgid "Select footer's top bar text color"
+msgstr ""
+
+msgid "Text Alignment"
+msgstr ""
+
+msgid "Setting text alignment"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Center"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Footer Content Settings"
+msgstr ""
+
+msgid "Enable Footer Main"
+msgstr ""
+
+msgid "Enable the footer main?"
+msgstr ""
+
+msgid "Footer Style"
+msgstr ""
+
+msgid "Change the style of footer main"
+msgstr ""
+
+msgid "Footer Background Color"
+msgstr ""
+
+msgid "Choose background color for footer main."
+msgstr ""
+
+msgid "Footer Background Image"
+msgstr ""
+
+msgid "Upload background image."
+msgstr ""
+
+msgid "Choose Widget Area 01"
+msgstr ""
+
+msgid "Choose widget area will show in footer collumn 1"
+msgstr ""
+
+msgid "Choose Widget Area 02"
+msgstr ""
+
+msgid "Choose widget area will show in footer collumn 2"
+msgstr ""
+
+msgid "Choose Widget Area 03"
+msgstr ""
+
+msgid "Choose widget area will show in footer collumn 3"
+msgstr ""
+
+msgid "Choose Widget Area 04"
+msgstr ""
+
+msgid "Choose widget area will show in footer collumn 4"
+msgstr ""
+
+msgid "Footer Bottom Settings"
+msgstr ""
+
+msgid "Enable Footer Bottom"
+msgstr ""
+
+msgid "Enable the footer bottom?"
+msgstr ""
+
+msgid "Change the style of footer bottom"
+msgstr ""
+
+msgid "Select the footer bottom background color"
+msgstr ""
+
+msgid "Border Top Color"
+msgstr ""
+
+msgid "Select footer bottom text color"
+msgstr ""
+
+msgid "Social Color"
+msgstr ""
+
+msgid "Select the social icons color"
+msgstr ""
+
+msgid "Social Hover Color"
+msgstr ""
+
+msgid "Select the social icons hover color"
+msgstr ""
+
+msgid "Social Icon Size"
+msgstr ""
+
+msgid "Enter icon size in pixels. Ex: 16"
+msgstr ""
+
+msgid "Left Area Content"
+msgstr ""
+
+msgid "Show/Hide This Area"
+msgstr ""
+
+msgid "Show or hide Left Area Content"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Write text will display in this area"
+msgstr ""
+
+msgid ""
+"Show social icon in footer bottom? Change social in the \"General\" settings"
+msgstr ""
+
+msgid "Navigation"
+msgstr ""
+
+msgid ""
+"Show navigation in this area? Please choose locations is \"Bottom menu\" in "
+msgstr ""
+
+msgid "Appearance"
+msgstr ""
+
+msgid "Menus"
+msgstr ""
+
+msgid " Add Image"
+msgstr ""
+
+msgid "Upload an image to display in footer bottom."
+msgstr ""
+
+msgid "Button"
+msgstr ""
+
+msgid "Show button in this area"
+msgstr ""
+
+msgid "Button Settings"
+msgstr ""
+
+msgid "Setting for button"
+msgstr ""
+
+msgid "Button Link"
+msgstr ""
+
+msgid "Select background color"
+msgstr ""
+
+msgid "Select text color"
+msgstr ""
+
+msgid "Border Color"
+msgstr ""
+
+msgid "Select border color"
+msgstr ""
+
+msgid "Background Hover Color"
+msgstr ""
+
+msgid "Text Hover Color"
+msgstr ""
+
+msgid "Border Hover Color"
+msgstr ""
+
+msgid "Center Area Content"
+msgstr ""
+
+msgid "Show or hide Center Area Content"
+msgstr ""
+
+msgid "© Designed by SWLABS."
+msgstr ""
+
+msgid "Select  text color"
+msgstr ""
+
+msgid "Right Area Content"
+msgstr ""
+
+msgid "Show or hide Right Area Content"
+msgstr ""
+
+msgid "Select  background color"
+msgstr ""
+
+msgid "Footer 02"
+msgstr ""
+
+msgid "Footer 03"
+msgstr ""
+
+msgid ""
+"Select \n"
+"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tborder color"
+msgstr ""
+
+msgid "Footer 04"
+msgstr ""
+
+msgid "Choose widget area will show in footer main"
+msgstr ""
+
+msgid "No default view (views/view.php) found for footer: %s"
+msgstr ""
+
+msgid "footer \"%s\" from %s was already defined at %s"
+msgstr ""
+
+msgid "Class file found for footer %s but no class %s found"
+msgstr ""
+
+msgid "The class %s must extend from WP_Footer"
+msgstr ""
+
+msgid "Unable to process the form"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+msgid "Invalid destination email (please contact the site administrator)"
+msgstr ""
+
+msgid "Message sent!"
+msgstr ""
+
+msgid "Oops something went wrong."
+msgstr ""
+
+msgid "Please configure the {mailer_link} extension."
+msgstr ""
+
+msgid "Contact Forms"
+msgstr ""
+
+msgid "Contact form"
+msgstr ""
+
+msgid "Build contact forms"
+msgstr ""
+
+msgid "Content Elements"
+msgstr ""
+
+msgid "Contact Form"
+msgstr ""
+
+msgid "Configure Mailer"
+msgstr ""
+
+msgid "Duplicate"
+msgstr ""
+
+msgid "Add a Contact Form"
+msgstr ""
+
+msgid "Form Fields"
+msgstr ""
+
+msgid "Email To"
+msgstr ""
+
+msgid "We recommend you to use an email that you verify often"
+msgstr ""
+
+msgid "The form will be sent to this email address."
+msgstr ""
+
+msgid "Subject Message"
+msgstr ""
+
+msgid "This text will be used as subject message for the email"
+msgstr ""
+
+msgid "New message"
+msgstr ""
+
+msgid "Submit Button"
+msgstr ""
+
+msgid "This text will appear in submit button"
+msgstr ""
+
+msgid "Send"
+msgstr ""
+
+msgid "Success Message"
+msgstr ""
+
+msgid "This text will be displayed when the form will successfully send"
+msgstr ""
+
+msgid "Failure Message"
+msgstr ""
+
+msgid "This text will be displayed when the form will fail to be sent"
+msgstr ""
+
+msgid "Add a Multiple Choices field"
+msgstr ""
+
+msgid "Multiple Choice"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Toggle mandatory field"
+msgstr ""
+
+msgid "Edit Label"
+msgstr ""
+
+msgid "{x} More"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Enter field label (it will be displayed on the web site)"
+msgstr ""
+
+msgid "Mandatory Field"
+msgstr ""
+
+msgid "Make this field mandatory?"
+msgstr ""
+
+msgid "Choices"
+msgstr ""
+
+msgid "Add choice"
+msgstr ""
+
+msgid "Randomize"
+msgstr ""
+
+msgid "Do you want choices to be displayed in random order?"
+msgstr ""
+
+msgid "Field Layout"
+msgstr ""
+
+msgid "Select choice display layout"
+msgstr ""
+
+msgid "One column"
+msgstr ""
+
+msgid "Two columns"
+msgstr ""
+
+msgid "Three columns"
+msgstr ""
+
+msgid "Side by side"
+msgstr ""
+
+msgid "Instructions for Users"
+msgstr ""
+
+msgid "The users will see these instructions in the tooltip near the field"
+msgstr ""
+
+msgid "The {label} field is required"
+msgstr ""
+
+msgid "{label}: Submitted data contains not existing choices"
+msgstr ""
+
+msgid "Add an Email field"
+msgstr ""
+
+msgid "Placeholder"
+msgstr ""
+
+msgid "This text will be used as field placeholder"
+msgstr ""
+
+msgid "The {label} field must contain a valid email"
+msgstr ""
+
+msgid "Edit Title"
+msgstr ""
+
+msgid "Edit Subtitle"
+msgstr ""
+
+msgid "The title will be displayed on contact form header"
+msgstr ""
+
+msgid "Subtitle"
+msgstr ""
+
+msgid "The form header subtitle text"
+msgstr ""
+
+msgid "Add a Number field"
+msgstr ""
+
+msgid "Number"
+msgstr ""
+
+msgid "Default Value"
+msgstr ""
+
+msgid "This text will be used as field default value"
+msgstr ""
+
+msgid "Restrictions"
+msgstr ""
+
+msgid "Set digits or values restrictions of this field"
+msgstr ""
+
+msgid "Digits"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Min"
+msgstr ""
+
+msgid "Minim value"
+msgstr ""
+
+msgid "Max"
+msgstr ""
+
+msgid "Maxim value"
+msgstr ""
+
+msgid "The {label} field must be a valid number"
+msgstr ""
+
+msgid "The {label} field must have minimum %d digit"
+msgstr ""
+
+msgid "The {label} field must have minimum %d digits"
+msgstr ""
+
+msgid "The {label} field must have maximum %d digit"
+msgstr ""
+
+msgid "The {label} field must have maximum %d digits"
+msgstr ""
+
+msgid "The {label} field minimum value must be %s"
+msgstr ""
+
+msgid "The {label} field maximum value must be %s"
+msgstr ""
+
+msgid "Add a Single Choice field"
+msgstr ""
+
+msgid "Single Choice"
+msgstr ""
+
+msgid "Randomize?"
+msgstr ""
+
+msgid "{label}: Submitted data contains not existing choice"
+msgstr ""
+
+msgid "Add a Recaptcha field"
+msgstr ""
+
+msgid "Recaptcha"
+msgstr ""
+
+msgid "Set site key"
+msgstr ""
+
+msgid "Set secret key"
+msgstr ""
+
+msgid "Security Code"
+msgstr ""
+
+msgid "Could not validate the form"
+msgstr ""
+
+msgid "Please fill the recaptcha"
+msgstr ""
+
+msgid "Site key"
+msgstr ""
+
+msgid "Your website key. More on how to configure ReCaptcha"
+msgstr ""
+
+msgid "Secret key"
+msgstr ""
+
+msgid "Your secret key. More on how to configure ReCaptcha"
+msgstr ""
+
+msgid "Add a Dropdown"
+msgstr ""
+
+msgid "Dropdown"
+msgstr ""
+
+msgid "Add a Single Line Text"
+msgstr ""
+
+msgid "Single Line Text"
+msgstr ""
+
+msgid "Set characters or words restrictions for this field"
+msgstr ""
+
+msgid "Characters"
+msgstr ""
+
+msgid "Words"
+msgstr ""
+
+msgid "The {label} field must contain minimum %d character"
+msgstr ""
+
+msgid "The {label} field must contain minimum %d characters"
+msgstr ""
+
+msgid "The {label} field must contain maximum %d character"
+msgstr ""
+
+msgid "The {label} field must contain maximum %d characters"
+msgstr ""
+
+msgid "The {label} field must contain minimum %d word"
+msgstr ""
+
+msgid "The {label} field must contain minimum %d words"
+msgstr ""
+
+msgid "The {label} field must contain maximum %d word"
+msgstr ""
+
+msgid "The {label} field must contain maximum %d words"
+msgstr ""
+
+msgid "Add a Paragraph Text"
+msgstr ""
+
+msgid "Paragraph Text"
+msgstr ""
+
+msgid "Add a Website field"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "The {label} field must be a valid website name"
+msgstr ""
+
+msgid "Note that the type can't be changed later."
+msgstr ""
+
+msgid ""
+"You will need to create a new form in order to have a different form type."
+msgstr ""
+
+msgid "Delete Permanently"
+msgstr ""
+
+msgid "Move to Trash"
+msgstr ""
+
+msgid "Create"
+msgstr ""
+
+msgid "Gallery base"
+msgstr ""
+
+msgid "Gallery category base"
+msgstr ""
+
+msgid "Create a gallery item"
+msgstr ""
+
+msgid "Gallery %s"
+msgstr ""
+
+msgid "Gallery Options"
+msgstr ""
+
+msgid "Gallery Images"
+msgstr ""
+
+msgid "Choose Images to upload"
+msgstr ""
+
+msgid "Upload Image or Choose Icon for Gallery"
+msgstr ""
+
+msgid "Icon"
+msgstr ""
+
+msgid "Upload Image"
+msgstr ""
+
+msgid "Choose Icon"
+msgstr ""
+
+msgid "Zoomin"
+msgstr ""
+
+msgid "This extension use add to gallery."
+msgstr ""
+
+msgid "SLZ Gallery Carousel"
+msgstr ""
+
+msgid "Animated Carousel with gallery or portfolio."
+msgstr ""
+
+msgid "Italy"
+msgstr ""
+
+msgid "Turkey"
+msgstr ""
+
+msgid "Florida"
+msgstr ""
+
+msgid "California"
+msgstr ""
+
+msgid "Style"
+msgstr ""
+
+msgid "Choose style to show"
+msgstr ""
+
+msgid "Chennai"
+msgstr ""
+
+msgid "Mumbai"
+msgstr ""
+
+msgid "Picture Frame"
+msgstr ""
+
+msgid "Upload one image to make frame for featured image."
+msgstr ""
+
+msgid "Post Title"
+msgstr ""
+
+msgid "-All Gallery-"
+msgstr ""
+
+msgid "-All Portfolio-"
+msgstr ""
+
+msgid "Post Type"
+msgstr ""
+
+msgid "Choose post type to show"
+msgstr ""
+
+msgid "Choose Gallery"
+msgstr ""
+
+msgid "Choose special gallery to show list of gallery images in the post."
+msgstr ""
+
+msgid "Choose Portfolio"
+msgstr ""
+
+msgid "Choose special portfolio to show list of gallery images in the post."
+msgstr ""
+
+msgid "Limit Images"
+msgstr ""
+
+msgid ""
+"Add number of images to display. If it blank, display all gallery images"
+msgstr ""
+
+msgid "Please input number of item show in slider."
+msgstr ""
+
+msgid "Show Dots Navigation ?"
+msgstr ""
+
+msgid "Choose YES to show dots navigation."
+msgstr ""
+
+msgid "Show Arrows Navigation ?"
+msgstr ""
+
+msgid "Choose YES to show arrows navigation."
+msgstr ""
+
+msgid "Arrows Color"
+msgstr ""
+
+msgid "Choose color to slide arrows."
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Arrows Hover Color"
+msgstr ""
+
+msgid "Choose hover color to slide arrows."
+msgstr ""
+
+msgid "Arrows Background Color"
+msgstr ""
+
+msgid "Choose background color to slide arrows."
+msgstr ""
+
+msgid "Arrows Background Hover Color"
+msgstr ""
+
+msgid "Choose background hover color to slide arrow."
+msgstr ""
+
+msgid "Dots Color"
+msgstr ""
+
+msgid "Choose color to slide dots."
+msgstr ""
+
+msgid "Dots Color Active"
+msgstr ""
+
+msgid "Choose color to slide dots when active, hover."
+msgstr ""
+
+msgid "SLZ Gallery Feature"
+msgstr ""
+
+msgid "Display feature image with carousel effect."
+msgstr ""
+
+msgid "-All Gallery Categories-"
+msgstr ""
+
+msgid "-All Portfolio Categories-"
+msgstr ""
+
+msgid "picture frames"
+msgstr ""
+
+msgid "Upload one image to make frames for feature image."
+msgstr ""
+
+msgid "Limit Post"
+msgstr ""
+
+msgid "Choose gallery category or special gallery to display"
+msgstr ""
+
+msgid "Choose Gallery Category."
+msgstr ""
+
+msgid "Add Gallery"
+msgstr ""
+
+msgid "Choose special gallery to show"
+msgstr ""
+
+msgid ""
+"Default display All Gallery if no gallery is selected and Number gallery is "
+"empty."
+msgstr ""
+
+msgid "Choose portfolio category or special portfolio to display"
+msgstr ""
+
+msgid "Choose Portfolio Category."
+msgstr ""
+
+msgid "Add Portfolio"
+msgstr ""
+
+msgid "Choose special portfolio to show"
+msgstr ""
+
+msgid ""
+"Default display All Portfolio if no portfolio is selected and Number "
+"portfolio is empty."
+msgstr ""
+
+msgid "Show Title?"
+msgstr ""
+
+msgid "Choose if you want to show title or not."
+msgstr ""
+
+msgid "Custom Information"
+msgstr ""
+
+msgid "Show Description?"
+msgstr ""
+
+msgid "Choose if you want to show description or not."
+msgstr ""
+
+msgid "Show Read More Button?"
+msgstr ""
+
+msgid "Choose if you want to show read more button or not."
+msgstr ""
+
+msgid "Read More Button Text"
+msgstr ""
+
+msgid "Enter text for \"read more\" button."
+msgstr ""
+
+msgid "Choose a custom title text color."
+msgstr ""
+
+msgid "Custom CSS"
+msgstr ""
+
+msgid "Title Hover Color"
+msgstr ""
+
+msgid "Choose a custom title text hover color."
+msgstr ""
+
+msgid "Icon Color"
+msgstr ""
+
+msgid "Choose a custom title icon color."
+msgstr ""
+
+msgid "Icon Background Color"
+msgstr ""
+
+msgid "Choose a custom title icon background color."
+msgstr ""
+
+msgid "Icon Hover Color"
+msgstr ""
+
+msgid "Choose a custom title icon hover color."
+msgstr ""
+
+msgid "Icon Background Hover Color"
+msgstr ""
+
+msgid "Choose a custom title icon background hover color."
+msgstr ""
+
+msgid "Icon Border Color"
+msgstr ""
+
+msgid "Choose a custom title icon border color."
+msgstr ""
+
+msgid "Icon Border Hover Color"
+msgstr ""
+
+msgid "Choose a custom title icon border hover color."
+msgstr ""
+
+msgid "Description Color"
+msgstr ""
+
+msgid "Choose a custom description color."
+msgstr ""
+
+msgid "Read More Button Color"
+msgstr ""
+
+msgid "Choose a custom read more button text color."
+msgstr ""
+
+msgid "Read More Button Hover Color"
+msgstr ""
+
+msgid "Choose a custom read more button hover text color."
+msgstr ""
+
+msgid "Read More Button Background Color"
+msgstr ""
+
+msgid "Read More Button Background Hover Color"
+msgstr ""
+
+msgid "SLZ Gallery Tab"
+msgstr ""
+
+msgid "Display image gallery in tab panel."
+msgstr ""
+
+msgid "Slide"
+msgstr ""
+
+msgid "Fade"
+msgstr ""
+
+msgid "Number slide to show"
+msgstr ""
+
+msgid "Custom Slider"
+msgstr ""
+
+msgid "Animation?"
+msgstr ""
+
+msgid "Choose a animation"
+msgstr ""
+
+msgid "Slide Arrow Color"
+msgstr ""
+
+msgid "Choose color slide arrow for slide."
+msgstr ""
+
+msgid "Custom Css"
+msgstr ""
+
+msgid "Slide Arrow Color Hover"
+msgstr ""
+
+msgid "Choose color slide arrow for slide when hover."
+msgstr ""
+
+msgid "Slide Dots Color"
+msgstr ""
+
+msgid "Choose color slide dots for slide."
+msgstr ""
+
+msgid "Pune"
+msgstr ""
+
+msgid "Jaipur"
+msgstr ""
+
+msgid "Noida"
+msgstr ""
+
+msgid "New Delhi"
+msgstr ""
+
+msgid "Bengaluru"
+msgstr ""
+
+msgid ""
+"Choose post type to show. Images will be taken from the gallery of the posts."
+msgstr ""
+
+msgid "Number Image"
+msgstr ""
+
+msgid "Load More Button Text"
+msgstr ""
+
+msgid "Enter load more button text. If empty, not show button."
+msgstr ""
+
+msgid "Filter Title"
+msgstr ""
+
+msgid "Choose type of filter title"
+msgstr ""
+
+msgid "SLZ Isotope"
+msgstr ""
+
+msgid "Isotope of post feature image from custom post type"
+msgstr ""
+
+msgid "Georgia"
+msgstr ""
+
+msgid "New York"
+msgstr ""
+
+msgid "Illinois"
+msgstr ""
+
+msgid "Connecticut"
+msgstr ""
+
+msgid "Texas"
+msgstr ""
+
+msgid "Arizona"
+msgstr ""
+
+msgid "Oregon"
+msgstr ""
+
+msgid "Kentucky"
+msgstr ""
+
+msgid "Show Category Filter?"
+msgstr ""
+
+msgid "Choose if you want to show category filter tab or not."
+msgstr ""
+
+msgid "Custom Isotope"
+msgstr ""
+
+msgid "Alignment Filter"
+msgstr ""
+
+msgid "Choose alignment for category filter."
+msgstr ""
+
+msgid "Enter load more button text. If empty, not show buttony."
+msgstr ""
+
+msgid "Show Category?"
+msgstr ""
+
+msgid "Choose if you want to show category or not."
+msgstr ""
+
+msgid "Show Meta Data?"
+msgstr ""
+
+msgid "Choose if you want to show meta data or not."
+msgstr ""
+
+msgid "Show Zoom Button?"
+msgstr ""
+
+msgid "Choose if you want to show fancybox zoom in or not."
+msgstr ""
+
+msgid "Category Color"
+msgstr ""
+
+msgid "Choose a custom category text color."
+msgstr ""
+
+msgid "Meta Data Color"
+msgstr ""
+
+msgid "Choose a custom meta data color."
+msgstr ""
+
+msgid "Meta Data Hover Color"
+msgstr ""
+
+msgid "Choose a custom meta data hover color."
+msgstr ""
+
+msgid "Zoom in Button Color"
+msgstr ""
+
+msgid "Choose a custom zoom in button text color."
+msgstr ""
+
+msgid "Zoom in Button Hover Color"
+msgstr ""
+
+msgid "Choose a custom zoom in button hover text color."
+msgstr ""
+
+msgid "Google Calendar"
+msgstr ""
+
+msgid "Ical Export"
+msgstr ""
+
+msgid "Start"
+msgstr ""
+
+msgid "End"
+msgstr ""
+
+msgid "Speakers"
+msgstr ""
+
+msgid "slz_gallery_carousel"
+msgstr ""
+
+msgid "SLZ: Gallery Carousel"
+msgstr ""
+
+msgid "A list image from post type \"Gallery\" with carousel animation."
+msgstr ""
+
+msgid "Number Item"
+msgstr ""
+
+msgid "Slides To Show"
+msgstr ""
+
+msgid "slz_gallery"
+msgstr ""
+
+msgid "SLZ: Gallery"
+msgstr ""
+
+msgid "A list image from post type \"Gallery\"."
+msgstr ""
+
+msgid "Choose Post Type"
+msgstr ""
+
+msgid "Choose Column"
+msgstr ""
+
+msgid "3 Column"
+msgstr ""
+
+msgid "4 Column"
+msgstr ""
+
+msgid "Menu"
+msgstr ""
+
+msgid "Social Profile"
+msgstr ""
+
+msgid "Customize Icon"
+msgstr ""
+
+msgid "Header 01"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "Header Transparent"
+msgstr ""
+
+msgid "Make header transparent"
+msgstr ""
+
+msgid "Logo Position"
+msgstr ""
+
+msgid "Select your prefered logo position"
+msgstr ""
+
+msgid "Change the style of this header"
+msgstr ""
+
+msgid "Select header background color"
+msgstr ""
+
+msgid "Select header text color"
+msgstr ""
+
+msgid "Sticky Header"
+msgstr ""
+
+msgid "Make the header stick with the scroll?"
+msgstr ""
+
+msgid "Main Header?"
+msgstr ""
+
+msgid "Select Main Menu"
+msgstr ""
+
+msgid "Select menu for main menu. This changes will be apply for all headers."
+msgstr ""
+
+msgid "Change the style for menu"
+msgstr ""
+
+msgid "Item Color"
+msgstr ""
+
+msgid "Select color for menu item"
+msgstr ""
+
+msgid "Item Active Color"
+msgstr ""
+
+msgid "Select color for menu item active"
+msgstr ""
+
+msgid "Menu Border Color"
+msgstr ""
+
+msgid "Select color for border of dropdown menu and mega menu"
+msgstr ""
+
+msgid "Dropdown Menu Align"
+msgstr ""
+
+msgid "Sub Header?"
+msgstr ""
+
+msgid "Enable the sub header in header main?"
+msgstr ""
+
+msgid "Change the style for sub header"
+msgstr ""
+
+msgid "Main Color"
+msgstr ""
+
+msgid "Select main color for session"
+msgstr ""
+
+msgid "Sub Menu Settings"
+msgstr ""
+
+msgid "Sub Menu?"
+msgstr ""
+
+msgid "Enable the menu in header main?"
+msgstr ""
+
+msgid "Select Sub Menu"
+msgstr ""
+
+msgid "Select menu for sub menu. This changes will be apply for all headers."
+msgstr ""
+
+msgid "Contact Settings"
+msgstr ""
+
+msgid "Button Contact?"
+msgstr ""
+
+msgid "Choose contact from plugin \"Contact Form 7\""
+msgstr ""
+
+msgid "Other Settings"
+msgstr ""
+
+msgid "Add Shortcode"
+msgstr ""
+
+msgid "Paste any shortcode what you want to display on sub header"
+msgstr ""
+
+msgid "Topbar Settings"
+msgstr ""
+
+msgid "Header Top Bar"
+msgstr ""
+
+msgid "Enable the header top bar?"
+msgstr ""
+
+msgid "Change the style of topbar"
+msgstr ""
+
+msgid "Select the header's top bar background color"
+msgstr ""
+
+msgid "Select the header's top bar border color"
+msgstr ""
+
+msgid "Select header's top bar text color"
+msgstr ""
+
+msgid "Left Content"
+msgstr ""
+
+msgid "Choose content will be show in topbar left."
+msgstr ""
+
+msgid "Right Content"
+msgstr ""
+
+msgid "Choose content will be show in topbar right."
+msgstr ""
+
+msgid "Select Menu"
+msgstr ""
+
+msgid ""
+"Select menu for topbar menu. This changes will be apply for all headers."
+msgstr ""
+
+msgid "Select option to choose how to display the customize icon."
+msgstr ""
+
+msgid "Show icon only"
+msgstr ""
+
+msgid "Show text only"
+msgstr ""
+
+msgid "Show text and icon"
+msgstr ""
+
+msgid "Text Position"
+msgstr ""
+
+msgid "Select your prefered text position"
+msgstr ""
+
+msgid "Button Style"
+msgstr ""
+
+msgid "Change the style for button"
+msgstr ""
+
+msgid "Button Background Color"
+msgstr ""
+
+msgid "Button Background Hover Color"
+msgstr ""
+
+msgid "Button Text Color"
+msgstr ""
+
+msgid "Button Text Hover Color"
+msgstr ""
+
+msgid "Show Top Bar In Menu Mobile"
+msgstr ""
+
+msgid "Show top bar in menu mobile"
+msgstr ""
+
+msgid "Change the style / typography of search box"
+msgstr ""
+
+msgid "Search Icon"
+msgstr ""
+
+msgid "Select the background color for search box"
+msgstr ""
+
+msgid "Select the text color for search box"
+msgstr ""
+
+msgid "Search Box"
+msgstr ""
+
+msgid "Enable search box ?"
+msgstr ""
+
+msgid "Header 02"
+msgstr ""
+
+msgid "Above menu"
+msgstr ""
+
+msgid "Below menu"
+msgstr ""
+
+msgid "Header 03"
+msgstr ""
+
+msgid "Choose style to show."
+msgstr ""
+
+msgid "Style 1"
+msgstr ""
+
+msgid "Style 2"
+msgstr ""
+
+msgid "Input number of post to show"
+msgstr ""
+
+msgid "Input number of offset post"
+msgstr ""
+
+msgid "Category Filter"
+msgstr ""
+
+msgid "Tag Filter"
+msgstr ""
+
+msgid "Breaking News"
+msgstr ""
+
+msgid "Enable breaking news ?"
+msgstr ""
+
+msgid "Select Adspot"
+msgstr ""
+
+msgid "Select adspot for ads banner."
+msgstr ""
+
+msgid "-- Choose adspot --"
+msgstr ""
+
+msgid "Breaking news:"
+msgstr ""
+
+msgid "breaking news:"
+msgstr ""
+
+msgid "read story"
+msgstr ""
+
+msgid "Header 04"
+msgstr ""
+
+msgid "Header 05"
+msgstr ""
+
+msgid "Select Left Menu"
+msgstr ""
+
+msgid "Select menu for left menu. This changes will be apply for all headers."
+msgstr ""
+
+msgid "Select Right Menu"
+msgstr ""
+
+msgid "Select menu for right menu. This changes will be apply for all headers."
+msgstr ""
+
+msgid "I would like to make"
+msgstr ""
+
+msgid "a one time"
+msgstr ""
+
+msgid "weekly"
+msgstr ""
+
+msgid "monthly"
+msgstr ""
+
+msgid "yearly"
+msgstr ""
+
+msgid "donation(s)"
+msgstr ""
+
+msgid "How many times would you like this to recur? (including this payment)"
+msgstr ""
+
+msgid "Would you like to make regular donations?"
+msgstr ""
+
+msgid "First name"
+msgstr ""
+
+msgid "Last name"
+msgstr ""
+
+msgid "Number phone"
+msgstr ""
+
+msgid "Additional Note"
+msgstr ""
+
+msgid "Donation For Organizations"
+msgstr ""
+
+msgid "Payment"
+msgstr ""
+
+msgid "WooCommerce"
+msgstr ""
+
+msgid "Custom link"
+msgstr ""
+
+msgid "Link"
+msgstr ""
+
+msgid "Paypal"
+msgstr ""
+
+msgid "Email Receiver"
+msgstr ""
+
+msgid "Button Donation"
+msgstr ""
+
+msgid "Show button donation in top bar right menu"
+msgstr ""
+
+msgid "Donation Type"
+msgstr ""
+
+msgid "Event Banner"
+msgstr ""
+
+msgid "Type of event show in banner"
+msgstr ""
+
+msgid "Recent Event"
+msgstr ""
+
+msgid "Upcoming event"
+msgstr ""
+
+msgid "No default view (views/view.php) found for header: %s"
+msgstr ""
+
+msgid "header \"%s\" from %s was already defined at %s"
+msgstr ""
+
+msgid "Class file found for header %s but no class %s found"
+msgstr ""
+
+msgid "The class %s must extend from WP_Header"
+msgstr ""
+
+msgid "Instagram"
+msgstr ""
+
+msgid "Display your Instagram image or video as gallery."
+msgstr ""
+
+msgid "SLZ Instagram"
+msgstr ""
+
+msgid "Show Instagram Image"
+msgstr ""
+
+msgid "Block Title"
+msgstr ""
+
+msgid "Block title. If it blank the block will not have a title"
+msgstr ""
+
+msgid "Block Title Color"
+msgstr ""
+
+msgid "Template"
+msgstr ""
+
+msgid "Grid"
+msgstr ""
+
+msgid "Instagram ID"
+msgstr ""
+
+msgid "Number images"
+msgstr ""
+
+msgid "3"
+msgstr ""
+
+msgid "4"
+msgstr ""
+
+msgid "Number items"
+msgstr ""
+
+msgid "instagram-slider"
+msgstr ""
+
+msgid "SLZ: Instagram Carousel"
+msgstr ""
+
+msgid "Show instagram images in carousel"
+msgstr ""
+
+msgid "Instagram Carousel"
+msgstr ""
+
+msgid "Title Color:"
+msgstr ""
+
+msgid "Optional - Choose a custom title text color for this block"
+msgstr ""
+
+msgid "Number Items"
+msgstr ""
+
+msgid "instagram"
+msgstr ""
+
+msgid "SLZ: Instagram"
+msgstr ""
+
+msgid "Show instagram images in grid"
+msgstr ""
+
+msgid "Invalid send method"
+msgstr ""
+
+msgid "The message has been successfully sent!"
+msgstr ""
+
+msgid "Invalid email configuration"
+msgstr ""
+
+msgid "Email sent"
+msgstr ""
+
+msgid "Could not send via smtp"
+msgstr ""
+
+msgid "Could not send via wp_mail"
+msgstr ""
+
+msgid "Send Method"
+msgstr ""
+
+msgid "Select the send form method"
+msgstr ""
+
+msgid "From Name"
+msgstr ""
+
+msgid "The name you'll see in the From filed in your email client."
+msgstr ""
+
+msgid "From Address"
+msgstr ""
+
+msgid "The form will look like was sent from this email address."
+msgstr ""
+
+msgid "Test email destination"
+msgstr ""
+
+msgid "Send a test email"
+msgstr ""
+
+msgid "Invalid email"
+msgstr ""
+
+msgid "Invalid settings"
+msgstr ""
+
+msgid "Test Subject"
+msgstr ""
+
+msgid "Test Message"
+msgstr ""
+
+msgid "Server Address"
+msgstr ""
+
+msgid "Enter your email server"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Enter your username"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Enter your password"
+msgstr ""
+
+msgid "Secure Connection"
+msgstr ""
+
+msgid "Custom Port"
+msgstr ""
+
+msgid "Optional - SMTP port number to use."
+msgstr ""
+
+msgid "Leave blank for default (SMTP - 25, SMTPS - 465)"
+msgstr ""
+
+msgid "Username cannot be empty"
+msgstr ""
+
+msgid "Password cannot be empty"
+msgstr ""
+
+msgid "Invalid host"
+msgstr ""
+
+msgid "Could not send the email"
+msgstr ""
+
+msgid "Select Icon"
+msgstr ""
+
+msgid "%s (Invalid)"
+msgstr ""
+
+msgid "%s (Pending)"
+msgstr ""
+
+msgid "sub item"
+msgstr ""
+
+msgid "Edit Menu Item"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "Navigation Label"
+msgstr ""
+
+msgid "Title Attribute"
+msgstr ""
+
+msgid "Open link in a new window/tab"
+msgstr ""
+
+msgid "CSS Classes (optional)"
+msgstr ""
+
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+msgid "Mega Menu Column Title"
+msgstr ""
+
+msgid "Item Title"
+msgstr ""
+
+msgid "This column should start a new row"
+msgstr ""
+
+msgid "Description (HTML)"
+msgstr ""
+
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+msgid "Add Icon"
+msgstr ""
+
+msgid "Edit Icon"
+msgstr ""
+
+msgid "Use as Mega Menu"
+msgstr ""
+
+msgid "Move"
+msgstr ""
+
+msgid "Up one"
+msgstr ""
+
+msgid "Down one"
+msgstr ""
+
+msgid "To the top"
+msgstr ""
+
+msgid "Original: %s"
+msgstr ""
+
+msgid "New Tweets"
+msgstr ""
+
+msgid ""
+"Create a widget or shortcode to show timeline of your tweets, compatible "
+"with the new Twitter API 1.1."
+msgstr ""
+
+msgid "Consumer Key (API Key)"
+msgstr ""
+
+msgid "Consumer Secret (API Secret)"
+msgstr ""
+
+msgid "Access Token"
+msgstr ""
+
+msgid "Access Token Secret"
+msgstr ""
+
+msgid ""
+"These details are available in <a href=\"https://apps.twitter.com/\" target="
+"\"_blank\">your Twitter dashboard</a>"
+msgstr ""
+
+msgid "SLZ New Tweet"
+msgstr ""
+
+msgid "Show twitter new tweet"
+msgstr ""
+
+msgid "Number Tweets"
+msgstr ""
+
+msgid "The number of tweets to display."
+msgstr ""
+
+msgid "Show Tweet's media"
+msgstr ""
+
+msgid "Choose if you want to show Tweet's media or not."
+msgstr ""
+
+msgid "Show Re-Tweet"
+msgstr ""
+
+msgid "Choose if you want to show Re-Tweet."
+msgstr ""
+
+msgid "Is Carousel?"
+msgstr ""
+
+msgid "Choose if you want display tweets list as carousel."
+msgstr ""
+
+msgid "Number Tweets per Slide"
+msgstr ""
+
+msgid "The number of tweets per slide to display."
+msgstr ""
+
+msgid "Account Name"
+msgstr ""
+
+msgid ""
+"Enter the ID as it appears after the twitter url (ex. https://twitter.com/"
+"myID)."
+msgstr ""
+
+msgid "Channel"
+msgstr ""
+
+msgid "@"
+msgstr ""
+
+msgid "ago"
+msgstr ""
+
+msgid "new-tweet"
+msgstr ""
+
+msgid "SLZ: New Tweet"
+msgstr ""
+
+msgid "New Tweet"
+msgstr ""
+
+msgid "Optional - Choose a custom title text color for object block"
+msgstr ""
+
+msgid "Number Tweet"
+msgstr ""
+
+msgid "Account name"
+msgstr ""
+
+msgid "Extra Class:"
+msgstr ""
+
+msgid ""
+"Optional - a extra class for this block, if you leave it blank the block "
+"will not have a extra class"
+msgstr ""
+
+msgid "Show Media"
+msgstr ""
+
+msgid "True"
+msgstr ""
+
+msgid "False"
+msgstr ""
+
+msgid "Show Author"
+msgstr ""
+
+msgid "Show Author Name"
+msgstr ""
+
+msgid "Show Time"
+msgstr ""
+
+msgid "Portfolio base"
+msgstr ""
+
+msgid "Portfolio category base"
+msgstr ""
+
+msgid "Project"
+msgstr ""
+
+msgid "Projects"
+msgstr ""
+
+msgid "Create a item"
+msgstr ""
+
+msgid "%s %s"
+msgstr ""
+
+msgid "Project %s"
+msgstr ""
+
+msgid "Popular %s"
+msgstr ""
+
+msgid "Separate %s with commas"
+msgstr ""
+
+msgid "Add or remove %s"
+msgstr ""
+
+msgid "Choose from the most used %s"
+msgstr ""
+
+msgid "Album"
+msgstr ""
+
+msgid "Price"
+msgstr ""
+
+msgid "Price of album"
+msgstr ""
+
+msgid "Quantity"
+msgstr ""
+
+msgid "Number of album"
+msgstr ""
+
+msgid "Url"
+msgstr ""
+
+msgid "Url of button buy"
+msgstr ""
+
+msgid "Add artist author"
+msgstr ""
+
+msgid "Playlist"
+msgstr ""
+
+msgid "Add file music for playlist. (mp3)"
+msgstr ""
+
+msgid "Music file"
+msgstr ""
+
+msgid "Thumnail"
+msgstr ""
+
+msgid "Add thumbnail to the project."
+msgstr ""
+
+msgid "Short Description"
+msgstr ""
+
+msgid "Short description of project."
+msgstr ""
+
+msgid "Information"
+msgstr ""
+
+msgid "Information of project."
+msgstr ""
+
+msgid "Choose icon to post"
+msgstr ""
+
+msgid "Attach Files"
+msgstr ""
+
+msgid "Add attach files to the project."
+msgstr ""
+
+msgid "Custom Links"
+msgstr ""
+
+msgid "Add custom link icon to portfolio meta info."
+msgstr ""
+
+msgid "-- Select Status --"
+msgstr ""
+
+msgid "Add New Project Status"
+msgstr ""
+
+msgid "History Status"
+msgstr ""
+
+msgid "Add history status"
+msgstr ""
+
+msgid "Setting current status to the project."
+msgstr ""
+
+msgid "Update Date"
+msgstr ""
+
+msgid "Date to update the project. Format: MM-DD-YYYY."
+msgstr ""
+
+msgid "Open link in a new tab"
+msgstr ""
+
+msgid "URL (Link)"
+msgstr ""
+
+msgid "Link to download project"
+msgstr ""
+
+msgid "Link To AppStore"
+msgstr ""
+
+msgid "Link to download project from AppStore"
+msgstr ""
+
+msgid "Link To Google Play Store"
+msgstr ""
+
+msgid "Link to download project from Google Play Store"
+msgstr ""
+
+msgid "Link To Windows Store"
+msgstr ""
+
+msgid "Link to download project from Windows Store"
+msgstr ""
+
+msgid "-Select Team-"
+msgstr ""
+
+msgid "Teams"
+msgstr ""
+
+msgid "Team"
+msgstr ""
+
+msgid "Please select teams involved in this project"
+msgstr ""
+
+msgid "Team Box"
+msgstr ""
+
+msgid "Show portfolio team box in single pages?"
+msgstr ""
+
+msgid "Project Options"
+msgstr ""
+
+msgid "Post is selected"
+msgstr ""
+
+msgid "Random"
+msgstr ""
+
+msgid "Buy Album"
+msgstr ""
+
+msgid "get free"
+msgstr ""
+
+msgid "This extension use add to portfolio."
+msgstr ""
+
+msgid "SLZ Project Carousel"
+msgstr ""
+
+msgid "Animated Carousel with projects"
+msgstr ""
+
+msgid "Choose style will be displayed."
+msgstr ""
+
+msgid "Featured Image"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "-All Projects-"
+msgstr ""
+
+msgid "-All Project Categories-"
+msgstr ""
+
+msgid "Show Image ?"
+msgstr ""
+
+msgid "Show featured image or thumbnail."
+msgstr ""
+
+msgid "Show Category ?"
+msgstr ""
+
+msgid "If choose Yes, block will be show category."
+msgstr ""
+
+msgid "Show Meta Info ?"
+msgstr ""
+
+msgid "If choose Yes, block will be show meta information."
+msgstr ""
+
+msgid "Show Description ?"
+msgstr ""
+
+msgid "If choose Yes, block will be show description."
+msgstr ""
+
+msgid "Description Length"
+msgstr ""
+
+msgid "Enter number for limiting the number of word displayed."
+msgstr ""
+
+msgid "Enter text will be show button."
+msgstr ""
+
+msgid "Custom URL"
+msgstr ""
+
+msgid "Enter custom url to button."
+msgstr ""
+
+msgid "Show Category Filter Tab"
+msgstr ""
+
+msgid "If choose Yes, a category filter will display on top of block."
+msgstr ""
+
+msgid "Filter Tab Text"
+msgstr ""
+
+msgid "Enter text for \"All\" tab."
+msgstr ""
+
+msgid "Filter By"
+msgstr ""
+
+msgid "Choose portfolio category or special portfolio to filter"
+msgstr ""
+
+msgid "Slide Arrow Background Color"
+msgstr ""
+
+msgid "Choose background color slide arrow for slide."
+msgstr ""
+
+msgid "Slide Arrow Background Color Hover"
+msgstr ""
+
+msgid "Choose background color slide arrow for slide when hover."
+msgstr ""
+
+msgid "Slide Dots Color Active"
+msgstr ""
+
+msgid "Choose color slide dots for slide when active, hover."
+msgstr ""
+
+msgid "Choose color title for block."
+msgstr ""
+
+msgid "Title Color Hover"
+msgstr ""
+
+msgid "Choose color title for block when hover."
+msgstr ""
+
+msgid "Choose color category for block."
+msgstr ""
+
+msgid "Category Color Hover"
+msgstr ""
+
+msgid "Choose color category for block when hover."
+msgstr ""
+
+msgid "Meta Info Color"
+msgstr ""
+
+msgid "Choose color meta info for block."
+msgstr ""
+
+msgid "Meta Info Color Hover"
+msgstr ""
+
+msgid "Choose color meta info for block when hover."
+msgstr ""
+
+msgid "Choose color description for block."
+msgstr ""
+
+msgid "Background Image Color Hover"
+msgstr ""
+
+msgid "Choose background color image for block when hover."
+msgstr ""
+
+msgid "Button Color"
+msgstr ""
+
+msgid "Choose color button for block."
+msgstr ""
+
+msgid "Button Color Hover"
+msgstr ""
+
+msgid "Choose color button for block when hover."
+msgstr ""
+
+msgid "live review"
+msgstr ""
+
+msgid "SLZ Project Category"
+msgstr ""
+
+msgid "Slider of Category Project Number"
+msgstr ""
+
+msgid "Choose special category to show"
+msgstr ""
+
+msgid "Please input number of slide to show."
+msgstr ""
+
+msgid "Slide To Scroll"
+msgstr ""
+
+msgid "Please input number of slide to scroll."
+msgstr ""
+
+msgid "Show Dots?"
+msgstr ""
+
+msgid "Choose if want to show dots or not."
+msgstr ""
+
+msgid "Show Arrows?"
+msgstr ""
+
+msgid "Choose if want to show arrows or not."
+msgstr ""
+
+msgid "Project Category Name Color"
+msgstr ""
+
+msgid "Choose a custom project category name color."
+msgstr ""
+
+msgid "Project Category Number Color"
+msgstr ""
+
+msgid "Choose a custom project category number color."
+msgstr ""
+
+msgid "SLZ Project List"
+msgstr ""
+
+msgid "List of project"
+msgstr ""
+
+msgid "Limit words to display."
+msgstr ""
+
+msgid "Max Posts"
+msgstr ""
+
+msgid "Add total posts when paging."
+msgstr ""
+
+msgid "slz_project"
+msgstr ""
+
+msgid "SLZ: Project"
+msgstr ""
+
+msgid "A project list"
+msgstr ""
+
+msgid "Display Thumbnail"
+msgstr ""
+
+msgid "Display Category"
+msgstr ""
+
+msgid "Display Description"
+msgstr ""
+
+msgid "Feature Image"
+msgstr ""
+
+msgid "-All pages-"
+msgstr ""
+
+msgid "Project Category ID"
+msgstr ""
+
+msgid "Enter categories ID of project(Ex 1,2,3)"
+msgstr ""
+
+msgid "Image Type"
+msgstr ""
+
+msgid "Button Content"
+msgstr ""
+
+msgid "Button Link (Custom)"
+msgstr ""
+
+msgid "Tags:"
+msgstr ""
+
+msgid "d"
+msgstr ""
+
+msgid "M"
+msgstr ""
+
+msgid "Y"
+msgstr ""
+
+msgid "No default view (views/view.php) found for post: %s"
+msgstr ""
+
+msgid "post \"%s\" from %s was already defined at %s"
+msgstr ""
+
+msgid "Class file found for post %s but no class %s found"
+msgstr ""
+
+msgid "The class %s must extend from WP_Post"
+msgstr ""
+
+msgid "Post 01"
+msgstr ""
+
+msgid "Read more %s"
+msgstr ""
+
+msgid "Related Articles"
+msgstr ""
+
+msgid "Post 02"
+msgstr ""
+
+msgid "Post 03"
+msgstr ""
+
+msgid "Post 04"
+msgstr ""
+
+msgid "Post 05"
+msgstr ""
+
+msgid "Recruitment base"
+msgstr ""
+
+msgid "Recruitment category base"
+msgstr ""
+
+msgid "Recruitment"
+msgstr ""
+
+msgid "Create a recruitment item"
+msgstr ""
+
+msgid "Recruitment %s"
+msgstr ""
+
+msgid "Working Type"
+msgstr ""
+
+msgid "Working Types"
+msgstr ""
+
+msgid "Recruitment Options"
+msgstr ""
+
+msgid "-- Select Working Type --"
+msgstr ""
+
+msgid "Add New Working Type"
+msgstr ""
+
+msgid ""
+"Choose a thumbnail for recruitment(use for some shortcode). Images should "
+"have minimum size: 350x350. Bigger size images will be cropped automatically."
+msgstr ""
+
+msgid "Choose working type."
+msgstr ""
+
+msgid "Salary"
+msgstr ""
+
+msgid "Salary for the recruitment."
+msgstr ""
+
+msgid "Example: 500$ - 1000$."
+msgstr ""
+
+msgid "Enter the working location of the recruitment."
+msgstr ""
+
+msgid "Example: NewYork."
+msgstr ""
+
+msgid "Expired Date"
+msgstr ""
+
+msgid "Expired date of the recruitment."
+msgstr ""
+
+msgid "Format: MM-DD-YYYY."
+msgstr ""
+
+msgid "Add Information"
+msgstr ""
+
+msgid "add more information recruitment."
+msgstr ""
+
+msgid "Enter a label for this information"
+msgstr ""
+
+msgid "Enter information"
+msgstr ""
+
+msgid "Posted"
+msgstr ""
+
+msgid "This extension use for recruitment service"
+msgstr ""
+
+msgid "SLZ Recruitment List"
+msgstr ""
+
+msgid "A recruitment list."
+msgstr ""
+
+msgid "Excerpt"
+msgstr ""
+
+msgid "-All Recruitments-"
+msgstr ""
+
+msgid "-All Recruitment Categories-"
+msgstr ""
+
+msgid "Enter block title."
+msgstr ""
+
+msgid "Choose what content of recruitment to display."
+msgstr ""
+
+msgid "Add limit posts per page. Set -1 or empty to show all."
+msgstr ""
+
+msgid ""
+"Enter offset to pass over posts. If you want to start on record 6, using "
+"offset 5."
+msgstr ""
+
+msgid "Select order to display list posts."
+msgstr ""
+
+msgid "Enter button text."
+msgstr ""
+
+msgid "Choose button link."
+msgstr ""
+
+msgid "Add extra class to block."
+msgstr ""
+
+msgid "Choose recruitment category or special recruitments to display."
+msgstr ""
+
+msgid "Choose special category to filter."
+msgstr ""
+
+msgid "Choose recruitment category."
+msgstr ""
+
+msgid "Recruitments"
+msgstr ""
+
+msgid "Add recruitment"
+msgstr ""
+
+msgid "Choose special recruitment to show."
+msgstr ""
+
+msgid "Default display all recruitments if no recruitment is selected."
+msgstr ""
+
+msgid "Choose color for block title."
+msgstr ""
+
+msgid "Active Color"
+msgstr ""
+
+msgid "Choose color for item when activating tab."
+msgstr ""
+
+msgid "SLZ Recruitment Tab"
+msgstr ""
+
+msgid "A list recruitment by tab."
+msgstr ""
+
+msgid "Tab Active Color"
+msgstr ""
+
+msgid "Choose background color for item when activating tab."
+msgstr ""
+
+msgid "Ribbon Box Color"
+msgstr ""
+
+msgid "Choose background color for ribbon box."
+msgstr ""
+
+msgid "Choose color for button."
+msgstr ""
+
+msgid "Button Hover Color"
+msgstr ""
+
+msgid "Choose color for button when hover."
+msgstr ""
+
+msgid "Service base"
+msgstr ""
+
+msgid "Service category base"
+msgstr ""
+
+msgid "Service"
+msgstr ""
+
+msgid "Services"
+msgstr ""
+
+msgid "Create a service item"
+msgstr ""
+
+msgid "Service %s"
+msgstr ""
+
+msgid "Service Options"
+msgstr ""
+
+msgid "Choose service icon"
+msgstr ""
+
+msgid "Choose service thumbnail"
+msgstr ""
+
+msgid "Enter description of service."
+msgstr ""
+
+msgid "This extension use add to services."
+msgstr ""
+
+msgid "SLZ Service List"
+msgstr ""
+
+msgid "A service list."
+msgstr ""
+
+msgid "Choose style to display on frontend."
+msgstr ""
+
+msgid "Align"
+msgstr ""
+
+msgid "Choose align for block."
+msgstr ""
+
+msgid "Choose layout to show."
+msgstr ""
+
+msgid "Description meta"
+msgstr ""
+
+msgid "Show Icon"
+msgstr ""
+
+msgid "Show Image"
+msgstr ""
+
+msgid "Show Featured Images"
+msgstr ""
+
+msgid "-All Services-"
+msgstr ""
+
+msgid "-All Service Categories-"
+msgstr ""
+
+msgid "Show Icon or Image"
+msgstr ""
+
+msgid "Choose show icon or image of service."
+msgstr ""
+
+msgid "Show Numerical Order?"
+msgstr ""
+
+msgid "Displays the number order of each item"
+msgstr ""
+
+msgid "Choose what content of service to display."
+msgstr ""
+
+msgid "Show Pagination"
+msgstr ""
+
+msgid "Enter block button text."
+msgstr ""
+
+msgid "Choose service category or special services to display."
+msgstr ""
+
+msgid "Choose service category."
+msgstr ""
+
+msgid "Add service"
+msgstr ""
+
+msgid "Choose special service to show."
+msgstr ""
+
+msgid "Default display all services if no service is selected."
+msgstr ""
+
+msgid "Block Background Color"
+msgstr ""
+
+msgid "Choose background color for this block."
+msgstr ""
+
+msgid "Block Background Hover Color"
+msgstr ""
+
+msgid "Choose background color for this block when hover."
+msgstr ""
+
+msgid "Choose color for block icon."
+msgstr ""
+
+msgid "Choose icon border color."
+msgstr ""
+
+msgid "Choose icon border color when hover."
+msgstr ""
+
+msgid "Choose color for block description."
+msgstr ""
+
+msgid "Choose color for block button."
+msgstr ""
+
+msgid "Choose color for block button background."
+msgstr ""
+
+msgid "Carousel Navigation Color"
+msgstr ""
+
+msgid "Choose color for block navigation."
+msgstr ""
+
+msgid "Is Carousel ?"
+msgstr ""
+
+msgid "If choose Yes, block will be display with carousel style."
+msgstr ""
+
+msgid "Show Dots ?"
+msgstr ""
+
+msgid "If choose Yes, block will be show dots."
+msgstr ""
+
+msgid "Show Arrow ?"
+msgstr ""
+
+msgid "If choose Yes, block will be show arrow."
+msgstr ""
+
+msgid "SLZ Service Tab"
+msgstr ""
+
+msgid "A service tab."
+msgstr ""
+
+msgid "Title Active Color"
+msgstr ""
+
+msgid "Choose color for block title when activating tab."
+msgstr ""
+
+msgid "Like"
+msgstr ""
+
+msgid "Unlike"
+msgstr ""
+
+msgid "Visual Composer"
+msgstr ""
+
+msgid "Lets you insert Unyson shortcodes inside visual composer page builder."
+msgstr ""
+
+msgid "Lets you insert Unyson shortcodes inside any WordPress editor."
+msgstr ""
+
+msgid "Unyson Shortcodes"
+msgstr ""
+
+msgid "No default view (views/view.php) found for shortcode: %s"
+msgstr ""
+
+msgid "Icon library"
+msgstr ""
+
+msgid "Select icon library."
+msgstr ""
+
+msgid "Select icon from library."
+msgstr ""
+
+msgid "Shortcode \"%s\" from %s was already defined at %s"
+msgstr ""
+
+msgid "Class file found for shortcode %s but no class %s found"
+msgstr ""
+
+msgid "The class %s must extend from SLZ_Shortcode"
+msgstr ""
+
+msgid "SLZ About Me"
+msgstr ""
+
+msgid "Show about me block"
+msgstr ""
+
+msgid "Social URL (Link)"
+msgstr ""
+
+msgid "Add link to social network."
+msgstr ""
+
+msgid "Choose layout to show"
+msgstr ""
+
+msgid "Block title"
+msgstr ""
+
+msgid "Enter your name."
+msgstr ""
+
+msgid "Avatar"
+msgstr ""
+
+msgid "Upload your avatar (100x100px)."
+msgstr ""
+
+msgid "Detail"
+msgstr ""
+
+msgid "Introduce yourself."
+msgstr ""
+
+msgid "Extra class name"
+msgstr ""
+
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+msgid "SLZ Accordion"
+msgstr ""
+
+msgid "Accordion of info list"
+msgstr ""
+
+msgid "Please choose layout to show"
+msgstr ""
+
+msgid "Position of Dropdown Icon"
+msgstr ""
+
+msgid "Please choose postion of dropdown icon"
+msgstr ""
+
+msgid "Accordion Lists"
+msgstr ""
+
+msgid "Title. If it blank the block will not have a title"
+msgstr ""
+
+msgid "Description. If it blank the block will not have a title"
+msgstr ""
+
+msgid "Panel Color"
+msgstr ""
+
+msgid "Choose a custom panel background color."
+msgstr ""
+
+msgid "Panel Active Color"
+msgstr ""
+
+msgid "Choose a custom panel active background color."
+msgstr ""
+
+msgid "Icon Color Active"
+msgstr ""
+
+msgid "Choose a custom icon color active."
+msgstr ""
+
+msgid "Icon Background Color Active"
+msgstr ""
+
+msgid "Choose a custom icon background color active."
+msgstr ""
+
+msgid "Choose a custom icon color."
+msgstr ""
+
+msgid "Choose a custom icon background color."
+msgstr ""
+
+msgid "Content Color"
+msgstr ""
+
+msgid "Choose a custom content text color."
+msgstr ""
+
+msgid "Please Active Visual Composer"
+msgstr ""
+
+msgid "SLZ Ads Banner"
+msgstr ""
+
+msgid "Show the banner in your page"
+msgstr ""
+
+msgid "Banner Title"
+msgstr ""
+
+msgid "Banner title. If it blank the block will not have a title"
+msgstr ""
+
+msgid "Banner Title Color"
+msgstr ""
+
+msgid "Use adspot"
+msgstr ""
+
+msgid "Choose the advertisement spot"
+msgstr ""
+
+msgid "SLZ Audio"
+msgstr ""
+
+msgid "Audio Player with Layouts"
+msgstr ""
+
+msgid "Description. If it blank the block will not have a description"
+msgstr ""
+
+msgid "Upload Downloaded File"
+msgstr ""
+
+msgid "Select file for downloading."
+msgstr ""
+
+msgid "Audio Title"
+msgstr ""
+
+msgid "Please Input Audio Title"
+msgstr ""
+
+msgid "Allow download?"
+msgstr ""
+
+msgid "Show download icon for user download audio."
+msgstr ""
+
+msgid "SLZ Author List"
+msgstr ""
+
+msgid "List of WP post authors"
+msgstr ""
+
+msgid "Post Number"
+msgstr ""
+
+msgid "ID Author"
+msgstr ""
+
+msgid "One Author"
+msgstr ""
+
+msgid "Multiple Author"
+msgstr ""
+
+msgid "ASC"
+msgstr ""
+
+msgid "DESC"
+msgstr ""
+
+msgid "Subscriber"
+msgstr ""
+
+msgid "Contributor"
+msgstr ""
+
+msgid "Editor"
+msgstr ""
+
+msgid "Administrator"
+msgstr ""
+
+msgid "Choose option to show."
+msgstr ""
+
+msgid "User ID"
+msgstr ""
+
+msgid "Please input the user id to show."
+msgstr ""
+
+msgid "Number Perpage"
+msgstr ""
+
+msgid ""
+"The number of authors to display in one page. If it blank the number posts "
+"will be the number from Settings -> Reading"
+msgstr ""
+
+msgid "Sort by"
+msgstr ""
+
+msgid "Sort author list by."
+msgstr ""
+
+msgid "Order Sort"
+msgstr ""
+
+msgid "Order Sort author list."
+msgstr ""
+
+msgid "Filter by role"
+msgstr ""
+
+msgid "Filter author list by role."
+msgstr ""
+
+msgid "Show pagination"
+msgstr ""
+
+msgid "Choose if want to show pagination."
+msgstr ""
+
+msgid "Add extra class to button"
+msgstr ""
+
+msgid "posts"
+msgstr ""
+
+msgid "commments"
+msgstr ""
+
+msgid "Prev"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "SLZ Banner"
+msgstr ""
+
+msgid "Banner for advertisement"
+msgstr ""
+
+msgid "Number of Button"
+msgstr ""
+
+msgid "Choose number of button to show"
+msgstr ""
+
+msgid "Cover Link"
+msgstr ""
+
+msgid "Please input cover link."
+msgstr ""
+
+msgid "Button 1 - Text"
+msgstr ""
+
+msgid ""
+"Please input button text, it will not show button if you not input button "
+"text."
+msgstr ""
+
+msgid "Button 1 - Show Icon"
+msgstr ""
+
+msgid "Choose show or hide icon."
+msgstr ""
+
+msgid "Button 1 - Icon Position"
+msgstr ""
+
+msgid "Choose position of icon to show on button"
+msgstr ""
+
+msgid "Button 1 - Link"
+msgstr ""
+
+msgid "Please input button link."
+msgstr ""
+
+msgid "Button 1 - Text Color"
+msgstr ""
+
+msgid "Choose a custom color for button text."
+msgstr ""
+
+msgid "Button 1 - Text Hover Color"
+msgstr ""
+
+msgid "Choose a custom hover color for button text."
+msgstr ""
+
+msgid "Button 1 - Background Color"
+msgstr ""
+
+msgid "Choose a custom color for button background."
+msgstr ""
+
+msgid "Button 1 - Background Hover Color"
+msgstr ""
+
+msgid "Choose a custom hover color for button background."
+msgstr ""
+
+msgid "Button 1 - Border Color"
+msgstr ""
+
+msgid "Choose a custom color for button border."
+msgstr ""
+
+msgid "Button 1 - Border Hover Color"
+msgstr ""
+
+msgid "Choose a custom hover color for button border."
+msgstr ""
+
+msgid "Button 2 - Text"
+msgstr ""
+
+msgid "Button 2 - Show Icon"
+msgstr ""
+
+msgid "Button 2 - Icon Position"
+msgstr ""
+
+msgid "Button 2 - Link"
+msgstr ""
+
+msgid "Button 2 - Text Color"
+msgstr ""
+
+msgid "Button 2 - Text Hover Color"
+msgstr ""
+
+msgid "Button 2 - Background Color"
+msgstr ""
+
+msgid "Button 2 - Background Hover Color"
+msgstr ""
+
+msgid "Button 2 - Border Color"
+msgstr ""
+
+msgid "Button 2 - Border Hover Color"
+msgstr ""
+
+msgid "Title. If it blank the will not have a title"
+msgstr ""
+
+msgid "Banner Image"
+msgstr ""
+
+msgid "Choose a banner adsvertisement image to upload."
+msgstr ""
+
+msgid "Choose a custom background color."
+msgstr ""
+
+msgid "Subtitle . If it blank will not have a description"
+msgstr ""
+
+msgid "SLZ Button"
+msgstr ""
+
+msgid " Button Alignment"
+msgstr ""
+
+msgid "Choose alignment for show"
+msgstr ""
+
+msgid "Button Layout"
+msgstr ""
+
+msgid "Enter text on button."
+msgstr ""
+
+msgid "Button Box Shadow?"
+msgstr ""
+
+msgid "Add a box-shadow to button"
+msgstr ""
+
+msgid "Border Radius"
+msgstr ""
+
+msgid "Unit is px ( ex:50 )."
+msgstr ""
+
+msgid "Button Margin Right"
+msgstr ""
+
+msgid "Button Background Color Hover"
+msgstr ""
+
+msgid "Choose a custom background color hover."
+msgstr ""
+
+msgid "Button Text Color Hover"
+msgstr ""
+
+msgid "Choose a custom color hover for button text."
+msgstr ""
+
+msgid "Button Border Color"
+msgstr ""
+
+msgid "Choose a custom border color for button."
+msgstr ""
+
+msgid "Button Border Color Hover"
+msgstr ""
+
+msgid "Choose a custom border color hover for button."
+msgstr ""
+
+msgid "Icon Position"
+msgstr ""
+
+msgid "Select the display position for the icon."
+msgstr ""
+
+msgid "Icon Box Shadow?"
+msgstr ""
+
+msgid "Add a box-shadow to icon of button"
+msgstr ""
+
+msgid "Choose a custom color for icon."
+msgstr ""
+
+msgid "Choose a custom color for background of icon."
+msgstr ""
+
+msgid "Choose a custom color for icon when hover."
+msgstr ""
+
+msgid "Choose a custom color for background of icon when hover."
+msgstr ""
+
+msgid "Upload one image to make background for button."
+msgstr ""
+
+msgid "Add New Button"
+msgstr ""
+
+msgid "SLZ Category"
+msgstr ""
+
+msgid "Show list of category."
+msgstr ""
+
+msgid "-All "
+msgstr ""
+
+msgid "Choose category to show."
+msgstr ""
+
+msgid "Choose category."
+msgstr ""
+
+msgid "Choose Posttype"
+msgstr ""
+
+msgid "Choose posttype to filter category."
+msgstr ""
+
+msgid "Choose style to view category"
+msgstr ""
+
+msgid "Title. If it blank the slider will not have a title"
+msgstr ""
+
+msgid "Sort category list."
+msgstr ""
+
+msgid "Order Sort category."
+msgstr ""
+
+msgid ""
+"Enter number to display.If it blank  the number of category have default "
+"value"
+msgstr ""
+
+msgid "Offset "
+msgstr ""
+
+msgid ""
+"Enter offset to display. If you want to start on record 6, using offset 5"
+msgstr ""
+
+msgid "Add extra class to category"
+msgstr ""
+
+msgid "SLZ Contact Form 7"
+msgstr ""
+
+msgid "Create an block contain contact form 7"
+msgstr ""
+
+msgid "-None-"
+msgstr ""
+
+msgid "Choose Contact Form"
+msgstr ""
+
+msgid "Choose contact form to display."
+msgstr ""
+
+msgid "Box Shadow?"
+msgstr ""
+
+msgid "Add a box-shadow to contact form"
+msgstr ""
+
+msgid "Padding Top"
+msgstr ""
+
+msgid "Add padding top for contact form(Unit is px)"
+msgstr ""
+
+msgid "Padding Bottom"
+msgstr ""
+
+msgid "Add padding bottom for contact form(Unit is px)"
+msgstr ""
+
+msgid "Padding Right"
+msgstr ""
+
+msgid "Add padding right for contact form(Unit is px)"
+msgstr ""
+
+msgid "Padding Left"
+msgstr ""
+
+msgid "Add padding left for contact form(Unit is px)"
+msgstr ""
+
+msgid "Upload an background image for contact form."
+msgstr ""
+
+msgid "Choose background color for contact form."
+msgstr ""
+
+msgid "Add extra class to image"
+msgstr ""
+
+msgid "SLZ Contact"
+msgstr ""
+
+msgid "Contact information"
+msgstr ""
+
+msgid "Enter title for main information."
+msgstr ""
+
+msgid "Enter title for sub information"
+msgstr ""
+
+msgid "Choose number of column for this contact."
+msgstr ""
+
+msgid "Add Contact Info"
+msgstr ""
+
+msgid "Main Information"
+msgstr ""
+
+msgid "Sub Information"
+msgstr ""
+
+msgid "Add description for block"
+msgstr ""
+
+msgid "Add extra class for block"
+msgstr ""
+
+msgid "Main Info Color"
+msgstr ""
+
+msgid "Select color for main information."
+msgstr ""
+
+msgid "Main Info Background Color"
+msgstr ""
+
+msgid "Select background color for main information."
+msgstr ""
+
+msgid "Main Info Icon Color"
+msgstr ""
+
+msgid "Select color for main information icon."
+msgstr ""
+
+msgid "Sub Info Color"
+msgstr ""
+
+msgid "Select color for sub information."
+msgstr ""
+
+msgid "Sub Info Icon Color"
+msgstr ""
+
+msgid "Select color for sub information icon."
+msgstr ""
+
+msgid "Block Border Color"
+msgstr ""
+
+msgid "Select color for vertical separator between items.."
+msgstr ""
+
+msgid "Select background color for block."
+msgstr ""
+
+msgid "SLZ Count Down"
+msgstr ""
+
+msgid "Add Count Down with custom option."
+msgstr ""
+
+msgid "Time Release"
+msgstr ""
+
+msgid "Enter Time Release"
+msgstr ""
+
+msgid "Items Background Color"
+msgstr ""
+
+msgid "Select background color for items."
+msgstr ""
+
+msgid "Customs Css"
+msgstr ""
+
+msgid "Number Color"
+msgstr ""
+
+msgid "Select color for number."
+msgstr ""
+
+msgid "Select color for text under number."
+msgstr ""
+
+msgid "Colon Color"
+msgstr ""
+
+msgid "Select color for colon."
+msgstr ""
+
+msgid "Enter extra class name."
+msgstr ""
+
+msgid "Animation Color"
+msgstr ""
+
+msgid "Select color for Animation."
+msgstr ""
+
+msgid "SLZ Old Counter"
+msgstr ""
+
+msgid "Create counter block."
+msgstr ""
+
+msgid "Deprecated"
+msgstr ""
+
+msgid "Image Upload"
+msgstr ""
+
+msgid "Choose Type of Icon"
+msgstr ""
+
+msgid "Choose style to display block."
+msgstr ""
+
+msgid "Icon Settings"
+msgstr ""
+
+msgid "Font Awesome"
+msgstr ""
+
+msgid "Open Iconic"
+msgstr ""
+
+msgid "Typicons"
+msgstr ""
+
+msgid "Entypo"
+msgstr ""
+
+msgid "Linecons"
+msgstr ""
+
+msgid "Mono Social"
+msgstr ""
+
+msgid "Upload Image."
+msgstr ""
+
+msgid "Title. If it blank the will not have a number"
+msgstr ""
+
+msgid "Number Settings"
+msgstr ""
+
+msgid "Choose a custom color for number."
+msgstr ""
+
+msgid "Number Animation?"
+msgstr ""
+
+msgid "Add suffix"
+msgstr ""
+
+msgid "Add suffix for number"
+msgstr ""
+
+msgid "Show Line?"
+msgstr ""
+
+msgid "Show line under number"
+msgstr ""
+
+msgid " Block Alignment"
+msgstr ""
+
+msgid "SLZ Counter"
+msgstr ""
+
+msgid "Number Suffix"
+msgstr ""
+
+msgid "Choose number of columns to show"
+msgstr ""
+
+msgid "Block Alignment"
+msgstr ""
+
+msgid "Counter Items"
+msgstr ""
+
+msgid "List of counter items"
+msgstr ""
+
+msgid "Show Number Line?"
+msgstr ""
+
+msgid "Choose custom color for title."
+msgstr ""
+
+msgid "Choose custom color for number."
+msgstr ""
+
+msgid "Choose custom color for icon."
+msgstr ""
+
+msgid "Choose custom background color for icon."
+msgstr ""
+
+msgid "Line Color"
+msgstr ""
+
+msgid "Choose line custom color."
+msgstr ""
+
+msgid "SLZ Featured List"
+msgstr ""
+
+msgid "List of feature with info"
+msgstr ""
+
+msgid "Please input text of item"
+msgstr ""
+
+msgid "Choose style of feature list"
+msgstr ""
+
+msgid "Show number ? "
+msgstr ""
+
+msgid "If choose Yes, block will show number."
+msgstr ""
+
+msgid "Featured Items"
+msgstr ""
+
+msgid "List of Feature"
+msgstr ""
+
+msgid "Please input title of item"
+msgstr ""
+
+msgid "Please input description of item"
+msgstr ""
+
+msgid "Choose a custom color for text."
+msgstr ""
+
+msgid "Choose a custom color for description."
+msgstr ""
+
+msgid "Choose a custom color for background."
+msgstr ""
+
+msgid "Choose a custom color for border."
+msgstr ""
+
+msgid "Background Image."
+msgstr ""
+
+msgid "SLZ Icon Box"
+msgstr ""
+
+msgid "Icon Box of info"
+msgstr ""
+
+msgid "Horizontal"
+msgstr ""
+
+msgid "Vertical"
+msgstr ""
+
+msgid "View"
+msgstr ""
+
+msgid "Choose position of icon box"
+msgstr ""
+
+msgid "Choose icon color."
+msgstr ""
+
+msgid "Choose icon hover color."
+msgstr ""
+
+msgid "Choose icon background color."
+msgstr ""
+
+msgid "Choose icon background hover color."
+msgstr ""
+
+msgid "Upload image."
+msgstr ""
+
+msgid "Choose a custom description text color."
+msgstr ""
+
+msgid "Button Text. If it blank the block will not have a button"
+msgstr ""
+
+msgid "Choose a custom button text color."
+msgstr ""
+
+msgid "Choose a custom button background color."
+msgstr ""
+
+msgid "Please input button link and button info."
+msgstr ""
+
+msgid "Icon Box - Items"
+msgstr ""
+
+msgid "List of icon box"
+msgstr ""
+
+msgid "Image Hover Color"
+msgstr ""
+
+msgid "Choose background color for image when hover."
+msgstr ""
+
+msgid "1 image or 1 Icon"
+msgstr ""
+
+msgid "Multi image and Icon"
+msgstr ""
+
+msgid "Large"
+msgstr ""
+
+msgid "Post Thumbnail"
+msgstr ""
+
+msgid "SLZ Image Carousel"
+msgstr ""
+
+msgid "Slider of upload image"
+msgstr ""
+
+msgid "Show Mobile Image"
+msgstr ""
+
+msgid "Choose if want to show mobile image or not."
+msgstr ""
+
+msgid "Upload mobile image"
+msgstr ""
+
+msgid "Image Options"
+msgstr ""
+
+msgid "Choose image size to show"
+msgstr ""
+
+msgid "Image Slider"
+msgstr ""
+
+msgid "Choose image to add to slider."
+msgstr ""
+
+msgid "Input a URL to redirect the website to it when user click on the image."
+msgstr ""
+
+msgid "Slide to Show"
+msgstr ""
+
+msgid "Choose number of item show."
+msgstr ""
+
+msgid "Choose if want to show arrow or not."
+msgstr ""
+
+msgid "Custom Color"
+msgstr ""
+
+msgid "SLZ Image"
+msgstr ""
+
+msgid "Create an image with multiple custom."
+msgstr ""
+
+msgid "Default"
+msgstr ""
+
+msgid "Relative"
+msgstr ""
+
+msgid "0.5 s"
+msgstr ""
+
+msgid "1 s"
+msgstr ""
+
+msgid "1.5 s"
+msgstr ""
+
+msgid "2 s"
+msgstr ""
+
+msgid "Upload an image."
+msgstr ""
+
+msgid "Image Position"
+msgstr ""
+
+msgid ""
+"if you choose \"relative\" you can custom top,left,right,bottom for image"
+msgstr ""
+
+msgid "Margin Top"
+msgstr ""
+
+msgid "Unit is px ( ex:50 )"
+msgstr ""
+
+msgid "Margin Bottom"
+msgstr ""
+
+msgid "Margin Right"
+msgstr ""
+
+msgid "Margin left"
+msgstr ""
+
+msgid "Image Animation"
+msgstr ""
+
+msgid "Add animation for image"
+msgstr ""
+
+msgid "Delay Time"
+msgstr ""
+
+msgid "Choose delay time for animation"
+msgstr ""
+
+msgid "SLZ Info Box"
+msgstr ""
+
+msgid "Information Box"
+msgstr ""
+
+msgid "Show Icon or Show Image"
+msgstr ""
+
+msgid "Upload your image"
+msgstr ""
+
+msgid "Please input information"
+msgstr ""
+
+msgid "Information Color"
+msgstr ""
+
+msgid "Choose a custom color for information."
+msgstr ""
+
+msgid "SLZ Item List"
+msgstr ""
+
+msgid "list of text info"
+msgstr ""
+
+msgid "Text Info"
+msgstr ""
+
+msgid "Please input text to show."
+msgstr ""
+
+msgid "Choose a custom text color."
+msgstr ""
+
+msgid "Add New Item"
+msgstr ""
+
+msgid "Set color for all item."
+msgstr ""
+
+msgid ""
+"Please input margin top between items. Exp: If want to margin 8px then input "
+"8"
+msgstr ""
+
+msgid ""
+"Please input margin bottom between items. Exp: If want to margin 8px then "
+"input 8"
+msgstr ""
+
+msgid "SLZ Main Title"
+msgstr ""
+
+msgid "Main Title"
+msgstr ""
+
+msgid "Choose style to display."
+msgstr ""
+
+msgid "Sub Title"
+msgstr ""
+
+msgid "Subtitle . If it blank will not have a subtitle"
+msgstr ""
+
+msgid "Block title align"
+msgstr ""
+
+msgid "Extra Title"
+msgstr ""
+
+msgid "Subtitle . If it blank will not have a extra title"
+msgstr ""
+
+msgid "Sub Title Color"
+msgstr ""
+
+msgid "Choose a custom color for sub title."
+msgstr ""
+
+msgid "Display None"
+msgstr ""
+
+msgid "Extra Title Color"
+msgstr ""
+
+msgid "Choose a custom color for extra title."
+msgstr ""
+
+msgid "CSS box"
+msgstr ""
+
+msgid "Design Options"
+msgstr ""
+
+msgid "SLZ Map"
+msgstr ""
+
+msgid "Map data from google map"
+msgstr ""
+
+msgid "Enter title for this session."
+msgstr ""
+
+msgid "Contact Information"
+msgstr ""
+
+msgid "Enter Address."
+msgstr ""
+
+msgid "Add New Information"
+msgstr ""
+
+msgid "Add New Place"
+msgstr ""
+
+msgid "Show Block Information?"
+msgstr ""
+
+msgid "Show/Hide block information next to map."
+msgstr ""
+
+msgid "Contact Form ID"
+msgstr ""
+
+msgid "Add shortcode id of contact form 7 plugin"
+msgstr ""
+
+msgid "Map Height"
+msgstr ""
+
+msgid "Unit is px (ex:200)"
+msgstr ""
+
+msgid "Map Marker Image"
+msgstr ""
+
+msgid "Map Setting"
+msgstr ""
+
+msgid "Zoom"
+msgstr ""
+
+msgid ""
+"Enter zoom number of map. Number between 0 (farthest) and 22 that sets the "
+"zoom level of the map."
+msgstr ""
+
+msgid "Select color for title."
+msgstr ""
+
+msgid "Information  Color"
+msgstr ""
+
+msgid "Select color for contact information."
+msgstr ""
+
+msgid "Select color for horizontal separator betwen items."
+msgstr ""
+
+msgid "SLZ Material Download"
+msgstr ""
+
+msgid "List of files to download."
+msgstr ""
+
+msgid "Material Download title. If it blank the block will not have a title"
+msgstr ""
+
+msgid "SLZ Newsletter"
+msgstr ""
+
+msgid "Extend from plugin newsletter"
+msgstr ""
+
+msgid "Please input title if want to show."
+msgstr ""
+
+msgid "Please input descripton if want to show."
+msgstr ""
+
+msgid "Show Input Name?"
+msgstr ""
+
+msgid "Choose if want to show input name."
+msgstr ""
+
+msgid "Name Input Place Holder"
+msgstr ""
+
+msgid "Enter place holder for input"
+msgstr ""
+
+msgid "Email Input Place Holder"
+msgstr ""
+
+msgid "Email Address"
+msgstr ""
+
+msgid "Text Button Submit"
+msgstr ""
+
+msgid "Get Notified"
+msgstr ""
+
+msgid "Enter text for button submit."
+msgstr ""
+
+msgid "Choose color for title."
+msgstr ""
+
+msgid "Choose color for description."
+msgstr ""
+
+msgid "Input Text Color"
+msgstr ""
+
+msgid "Choose color for input text."
+msgstr ""
+
+msgid "Choose background color for button."
+msgstr ""
+
+msgid "Choose background color for button when hover."
+msgstr ""
+
+msgid "Choose border color for button."
+msgstr ""
+
+msgid "Choose border color for button when hover."
+msgstr ""
+
+msgid "SLZ Pageable Container"
+msgstr ""
+
+msgid "Custom pageable content container."
+msgstr ""
+
+msgid "Section"
+msgstr ""
+
+msgid "Please enter margin bottom of block (ex: 12px)."
+msgstr ""
+
+msgid "Please enter your extra class."
+msgstr ""
+
+msgid "Please active Visual Composer plugin to use this shortcode."
+msgstr ""
+
+msgid "Please Active Plugin Visual Composer"
+msgstr ""
+
+msgid "SLZ Partner"
+msgstr ""
+
+msgid "List of partner"
+msgstr ""
+
+msgid "Style Grid"
+msgstr ""
+
+msgid "Style Carousel"
+msgstr ""
+
+msgid "Carousel Custom"
+msgstr ""
+
+msgid "Color Custom"
+msgstr ""
+
+msgid "Seven"
+msgstr ""
+
+msgid "Eight"
+msgstr ""
+
+msgid "Is Padding ?"
+msgstr ""
+
+msgid "Choose YES to block is padding."
+msgstr ""
+
+msgid "List of Partner"
+msgstr ""
+
+msgid "Enter title of block"
+msgstr ""
+
+msgid "Item Image"
+msgstr ""
+
+msgid "Upload Image. Recommend uploading the pictures the same size."
+msgstr ""
+
+msgid "Item Link"
+msgstr ""
+
+msgid "Enter link of item."
+msgstr ""
+
+msgid "Please choose another style to show"
+msgstr ""
+
+msgid "SLZ Posts Block"
+msgstr ""
+
+msgid "Show posts with layouts"
+msgstr ""
+
+msgid "London"
+msgstr ""
+
+msgid "Harrogate"
+msgstr ""
+
+msgid "Leeds"
+msgstr ""
+
+msgid "Milan"
+msgstr ""
+
+msgid "Rome"
+msgstr ""
+
+msgid "Cascina"
+msgstr ""
+
+msgid "Layouts"
+msgstr ""
+
+msgid "Choose main layout to show"
+msgstr ""
+
+msgid "Main Layout"
+msgstr ""
+
+msgid "Show Excerpt?"
+msgstr ""
+
+msgid "Choose if want to show excerpt"
+msgstr ""
+
+msgid "Choose list layout to show"
+msgstr ""
+
+msgid "List Layout"
+msgstr ""
+
+msgid "Choose number of column."
+msgstr ""
+
+msgid "Show Feature Image?"
+msgstr ""
+
+msgid "Choose if want to show feature image"
+msgstr ""
+
+msgid "Show Left and Right layout?"
+msgstr ""
+
+msgid "Choose if want to show left and right layout"
+msgstr ""
+
+msgid "Number Posts"
+msgstr ""
+
+msgid ""
+"The number of posts to display. If it blank the number posts will be the "
+"number from Settings -> Reading"
+msgstr ""
+
+msgid "Choose criteria to display."
+msgstr ""
+
+msgid "Excerpt Length"
+msgstr ""
+
+msgid "Enter number of excerpt length"
+msgstr ""
+
+msgid "Button \"Read More\" Text"
+msgstr ""
+
+msgid "Enter text for button \"read more\""
+msgstr ""
+
+msgid "SLZ Posts Carousel"
+msgstr ""
+
+msgid "Block Carousel of posts"
+msgstr ""
+
+msgid "Brazil"
+msgstr ""
+
+msgid "Germany"
+msgstr ""
+
+msgid "Choose a layout to show."
+msgstr ""
+
+msgid "One Column"
+msgstr ""
+
+msgid "Two Column"
+msgstr ""
+
+msgid "Three Column"
+msgstr ""
+
+msgid "Four Column"
+msgstr ""
+
+msgid "Choose a column for display block."
+msgstr ""
+
+msgid "Show Excerpt"
+msgstr ""
+
+msgid "Show or hide post excerpt"
+msgstr ""
+
+msgid "Input number of excerpt length."
+msgstr ""
+
+msgid "Show Readmore Button"
+msgstr ""
+
+msgid "Show or hide readmore button"
+msgstr ""
+
+msgid "SLZ Posts Grid"
+msgstr ""
+
+msgid "Grid of posts"
+msgstr ""
+
+msgid "Position"
+msgstr ""
+
+msgid "Choose layout position."
+msgstr ""
+
+msgid "SLZ Posts Mansory"
+msgstr ""
+
+msgid "Post with mansory layout"
+msgstr ""
+
+msgid "SLZ Pricing Box"
+msgstr ""
+
+msgid "Box of pricing info"
+msgstr ""
+
+msgid "Number of Pricing Box"
+msgstr ""
+
+msgid "Choose number of pricing box to display"
+msgstr ""
+
+msgid "Pricing Box %s"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Choose yes if you want it show as active."
+msgstr ""
+
+msgid "Choose active background color."
+msgstr ""
+
+msgid "Mark Label"
+msgstr ""
+
+msgid "Please input mark label."
+msgstr ""
+
+msgid "Label Text Color"
+msgstr ""
+
+msgid "Choose label text color."
+msgstr ""
+
+msgid "Label Background Color"
+msgstr ""
+
+msgid "Choose label background color."
+msgstr ""
+
+msgid "Please input box title."
+msgstr ""
+
+msgid "Choose title color."
+msgstr ""
+
+msgid "Unit"
+msgstr ""
+
+msgid "Enter measurement units. Example: $, GBP, EUR, etc."
+msgstr ""
+
+msgid "Please input price number."
+msgstr ""
+
+msgid "Price Color"
+msgstr ""
+
+msgid "Choose price color."
+msgstr ""
+
+msgid "Separate"
+msgstr ""
+
+msgid "Please input separte. Exp: /, : "
+msgstr ""
+
+msgid "Price Subfix"
+msgstr ""
+
+msgid "Please input price subfix. Exp: Month, Hour,.."
+msgstr ""
+
+msgid "Price Subfix Color"
+msgstr ""
+
+msgid "Choose price subfix color."
+msgstr ""
+
+msgid "Please input sub title."
+msgstr ""
+
+msgid "Choose sub title color."
+msgstr ""
+
+msgid "Features"
+msgstr ""
+
+msgid "Feature Item"
+msgstr ""
+
+msgid "Please input feature item."
+msgstr ""
+
+msgid "Feature Item Color"
+msgstr ""
+
+msgid "Choose feature item color."
+msgstr ""
+
+msgid "Please input button text."
+msgstr ""
+
+msgid "Choose button link and info."
+msgstr ""
+
+msgid "Choose button text color."
+msgstr ""
+
+msgid "Choose button background color."
+msgstr ""
+
+msgid "Choose button border color."
+msgstr ""
+
+msgid "SLZ Progress Bar"
+msgstr ""
+
+msgid "Bar of progress percent"
+msgstr ""
+
+msgid "List of Progress Bar"
+msgstr ""
+
+msgid "Number show"
+msgstr ""
+
+msgid ""
+"Please input percent of progress bar, Exp: if you want to show 80, please "
+"input 80, maximum number is 100"
+msgstr ""
+
+msgid "Progress Bar Color"
+msgstr ""
+
+msgid "Choose a custom progress bar color."
+msgstr ""
+
+msgid "Percent Color"
+msgstr ""
+
+msgid "Choose a custom percent text color."
+msgstr ""
+
+msgid "Marker Color"
+msgstr ""
+
+msgid "Choose a custom marker color."
+msgstr ""
+
+msgid "Choose number of columns to show."
+msgstr ""
+
+msgid "Line Width"
+msgstr ""
+
+msgid "Line Width. If it blank the block will not have line width"
+msgstr ""
+
+msgid "Track Width"
+msgstr ""
+
+msgid "Track Width. If it blank the block will not have track width"
+msgstr ""
+
+msgid "Track Circle Color"
+msgstr ""
+
+msgid "Choose a custom track circle color."
+msgstr ""
+
+msgid ""
+"Enter measurement units (Example: %, px, points, etc. Note: graph value and "
+"units will be appended to graph title)."
+msgstr ""
+
+msgid "SLZ Tabs"
+msgstr ""
+
+msgid "Tab"
+msgstr ""
+
+msgid "Align Left"
+msgstr ""
+
+msgid "Align Center"
+msgstr ""
+
+msgid "Align Right"
+msgstr ""
+
+msgid "Add an image to show on tab."
+msgstr ""
+
+msgid "Choose style for tab."
+msgstr ""
+
+msgid "Tab Align"
+msgstr ""
+
+msgid "Choose tab align for tab."
+msgstr ""
+
+msgid "Tab Color"
+msgstr ""
+
+msgid "Choose a custom tab text color."
+msgstr ""
+
+msgid "Choose a custom active tab text color."
+msgstr ""
+
+msgid "SLZ Tags"
+msgstr ""
+
+msgid "List of tags"
+msgstr ""
+
+msgid "Please input number of tags to show"
+msgstr ""
+
+msgid "Tag - Text Color"
+msgstr ""
+
+msgid "Choose a custom color for tag text."
+msgstr ""
+
+msgid "Tag - Text Hover Color"
+msgstr ""
+
+msgid "Choose a custom color for tag text hover."
+msgstr ""
+
+msgid "Tag - Background Color"
+msgstr ""
+
+msgid "Choose a custom color for tag background."
+msgstr ""
+
+msgid "Tag - Background Hover Color"
+msgstr ""
+
+msgid "Choose a custom color for tag background hover."
+msgstr ""
+
+msgid "SLZ Timeline"
+msgstr ""
+
+msgid "Timeline of events"
+msgstr ""
+
+msgid "Add info to timeline"
+msgstr ""
+
+msgid "Timeline"
+msgstr ""
+
+msgid "Timeline. If it blank the will not have timeline"
+msgstr ""
+
+msgid "Timeline Color"
+msgstr ""
+
+msgid "Choose a custom color for timeline."
+msgstr ""
+
+msgid "Please input link to timeline."
+msgstr ""
+
+msgid "Description. If it blank the will not have a description"
+msgstr ""
+
+msgid "Milestone Point"
+msgstr ""
+
+msgid "Choose a custom color for milestone point."
+msgstr ""
+
+msgid "Timeline Line"
+msgstr ""
+
+msgid "Choose a custom color for timeline line."
+msgstr ""
+
+msgid "SLZ Video Carousel"
+msgstr ""
+
+msgid "Show list of video as carousel"
+msgstr ""
+
+msgid "Youtube"
+msgstr ""
+
+msgid "Vimeo"
+msgstr ""
+
+msgid "Add Title for shortcode Video Carousel"
+msgstr ""
+
+msgid "Add Video"
+msgstr ""
+
+msgid "Type Of Video"
+msgstr ""
+
+msgid "Youtube ID"
+msgstr ""
+
+msgid ""
+"Example the Video ID for http://www.youtube.com/v/8OBfr46Y0cQ is 8OBfr46Y0cQ"
+msgstr ""
+
+msgid "Vimeo ID"
+msgstr ""
+
+msgid "Example the Video ID for http://vimeo.com/86323053 is 86323053"
+msgstr ""
+
+msgid "SLZ Video"
+msgstr ""
+
+msgid "Create video block."
+msgstr ""
+
+msgid "Add Video Background Image"
+msgstr ""
+
+msgid "Choose background image to add."
+msgstr ""
+
+msgid "Video height"
+msgstr ""
+
+msgid ""
+"Set height for video. Example: 75% - means video height by 75% video width."
+msgstr ""
+
+msgid "Video Title"
+msgstr ""
+
+msgid "Set title for video."
+msgstr ""
+
+msgid "Description for this video."
+msgstr ""
+
+msgid "Video Type"
+msgstr ""
+
+msgid "Choose Type of Video."
+msgstr ""
+
+msgid "Choose align for video box"
+msgstr ""
+
+msgid ""
+"Example: the Video ID for https://www.youtube.com/watch?v=PDWvcsTloJo is "
+msgstr ""
+
+msgid "Example: the Video ID for https://vimeo.com/162913890 is "
+msgstr ""
+
+msgid "Fans"
+msgstr ""
+
+msgid "Follow"
+msgstr ""
+
+msgid "Followers"
+msgstr ""
+
+msgid "Likes"
+msgstr ""
+
+msgid "Subscribe"
+msgstr ""
+
+msgid "Subscribers"
+msgstr ""
+
+msgid "Social Counter"
+msgstr ""
+
+msgid ""
+"Get the total count of fans and followers from your social network profiles."
+msgstr ""
+
+msgid "Facebook APP ID"
+msgstr ""
+
+msgid "ID of your facebook application"
+msgstr ""
+
+msgid "Facebook APP SECRET ID"
+msgstr ""
+
+msgid "Secret ID of your facebook application"
+msgstr ""
+
+msgid "Twitter ACCESS TOKEN"
+msgstr ""
+
+msgid "Access token of your twitter"
+msgstr ""
+
+msgid "Twitter ACCESS TOKEN SECRET"
+msgstr ""
+
+msgid "Access token secret of your twitter"
+msgstr ""
+
+msgid "Twitter CUSTOMER KEY"
+msgstr ""
+
+msgid "Customer key of your twitter"
+msgstr ""
+
+msgid "Twitter CUSTOMER SECRET"
+msgstr ""
+
+msgid "Customer secret of your twitter"
+msgstr ""
+
+msgid "SLZ Social Counter"
+msgstr ""
+
+msgid "Choose a style for display."
+msgstr ""
+
+msgid "Facebook User:"
+msgstr ""
+
+msgid "Twitter User:"
+msgstr ""
+
+msgid "Google Plus ID:"
+msgstr ""
+
+msgid "Instagram User:"
+msgstr ""
+
+msgid "Vimeo ID:"
+msgstr ""
+
+msgid "Soundcloud User:"
+msgstr ""
+
+msgid "slz_social_counter"
+msgstr ""
+
+msgid "SLZ: Social Counter"
+msgstr ""
+
+msgid "Social counter."
+msgstr ""
+
+msgid "Title:"
+msgstr ""
+
+msgid ""
+"Optional - a title for this block, if you leave it blank the block will not "
+"have a title"
+msgstr ""
+
+msgid "Style:"
+msgstr ""
+
+msgid "Team base"
+msgstr ""
+
+msgid "Teams category base"
+msgstr ""
+
+msgid "Create a team item"
+msgstr ""
+
+msgid "Team %s"
+msgstr ""
+
+msgid "Other"
+msgstr ""
+
+msgid "Add icon for team"
+msgstr ""
+
+msgid "Album Images"
+msgstr ""
+
+msgid " of social."
+msgstr ""
+
+msgid "Postition of team."
+msgstr ""
+
+msgid "Phone of team."
+msgstr ""
+
+msgid "Email of team."
+msgstr ""
+
+msgid "Skype"
+msgstr ""
+
+msgid "Skype of team."
+msgstr ""
+
+msgid "Short description"
+msgstr ""
+
+msgid "Short description of team. Display on Team List shortcode"
+msgstr ""
+
+msgid ""
+"Description of team. Only display on Team List shortcode - Layout Carousel."
+msgstr ""
+
+msgid "Quote"
+msgstr ""
+
+msgid "Quote of team."
+msgstr ""
+
+msgid "Team Options"
+msgstr ""
+
+msgid "Postition"
+msgstr ""
+
+msgid "Phone Number: "
+msgstr ""
+
+msgid "Email: "
+msgstr ""
+
+msgid "contact information"
+msgstr ""
+
+msgid "This extension use add to teams."
+msgstr ""
+
+msgid "SLZ Team Carousel"
+msgstr ""
+
+msgid "List of team"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "Is Animation ?"
+msgstr ""
+
+msgid "Choose ON to enable Slide animation."
+msgstr ""
+
+msgid "Show Quote ?"
+msgstr ""
+
+msgid "If choose Yes, block will be show quote."
+msgstr ""
+
+msgid "Quote Color"
+msgstr ""
+
+msgid "Choose color for quote text."
+msgstr ""
+
+msgid "Quote Icon Color"
+msgstr ""
+
+msgid "Choose color for quote icon."
+msgstr ""
+
+msgid "Carousel Navigation Arrow Color"
+msgstr ""
+
+msgid "Choose color arrow for slide."
+msgstr ""
+
+msgid "Carousel Navigation Arrow Color Hover"
+msgstr ""
+
+msgid "Choose color arrow for slide when hover."
+msgstr ""
+
+msgid "Carousel Navigation Arrow Background Color"
+msgstr ""
+
+msgid "Choose background color arrow for slide."
+msgstr ""
+
+msgid "Carousel Navigation Arrow Background Color Hover"
+msgstr ""
+
+msgid "Choose background color arrow for slide when hover."
+msgstr ""
+
+msgid "-All Team-"
+msgstr ""
+
+msgid "-All Team Categories-"
+msgstr ""
+
+msgid "Choose team category or special teams to display"
+msgstr ""
+
+msgid "Choose Team Category."
+msgstr ""
+
+msgid "Add Team"
+msgstr ""
+
+msgid "Choose special team to show"
+msgstr ""
+
+msgid ""
+"Default display All Team if no team is selected and Number team is empty."
+msgstr ""
+
+msgid "Show Thumbnail ?"
+msgstr ""
+
+msgid "If choose Yes, block will be show thumbnail image."
+msgstr ""
+
+msgid "Show Position ?"
+msgstr ""
+
+msgid "If choose Yes, block will be show position."
+msgstr ""
+
+msgid "Show Contact Info ?"
+msgstr ""
+
+msgid "If choose Yes, block will show contact info."
+msgstr ""
+
+msgid "Show Social ?"
+msgstr ""
+
+msgid "If choose Yes, block will be show social."
+msgstr ""
+
+msgid "Enter text to button. If it blank will not have a button."
+msgstr ""
+
+msgid "Position Color"
+msgstr ""
+
+msgid "Choose color position for block."
+msgstr ""
+
+msgid "Info Color"
+msgstr ""
+
+msgid "Choose color for contact info."
+msgstr ""
+
+msgid "Info Hover Color"
+msgstr ""
+
+msgid "Choose hover color for contact info."
+msgstr ""
+
+msgid "Choose color social for block."
+msgstr ""
+
+msgid "Social Color Hover"
+msgstr ""
+
+msgid "Choose color social for block when hover."
+msgstr ""
+
+msgid "view profile"
+msgstr ""
+
+msgid "SLZ Team List"
+msgstr ""
+
+msgid "SLZ Team Tab"
+msgstr ""
+
+msgid "List of team in tab panel"
+msgstr ""
+
+msgid " Info Settings"
+msgstr ""
+
+msgid "Category Active Color"
+msgstr ""
+
+msgid "Choose the color for the active category."
+msgstr ""
+
+msgid "No default view (views/view.php) found for template: %s"
+msgstr ""
+
+msgid "template \"%s\" from %s was already defined at %s"
+msgstr ""
+
+msgid "Class file found for template %s but no class %s found"
+msgstr ""
+
+msgid "The class %s must extend from WP_Template"
+msgstr ""
+
+msgid "Template Post Format Audio"
+msgstr ""
+
+msgid "Template Post Format Gallery"
+msgstr ""
+
+msgid "Template Post Format Quote"
+msgstr ""
+
+msgid "Template Post Format Standard"
+msgstr ""
+
+msgid "Template Ribbon Format"
+msgstr ""
+
+msgid "Ribbon format"
+msgstr ""
+
+msgid "Testimonial base"
+msgstr ""
+
+msgid "Testimonials category base"
+msgstr ""
+
+msgid "Testimonial"
+msgstr ""
+
+msgid "Testimonials"
+msgstr ""
+
+msgid "Create a testimonial item"
+msgstr ""
+
+msgid "Testimonial %s"
+msgstr ""
+
+msgid "Choose testimonial icon"
+msgstr ""
+
+msgid ""
+"Choose a thumbnail for testimonial. Images should have minimum size: "
+"350x350. Bigger size images will be cropped automatically."
+msgstr ""
+
+msgid "Postition of testimonial."
+msgstr ""
+
+msgid "Ratings"
+msgstr ""
+
+msgid "Testimonial Options"
+msgstr ""
+
+msgid "This extension use add to testimonials."
+msgstr ""
+
+msgid "SLZ Testimonial"
+msgstr ""
+
+msgid "Slider of testimonials"
+msgstr ""
+
+msgid "Show Ratings?"
+msgstr ""
+
+msgid "If choose Yes, block will be show ratings."
+msgstr ""
+
+msgid "Please choose quote icon color"
+msgstr ""
+
+msgid "-All Testimonial-"
+msgstr ""
+
+msgid "-All Testimonial Categories-"
+msgstr ""
+
+msgid "Shortcode Title"
+msgstr ""
+
+msgid "Shortcode Title Color"
+msgstr ""
+
+msgid "Avatar Image"
+msgstr ""
+
+msgid "Show Feature Image"
+msgstr ""
+
+msgid "Show Thumbnail Image"
+msgstr ""
+
+msgid "Select image type for Avatar."
+msgstr ""
+
+msgid "Addition Image"
+msgstr ""
+
+msgid "Select image for image above title."
+msgstr ""
+
+msgid "Choose testimonial category or special testimonials to display"
+msgstr ""
+
+msgid "Choose Testimonial Category."
+msgstr ""
+
+msgid "Add Testimonial"
+msgstr ""
+
+msgid "Choose special testimonial to show"
+msgstr ""
+
+msgid ""
+"Default display All Testimonial if no testimonial is selected and Number "
+"testimonial is empty."
+msgstr ""
+
+msgid "Please choose title color"
+msgstr ""
+
+msgid "Please choose position color"
+msgstr ""
+
+msgid "Please choose description color"
+msgstr ""
+
+msgid "Please choose icon color"
+msgstr ""
+
+msgid "Please choose dots color"
+msgstr ""
+
+msgid "Please choose arrows color"
+msgstr ""
+
+msgid "Please choose arrows background  color"
+msgstr ""
+
+msgid "Class file found fortop post %s but no class %s found"
+msgstr ""
+
+msgid "The class %s must extend from WP_Top_Post"
+msgstr ""
+
+msgid "Top Post 00"
+msgstr ""
+
+msgid "Top Post 01"
+msgstr ""
+
+msgid "Top Post 02"
+msgstr ""
+
+msgid "Top Post 03"
+msgstr ""
+
+msgid "Top Post 04"
+msgstr ""
+
+msgid "Top Post 05"
+msgstr ""
+
+msgid "Top Post 06"
+msgstr ""
+
+msgid "Top Post 07"
+msgstr ""
+
+msgid "Cannot delete: "
+msgstr ""
+
+msgid "Cannot create: "
+msgstr ""
+
+msgid "Cannot remove old temporary directory: "
+msgstr ""
+
+msgid "Cannot create directory: "
+msgstr ""
+
+msgid "Downloading the %s..."
+msgstr ""
+
+msgid "Cannot download the %s."
+msgstr ""
+
+msgid "Installing the %s..."
+msgstr ""
+
+msgid "Cannot access directory: "
+msgstr ""
+
+msgid "Cannot remove: "
+msgstr ""
+
+msgid "Cannot move \"%s\" to \"%s\""
+msgstr ""
+
+msgid "Cannot merge \"%s\" with \"%s\""
+msgstr ""
+
+msgid "The %s has been successfully updated."
+msgstr ""
+
+msgid "Cannot remove temporary directory \"%s\"."
+msgstr ""
+
+msgid "Framework Update"
+msgstr ""
+
+msgid "Failed to get framework latest version."
+msgstr ""
+
+msgid "Theme Update"
+msgstr ""
+
+msgid "Failed to get theme latest version."
+msgstr ""
+
+msgid "Theme"
+msgstr ""
+
+msgid "Please check the extensions you want to update."
+msgstr ""
+
+msgid "Extensions Update"
+msgstr ""
+
+msgid "No extensions updates found."
+msgstr ""
+
+msgid "Extension \"%s\" does not exist or is disabled."
+msgstr ""
+
+msgid "No update found for the \"%s\" extension."
+msgstr ""
+
+msgid "%s extension"
+msgstr ""
+
+msgid "New extensions updates available. %s"
+msgstr ""
+
+msgid "Go to Updates page"
+msgstr ""
+
+msgid "No releases found in repository \"%s\"."
+msgstr ""
+
+msgid ""
+"%s manifest has invalid \"github_update\" parameter. Please use \"user/repo"
+"\" format."
+msgstr ""
+
+msgid "Failed to fetch %s latest version from github \"%s\"."
+msgstr ""
+
+msgid "%s github repository \"%s\" does not have the \"%s\" release."
+msgstr ""
+
+msgid "Cannot download %s zip."
+msgstr ""
+
+msgid "Cannot save %s zip."
+msgstr ""
+
+msgid "Cannot remove %s zip."
+msgstr ""
+
+msgid "The unzipped %s directory not found."
+msgstr ""
+
+msgid "Select All"
+msgstr ""
+
+msgid "You have version %s installed. Update to %s."
+msgstr ""
+
+msgid "No Extensions for update."
+msgstr ""
+
+msgid "Go to updates page"
+msgstr ""
+
+msgid "Return to Updates page"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Keep you framework, extensions and theme up to date."
+msgstr ""
+
+msgid "You have the latest version of %s."
+msgstr ""
+
+msgid "Update Framework"
+msgstr ""
+
+msgid "Your theme is up to date."
+msgstr ""
+
+msgid "Update Theme"
+msgstr ""
+
+msgid "%s Extensions"
+msgstr ""
+
+msgid "You have the latest version of %s Extensions."
+msgstr ""
+
+msgid "Update Extensions"
+msgstr ""
+
+msgid "New extensions updates available."
+msgstr ""
+
+msgid "Widgets"
+msgstr ""
+
+msgid "widget \"%s\" from %s was already defined at %s"
+msgstr ""
+
+msgid "Class file found for widget %s but no class %s found"
+msgstr ""
+
+msgid "The class %s must extend from WP_Widget"
+msgstr ""
+
+msgid "about-me"
+msgstr ""
+
+msgid "SLZ: About Me"
+msgstr ""
+
+msgid "About me block."
+msgstr ""
+
+msgid "About Me"
+msgstr ""
+
+msgid "Avatar:"
+msgstr ""
+
+msgid "Social Profile : "
+msgstr ""
+
+msgid "slz_about_us"
+msgstr ""
+
+msgid "SLZ: About Us"
+msgstr ""
+
+msgid "A block information about us."
+msgstr ""
+
+msgid "Choose Type of Title"
+msgstr ""
+
+msgid "Logo Image"
+msgstr ""
+
+msgid "Logo:"
+msgstr ""
+
+msgid "ads-banner"
+msgstr ""
+
+msgid "SLZ: Ads Banner"
+msgstr ""
+
+msgid "Show ads banner."
+msgstr ""
+
+msgid "Ads Banner"
+msgstr ""
+
+msgid "Choose Adspot"
+msgstr ""
+
+msgid "category"
+msgstr ""
+
+msgid "SLZ: Categories"
+msgstr ""
+
+msgid "A list of categories."
+msgstr ""
+
+msgid "Choose Style"
+msgstr ""
+
+msgid "Style 3"
+msgstr ""
+
+msgid "Category:"
+msgstr ""
+
+msgid "Choose category to show"
+msgstr ""
+
+msgid "slz_contact_form"
+msgstr ""
+
+msgid "SLZ: Contact Form"
+msgstr ""
+
+msgid "A block contact form."
+msgstr ""
+
+msgid "Background Color:"
+msgstr ""
+
+msgid "Choose a custom background color for this block"
+msgstr ""
+
+msgid "Contact us"
+msgstr ""
+
+msgid "slz_contact"
+msgstr ""
+
+msgid "SLZ: Contact"
+msgstr ""
+
+msgid "A block contact information."
+msgstr ""
+
+msgid "Address Title"
+msgstr ""
+
+msgid "Phone Title"
+msgstr ""
+
+msgid "Mail Title"
+msgstr ""
+
+msgid "Website Title"
+msgstr ""
+
+msgid "slz_custom_post"
+msgstr ""
+
+msgid "SLZ: Custom Posts"
+msgstr ""
+
+msgid "A list of posts from custom post type"
+msgstr ""
+
+msgid "Recruiment"
+msgstr ""
+
+msgid "material-download"
+msgstr ""
+
+msgid "SLZ: Material Download"
+msgstr ""
+
+msgid "Material Download Widget."
+msgstr ""
+
+msgid "Title Widget"
+msgstr ""
+
+msgid "Add Attachment"
+msgstr ""
+
+msgid "Your Name"
+msgstr ""
+
+msgid "Style 01"
+msgstr ""
+
+msgid "Style 02"
+msgstr ""
+
+msgid "Description:"
+msgstr ""
+
+msgid "Enter description to display on newsletter form."
+msgstr ""
+
+msgid "Email Placeholder:"
+msgstr ""
+
+msgid "Show Field Name:"
+msgstr ""
+
+msgid "Name Placeholder:"
+msgstr ""
+
+msgid "Button Text:"
+msgstr ""
+
+msgid "slz_post_block"
+msgstr ""
+
+msgid "SLZ: Post Block"
+msgstr ""
+
+msgid "Show post with layouts"
+msgstr ""
+
+msgid "Display Post Date"
+msgstr ""
+
+msgid "Display Author"
+msgstr ""
+
+msgid "Display View"
+msgstr ""
+
+msgid "Display Comment"
+msgstr ""
+
+msgid "Layout 1"
+msgstr ""
+
+msgid "Layout 2"
+msgstr ""
+
+msgid "Number Post"
+msgstr ""
+
+msgid "slz_post_slider"
+msgstr ""
+
+msgid "SLZ: Post Slider"
+msgstr ""
+
+msgid "Show post with slider"
+msgstr ""
+
+msgid "Recent Post"
+msgstr ""
+
+msgid "slz_recent_post"
+msgstr ""
+
+msgid "SLZ: Recent Post"
+msgstr ""
+
+msgid "A recent posts list"
+msgstr ""
+
+msgid "tags"
+msgstr ""
+
+msgid "SLZ: Tags"
+msgstr ""
+
+msgid "slz_taxonomy"
+msgstr ""
+
+msgid "SLZ: Taxonomy"
+msgstr ""
+
+msgid "A list of taxonomy"
+msgstr ""
+
+msgid "Posts Categories"
+msgstr ""
+
+msgid "Portfolio Categories"
+msgstr ""
+
+msgid "Service Categories"
+msgstr ""
+
+msgid "Team Categories"
+msgstr ""
+
+msgid "Limit"
+msgstr ""
+
+msgid "Choose Taxonomy"
+msgstr ""
+
+msgid "Show Count?"
+msgstr ""
+
+msgid "slz_video"
+msgstr ""
+
+msgid "SLZ: Video"
+msgstr ""
+
+msgid "A block video."
+msgstr ""
+
+msgid "Video Height"
+msgstr ""
+
+msgid "Video ID"
+msgstr ""
+
+msgid ""
+"Example: the Video ID for https://www.youtube.com/watch?v=PDWvcsTloJo is "
+"PDWvcsTloJo"
+msgstr ""
+
+msgid "Invalid flash message type: %s"
+msgstr ""
+
+msgid "Form with id \"%s\" was already defined"
+msgstr ""
+
+msgid "Nonce verification failed"
+msgstr ""
+
+msgid "Add File"
+msgstr ""
+
+msgid "Remove All"
+msgstr ""
+
+msgid "Remove File"
+msgstr ""
+
+msgid "Cannot connect to Filesystem directly"
+msgstr ""
+
+msgid "Cannot create directory \"%s\". It must be inside \"%s\""
+msgstr ""
+
+msgid "\" or \""
+msgstr ""
+
+msgid "No items found."
+msgstr ""
+
+msgid "Bulk Actions"
+msgstr ""
+
+msgid "All dates"
+msgstr ""
+
+msgid "%1$s %2$d"
+msgstr ""
+
+msgid "List View"
+msgstr ""
+
+msgid "Excerpt View"
+msgstr ""
+
+msgid "%s pending"
+msgstr ""
+
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Go to the first page"
+msgstr ""
+
+msgid "Go to the previous page"
+msgstr ""
+
+msgid "Current page"
+msgstr ""
+
+msgid "%1$s of %2$s"
+msgstr ""
+
+msgid "Go to the next page"
+msgstr ""
+
+msgid "Go to the last page"
+msgstr ""
+
+msgid "year"
+msgstr ""
+
+msgid "years"
+msgstr ""
+
+msgid "month"
+msgstr ""
+
+msgid "months"
+msgstr ""
+
+msgid "week"
+msgstr ""
+
+msgid "weeks"
+msgstr ""
+
+msgid "day"
+msgstr ""
+
+msgid "hour"
+msgstr ""
+
+msgid "minute"
+msgstr ""
+
+msgid "minutes"
+msgstr ""
+
+msgid "second"
+msgstr ""
+
+msgid "seconds"
+msgstr ""
+
+msgid "Maximum stack depth exceeded"
+msgstr ""
+
+msgid "Underflow or the modes mismatch"
+msgstr ""
+
+msgid "Unexpected control character found"
+msgstr ""
+
+msgid "Syntax error, malformed JSON"
+msgstr ""
+
+msgid "Malformed UTF-8 characters, possibly incorrectly encoded"
+msgstr ""
+
+msgid "By "
+msgstr ""
+
+msgid "%1$s"
+msgid_plural "%2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Views"
+msgstr ""
+
+msgid "0 Comment"
+msgstr ""
+
+msgid "Share:"
+msgstr ""
+
+msgid "View more"
+msgstr ""
+
+msgid "First"
+msgstr ""
+
+msgid "Previous"
+msgstr ""
+
+msgid "Last"
+msgstr ""
+
+msgid "Page %1$s of %2$s "
+msgstr ""
+
+msgid "load more"
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Cart"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid "Login"
+msgstr ""
+
+msgid "Register"
+msgstr ""
+
+msgid "My Account"
+msgstr ""
+
+msgid "Purchase now"
+msgstr ""
+
+msgid "Skin Color"
+msgstr ""
+
+msgid "Layout Options"
+msgstr ""
+
+msgid "Boxed layout images"
+msgstr ""
+
+msgid "default"
+msgstr ""
+
+msgid "Transparent"
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Fixed"
+msgstr ""
+
+msgid "Warning"
+msgstr ""
+
+msgid ""
+"Could not create and update config file. Please chmod wp-content as 777 "
+"permission."
+msgstr ""
+
+msgid ""
+"<h3>WP_CACHE constant set to false</h3><p>Please edit your wp-config.php and "
+"add or edit the following line above the final require_once command:<br /"
+"><br /><code>define('WP_CACHE', true);</code></p>"
+msgstr ""
+
+msgid ""
+"Edit <code>%s</code> and add the following line:<br /> "
+"<code>define('WP_CACHE', true);</code><br />Otherwise, <strong>WP-Cache will "
+"not be executed</strong> by WordPress core. "
+msgstr ""
+
+msgid ""
+"<strong>Error: WP_CACHE is not enabled</strong> in your <code>wp-config.php</"
+"code> file and I couldn&#8217;t modify it.<p>"
+msgstr ""
+
+msgid "<h3>Warning</h3><p>"
+msgstr ""
+
+msgid ""
+"Could not update %s!</em> SLZ_Page_Cache_Home must be set in config file."
+msgstr ""
+
+msgid "Initial"
+msgstr ""
+
+msgid "Cover"
+msgstr ""
+
+msgid "Contain"
+msgstr ""
+
+msgid "Left Top"
+msgstr ""
+
+msgid "Left Center"
+msgstr ""
+
+msgid "Left Bottom"
+msgstr ""
+
+msgid "Right Top"
+msgstr ""
+
+msgid "Right Center"
+msgstr ""
+
+msgid "Right Bottom"
+msgstr ""
+
+msgid "Center Top"
+msgstr ""
+
+msgid "Center Center"
+msgstr ""
+
+msgid "Center Bottom"
+msgstr ""
+
+msgid "bounce"
+msgstr ""
+
+msgid "flash"
+msgstr ""
+
+msgid "pulse"
+msgstr ""
+
+msgid "rubberBand"
+msgstr ""
+
+msgid "shake"
+msgstr ""
+
+msgid "swing"
+msgstr ""
+
+msgid "tada"
+msgstr ""
+
+msgid "wobble"
+msgstr ""
+
+msgid "jello"
+msgstr ""
+
+msgid "bounceIn"
+msgstr ""
+
+msgid "bounceInDown"
+msgstr ""
+
+msgid "bounceInLeft"
+msgstr ""
+
+msgid "bounceInRigth"
+msgstr ""
+
+msgid "bounceInUp"
+msgstr ""
+
+msgid "bounceOut"
+msgstr ""
+
+msgid "bounceOutDown"
+msgstr ""
+
+msgid "bounceOutLeft"
+msgstr ""
+
+msgid "bounceOutRigth"
+msgstr ""
+
+msgid "bounceOutUp"
+msgstr ""
+
+msgid "faceIn"
+msgstr ""
+
+msgid "faceInDown"
+msgstr ""
+
+msgid "faceInLeft"
+msgstr ""
+
+msgid "faceInRight"
+msgstr ""
+
+msgid "faceInUp"
+msgstr ""
+
+msgid "faceOut"
+msgstr ""
+
+msgid "faceOutDown"
+msgstr ""
+
+msgid "faceOutDownBig"
+msgstr ""
+
+msgid "faceOutLeft"
+msgstr ""
+
+msgid "faceOutLeftBig"
+msgstr ""
+
+msgid "faceOutRight"
+msgstr ""
+
+msgid "faceOutRightBig"
+msgstr ""
+
+msgid "faceOutUp"
+msgstr ""
+
+msgid "faceOutUpBig"
+msgstr ""
+
+msgid "flip"
+msgstr ""
+
+msgid "flipInX"
+msgstr ""
+
+msgid "flipInY"
+msgstr ""
+
+msgid "flipOutX"
+msgstr ""
+
+msgid "flipOutY"
+msgstr ""
+
+msgid "lightSpeedIn"
+msgstr ""
+
+msgid "lightSpeedOut"
+msgstr ""
+
+msgid "rotateIn"
+msgstr ""
+
+msgid "rotateInDownLeft"
+msgstr ""
+
+msgid "rotateInDownRight"
+msgstr ""
+
+msgid "rotateInUpLeft"
+msgstr ""
+
+msgid "rotateOut"
+msgstr ""
+
+msgid "rotateOutDownLeft"
+msgstr ""
+
+msgid "rotateOutDownRight"
+msgstr ""
+
+msgid "rotateOutUpLeft"
+msgstr ""
+
+msgid "slideInUp"
+msgstr ""
+
+msgid "slideInDown"
+msgstr ""
+
+msgid "slideInLeft"
+msgstr ""
+
+msgid "slideInRight"
+msgstr ""
+
+msgid "slideOutUp"
+msgstr ""
+
+msgid "slideOutDown"
+msgstr ""
+
+msgid "slideOutLeft"
+msgstr ""
+
+msgid "slideOutRight"
+msgstr ""
+
+msgid "zoomIn"
+msgstr ""
+
+msgid "zoomInDown"
+msgstr ""
+
+msgid "zoomInLeft"
+msgstr ""
+
+msgid "zoomInRight"
+msgstr ""
+
+msgid "zoomInUp"
+msgstr ""
+
+msgid "zoomOut"
+msgstr ""
+
+msgid "zoomOutDown"
+msgstr ""
+
+msgid "zoomOutLeft"
+msgstr ""
+
+msgid "zoomOutRight"
+msgstr ""
+
+msgid "zoomOutUp"
+msgstr ""
+
+msgid "hinge"
+msgstr ""
+
+msgid "rollln"
+msgstr ""
+
+msgid "rollOut"
+msgstr ""
+
+msgid "Font Flat Icon"
+msgstr ""
+
+msgid "Capitalize"
+msgstr ""
+
+msgid "Uppercase"
+msgstr ""
+
+msgid "Lowercase"
+msgstr ""
+
+msgid "Inherit"
+msgstr ""
+
+msgid "Slug"
+msgstr ""
+
+msgid "Term Group"
+msgstr ""
+
+msgid "Term ID"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Material"
+msgstr ""
+
+msgid "Flaticon"
+msgstr ""
+
+msgid "Linkedin"
+msgstr ""
+
+msgid "Reddit"
+msgstr ""
+
+msgid "Delicious"
+msgstr ""
+
+msgid "Stumbleupon"
+msgstr ""
+
+msgid "Tumblr"
+msgstr ""
+
+msgid "Odnoklassniki"
+msgstr ""
+
+msgid "Weibo"
+msgstr ""
+
+msgid "Xing"
+msgstr ""
+
+msgid "Get Pocket"
+msgstr ""
+
+msgid "Printfriendly"
+msgstr ""
+
+msgid "Amazon"
+msgstr ""
+
+msgid "Yahoo Mail"
+msgstr ""
+
+msgid "Hacker News"
+msgstr ""
+
+msgid "Viadeo"
+msgstr ""
+
+msgid "Click here to download"
+msgstr ""
+
+msgid "No Slider"
+msgstr ""
+
+msgid "More"
+msgstr ""
+
+msgid "Please register option-types on 'slz_option_types_init' action"
+msgstr ""
+
+msgid "Please register container-types on 'slz_container_types_init' action"
+msgstr ""
+
+msgid "Predefined images"
+msgstr ""
+
+msgid "Custom image"
+msgstr ""
+
+msgid "UNDEFINED OPTION TYPE"
+msgstr ""
+
+msgid "Change Icon"
+msgstr ""
+
+msgid "Icons"
+msgstr ""
+
+msgid "Favorites"
+msgstr ""
+
+msgid "Upload"
+msgstr ""
+
+msgid "Upload Icon"
+msgstr ""
+
+msgid "All Packs"
+msgstr ""
+
+msgid "Add to Favorites"
+msgstr ""
+
+msgid "Unknown Set"
+msgstr ""
+
+msgid "Font Ionicons"
+msgstr ""
+
+msgid "Font Open Iconic"
+msgstr ""
+
+msgid "__Web Application Icons"
+msgstr ""
+
+msgid "__Hand Icons"
+msgstr ""
+
+msgid "__Transportation Icons"
+msgstr ""
+
+msgid "__Gender Icons"
+msgstr ""
+
+msgid "__File Type Icons"
+msgstr ""
+
+msgid "__Payment Icons"
+msgstr ""
+
+msgid "__Currency Icons"
+msgstr ""
+
+msgid "__Text Editor Icons"
+msgstr ""
+
+msgid "__Directional Icons"
+msgstr ""
+
+msgid "__Video Player Icons"
+msgstr ""
+
+msgid "__Brand Icons"
+msgstr ""
+
+msgid "__Medical Icons"
+msgstr ""
+
+msgid "Font Flaticon"
+msgstr ""
+
+msgid "Specify location"
+msgstr ""
+
+msgid "Location Venue"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Zip Code"
+msgstr ""
+
+msgid "Cannot find the location?"
+msgstr ""
+
+msgid "Reset location"
+msgstr ""
+
+msgid "No 'picker' key set for multi-picker option: %s"
+msgstr ""
+
+msgid "No title"
+msgstr ""
+
+msgid "Add Images"
+msgstr ""
+
+msgid "Select Images"
+msgstr ""
+
+msgid "1 File"
+msgstr ""
+
+msgid "%u Files"
+msgstr ""
+
+msgid "No image"
+msgstr ""
+
+msgid "25%"
+msgstr ""
+
+msgid "50%"
+msgstr ""
+
+msgid "100%"
+msgstr ""
+
+msgid "Copy Data"
+msgstr ""
+
+msgid "Download Data File"
+msgstr ""
+
+msgid "Copy Export URL"
+msgstr ""
+
+msgid "Import from File"
+msgstr ""
+
+msgid "Import from URL"
+msgstr ""
+
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Font face"
+msgstr ""
+
+msgid "Italic"
+msgstr ""
+
+msgid "Oblique"
+msgstr ""
+
+msgid "Weight"
+msgstr ""
+
+msgid "Script"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "Line height"
+msgstr ""
+
+msgid "Letter spacing"
+msgstr ""
+
+msgid "Color"
+msgstr ""
+
+msgid "Add Image"
+msgstr ""
+
+msgid "Select Image"
+msgstr ""
+
+msgid "Solazu Unyson"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Reset Options"
+msgstr ""
+
+msgid "by"
+msgstr ""
+
+msgid ""
+"Click OK to reset.\n"
+"All settings will be lost and replaced with default settings!"
+msgstr ""
+
+msgid "Resetting"
+msgstr ""
+
+msgid "We are currently resetting your settings."
+msgstr ""
+
+msgid "This may take a few moments."
+msgstr ""
+
+msgid "Saving"
+msgstr ""
+
+msgid "We are currently saving your settings."
+msgstr ""

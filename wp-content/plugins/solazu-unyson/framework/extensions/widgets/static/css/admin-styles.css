@@ -1,0 +1,56 @@
+/*upload image*/
+.slz-image-upload-btn.slz-btn-remove{
+  padding: 0 20px ;
+}
+.slz-image-upload-btn.slz-btn-upload{
+  background-color: #008ec2;
+  color: #fff;
+}
+.slz-image-upload-btn.slz-btn-upload:hover{
+  background-color: #008ec2;
+  color: #fff;
+}
+.slz-btn-upload:hover,.slz-btn-remove:hover{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, .2);
+}
+.slz-image-upload-wrapper img{
+  width: 200px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.widget-content .slz-no-image{
+    height: 60px;
+    width: 150px;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+}
+.slz-image-upload-wrapper.hide,.slz-no-image.hide,
+.slz-btn-remove.hide, .slz-btn-remove-attachment.hide {
+    display: none !important;
+}
+.slz-widget-description {
+    padding-top: 0px !important;
+    margin-top: -10px !important;
+    font-size: 12px;
+    color: #878787;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.widefat.multi-long-choice{
+	height: 300px !important;
+}
+
+.margin-top-5px {
+	margin-top: 5px !important;
+}
+.slz-attachment-upload-wrapper{
+    margin: 10px 0px;
+}
+.slz-attachment-upload-wrapper a {
+    vertical-align: middle;
+}
+.slz-attachment-preview {
+    margin: 5px;
+}

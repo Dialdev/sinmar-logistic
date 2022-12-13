@@ -1,0 +1,50 @@
+/*----------  Map 01  ----------*/
+.slz-map-01 .office-wrapper {
+    box-shadow: 5px 10px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.slz-map-01 .office-list .mCSB_inside>.mCSB_container {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+}
+.slz-map-01 .office-name {
+	font-weight: 700;
+}
+.slz-map-01 .office-contact .item {
+    margin-top: 5px;
+}
+.slz-map-01 .office-contact .item:first-child {
+    margin-top: 0;
+}
+/*----------  Responsive  ----------*/
+@media screen and (max-width: 1024px) {
+    .slz-map-01 .office-list {
+        padding: 40px;
+    }
+    .slz-map-01 .office-contact .icons {
+        vertical-align: top;
+        line-height: 24px;
+    }
+    .slz-map-01 .office-contact .text {
+        width: calc(100% - 25px);
+    }
+}
+@media screen and (max-width: 767px) {
+    .slz-map-01 {
+        margin-bottom: 550px;
+    }
+    .slz-map-01 .office-wrapper {
+        width: 100%;
+        transform: translateY(105%);
+        -webkit-transform: translateY(105%);
+        -moz-transform: translateY(105%);
+        -ms-transform: translateY(105%);
+        -o-transform: translateY(105%);
+    }
+}
+@media screen and (max-width: 767px) {
+    .slz-map-01 .office-list {
+        padding: 30px 20px 30px;
+    }
+}

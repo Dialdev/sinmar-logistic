@@ -1,0 +1,276 @@
+/*
+*
+*
+*    1. Recruitment style 1
+*
+*
+*    RESPONSIVE
+*
+*/
+
+/*---------- 1. Recruitment style 1 ----------*/
+.sc-recruitment-tab{
+    display:block;
+    width:100%;
+}
+.slz-cv-wrapper{
+    margin-left:-15px;
+    margin-right:-15px;
+}
+.slz-cv-wrapper:before{
+    content:"";
+    display:table;
+}
+.slz-cv-wrapper:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.cv-navigation .slz-title-shortcode{
+
+}
+.slz-cv-wrapper .cv-navigation{
+    width:33.3333%;
+    display:block;
+    padding-left:15px;
+    padding-right:15px;
+    float:left;
+    position:relative;
+}
+.slz-cv-wrapper .cv-content{
+    width:66.6667%;
+    display:block;
+    padding-left:15px;
+    padding-right:15px;
+    float:left;
+}
+.slz-cv-wrapper .slz-categories{
+    list-style: none;
+    padding-left:0px;
+    margin-top:10px;
+}
+.slz-cv-wrapper .slz-categories li{
+    position: relative;
+    width: 100%;
+
+}
+.slz-cv-wrapper  .slz-categories .link{
+    line-height:1.4;
+    padding: 10px 25px 10px 0px;
+    position:relative;
+}
+.slz-cv-wrapper  .slz-categories .link:after{
+    font-family:'FontAwesome';
+    content:'\f105';
+    position:absolute;
+    right:0px;
+    top:10px;
+    color:#D8D8D8;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.slz-cv-wrapper  .slz-categories .link:hover,
+.slz-cv-wrapper  .slz-categories .active .link {
+    color:#DB0F32;
+    padding-left:15px;
+    box-shadow: 2px 3px 9px 1px rgba( 0, 0, 0, 0.1 );
+}
+.slz-cv-wrapper  .slz-categories .link:hover:after,
+.slz-cv-wrapper  .slz-categories .active .link:after {
+    right:15px;
+}
+.slz-cv-wrapper .cv-content .slz-block-item-01 .block-image:before{
+    content:none;
+}
+
+.slz-cv-wrapper .cv-content .slz-block-item-01 .block-title{
+    font-size:45px;
+    font-weight:600;
+    margin-bottom:5px;
+}
+.slz-cv-wrapper .block-info-cv{
+    list-style: none;
+    padding-left:0px;
+    margin-bottom:20px;
+}
+
+.slz-cv-wrapper .block-info-cv >li{
+    display:inline-block;
+    margin-right:10px;
+    color:#989B9F;
+}
+.slz-cv-wrapper .block-info-cv >li i{
+    margin-right:5px;
+}
+.slz-cv-wrapper .cv-content .block-text + .block-read-more{
+    margin-top:30px;
+}
+.slz-cv-wrapper  .slz-title-shortcode{
+    display:block;
+    text-align:center;
+    position:absolute;
+    left:15px;
+    right:15px;
+    bottom:100%;
+    border-bottom:2px solid #DB0F32;
+    margin-bottom:0;
+}
+.slz-cv-wrapper  .slz-title-shortcode >span{
+    display:inline-block;
+    text-transform:uppercase;
+    font-weight:700;
+    color:#18364A;
+    font-size:20px;
+    padding:5px;
+    position:relative;
+}
+.slz-cv-wrapper  .slz-title-shortcode >span:before{
+    content:"";
+    position: absolute;
+    right:100%;
+    top:14px;
+    width:10px;
+    height:2px;
+    background-color:#DB0F32;
+}
+.slz-cv-wrapper  .slz-title-shortcode >span:after{
+    content:"";
+    position: absolute;
+    right:100%;
+    top:20px;
+    width:15px;
+    height:2px;
+    background-color:#DB0F32;
+}
+
+/* css recruitment*/
+.sc-recruitment-style-tab .slz-recent-post .media{
+    padding: 0;
+}
+.sc-recruitment-style-tab .slz-recent-post .media-right{
+    padding: 0;
+}
+.sc-recruitment-style-tab .slz-recent-post .media-left{
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+.sc-recruitment-tab .slz-cv-wrapper .cv-content .slz-block-item-01 .block-image:before,
+.sc-recruitment-style-tab .slz-recent-post .media-left:before {
+    display: block;
+    content: '';
+    padding-top: 50%;
+}
+.sc-recruitment-tab .slz-cv-wrapper .cv-content .slz-block-item-01 .block-image .img-responsive,
+.sc-recruitment-style-tab .slz-recent-post .media-left .img-responsive{
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.sc-recruitment-style-tab .slz-recent-post .media-left .img-responsive{
+   width: 100%;
+   height: auto;
+}
+.sc-recruitment-style-tab .slz-recent-post .media-left,.sc-recruitment-style-tab .slz-recent-post .media-right{
+    display: block;
+}
+.sc-recruitment-style-tab .slz-recent-post .media-right{
+   padding: 15px 0 0 0;
+}
+.sc-recruitment-tab .slz-cv-wrapper .cv-content .slz-block-item-01 .block-title,
+.sc-recruitment-style-tab .slz-recent-post .block-title{
+    font-size: 36px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    color: #18364a;
+}
+
+.sc-recruitment-style-tab .slz-recent-post .block-title {
+    margin-bottom: 8px;
+}
+.sc-recruitment-tab .slz-cv-wrapper .cv-content .slz-block-item-01 .block-title:hover{
+    color: #da0f32;
+    cursor: pointer;
+}
+.sc-recruitment-style-tab .slz-recent-post .block-info{
+    margin-bottom: 20px;
+}
+.sc-recruitment-style-tab .slz-recent-post .block-info li{
+    margin-bottom: 5px;
+}
+.sc-recruitment-style-tab .block-info i{
+    margin-right: 5px;
+}
+
+/* end css recruitment */
+
+
+/*=====================================
+=            RESPONSIVE          =
+=====================================*/
+
+@media (min-width:1025px){
+
+}
+@media (max-width:1024px){
+
+}
+@media (max-width:768px){
+
+}
+@media (max-width:767px){
+
+}
+@media (max-width:600px){
+    .slz-cv-wrapper  .slz-title-shortcode{
+        position:relative;
+        bottom:auto;
+        left:0;
+        right:auto;
+        width:100%;
+    }
+
+    .slz-cv-wrapper .cv-content .slz-block-item-01 .block-title {
+        font-size: 36px;
+    }
+
+    .slz-cv-wrapper .block-text h2 {
+        font-size: 24px;
+    }
+}
+@media (max-width:480px){
+    .slz-cv-wrapper .cv-navigation{
+        width:100%;
+        float:none;
+        margin-bottom:20px;
+    }
+    .slz-cv-wrapper .cv-content{
+        width:100%;
+        float:none;
+    }
+    .slz-cv-wrapper .cv-content .slz-block-item-01 .block-title{
+        font-size:24px;
+    }
+}
+
+@media (max-width:380px){
+    .slz-cv-wrapper .cv-content .slz-block-item-01 .block-title {
+        font-size: 26px;
+    }
+
+
+    .slz-cv-wrapper .block-text h2 {
+        font-size: 18px;
+    }
+}

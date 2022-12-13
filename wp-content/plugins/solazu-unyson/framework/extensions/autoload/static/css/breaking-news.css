@@ -1,0 +1,151 @@
+/*
+*  STYLE DEFAULT FOR BREAKING NEWS
+*
+*
+*  [Table of contents]
+*
+*  [&. Content / #key]
+*  [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+*
+*  Summary:
+*
+*
+*  1. Breaking News
+*
+*
+*/
+
+
+/*----------  1. Breaking News  ----------*/
+    .slz-breaking-news-01 .slz-block-item-01 {
+        box-shadow: none;
+    }
+
+    .slz-breaking-news-01 .slz-block-item-01 .block-category {
+        font-size: 11px;
+    }
+
+    .slz-breaking-news-01 .slz-block-item-01 .block-content {
+        padding: 0 0 0 20px;
+    }
+
+    .slz-breaking-news-01 .slz-block-item-01 .block-title {
+        font-size: 15px;
+    }
+
+    .slz-breaking-news-01 .slz-block-item-01.style-2 .block-image {
+        width: 115px;
+    }
+
+    .slz-breaking-news-01 .text-label {
+        margin-bottom: 30px;
+    }
+
+    .text-label {
+        width: 120px;
+        min-width: 120px;
+        font-size: 12px;
+        font-weight: 500;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 38px;
+        display: inline-block;
+    }
+
+    .slz-breaking-news-02 .breaking-news-wrapper {
+        padding: 10px 0;
+        position: relative;
+        width: 100%;
+        display: table;
+        background-color: #fff;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .slz-breaking-news-02 .text-label {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .slz-breaking-news-02 .wrapper-news {
+        display: table-cell;
+        padding-left: 20px;
+        vertical-align: middle;
+    }
+
+    .slz-breaking-news-02 .vticker {
+        width: calc(100% - 40px);
+    }
+
+    .slz-breaking-news-02 .vticker li .link {
+        color: #333;
+    }
+
+    .slz-breaking-news-02 .vticker li .link .text {
+        margin-right: 50px;
+        overflow: hidden;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        vertical-align: middle;
+        font-size: 16px;
+    }
+
+    .slz-breaking-news-02 .vticker li .link .text:hover {
+        color: #337ab7;
+    }
+
+    .slz-breaking-news-02 .vticker li .link .btn-read {
+        color: #333;
+        text-transform: uppercase;
+        font-size: 11px;
+        vertical-align: middle;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .slz-breaking-news-02 .vticker li .link .btn-read .icons {
+        margin-right: 10px;
+        position: relative;
+        font-size: 16px;
+        vertical-align: middle;
+    }
+
+    .slz-breaking-news-02 .vticker li .link .btn-read .icons:before {
+        z-index: 1;
+        position: relative;
+    }
+
+    .slz-breaking-news-02 .vticker li .link .btn-read .icons:after {
+        position: absolute;
+        z-index: 0;
+        content: "";
+        width: 15px;
+        height: 15px;
+        top: 0;
+        left: -8px;
+        border: 2px solid #333;
+    }
+
+    .slz-breaking-news-02 .vticker li .link .btn-read:hover {
+        color: #337ab7;
+    }
+
+    .slz-breaking-news-02 .vticker li .link .btn-read:hover .icons:after {
+        border-color: #337ab7;
+    }
+
+    .slz-breaking-news-02 .btn-close-breaking-news {
+        position: absolute;
+        right: 20px;
+        color: #333;
+        margin-top: -12px;
+        top: 50%;
+        cursor: pointer;
+    }
+

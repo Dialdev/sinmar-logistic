@@ -1,0 +1,23 @@
+.slz-option-type-datetime-picker .delimiter,
+.slz-backend-option-input-type-datetime-range .delimiter {
+	margin: 0 10px;
+}
+
+.slz-option-type-datetime-range .slz-option-type-datetime-picker.from,
+.slz-option-type-datetime-range .slz-option-type-datetime-picker.to,
+.slz-option-type-datetime-range .delimiter,
+.slz-backend-option-input-type-datetime-range .slz-option-type-datetime-picker.from,
+.slz-backend-option-input-type-datetime-range .slz-option-type-datetime-picker.to,
+.slz-backend-option-input-type-datetime-range .delimiter {
+	display: inline-block;
+}
+
+.slz-option-type-datetime-range .slz-option-type-datetime-picker,
+.slz-backend-option-input-type-datetime-range .slz-option-type-datetime-picker {
+	width: 150px;
+}
+
+
+.slz-backend-option-input-type-datetime-range .slz-option-help-in-input {
+	top: 4px !important;
+}

@@ -1,0 +1,64 @@
+/* controls */
+
+.slz-option-type-form-builder .slz-form-builder-item-type-recaptcha .slz-form-item-controls .slz-form-item-control-buttons {
+	display: none;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-recaptcha:hover .slz-form-item-controls .slz-form-item-control-buttons {
+	display: inline-block;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-recaptcha .slz-form-item-controls .slz-form-item-control-buttons > a,
+.slz-option-type-form-builder .slz-form-builder-item-type-recaptcha .slz-form-item-controls .slz-form-item-control-buttons > a:hover {
+	text-decoration: none;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-recaptcha .slz-form-item-controls .slz-form-item-control-buttons a.slz-form-item-control-required {
+	color: #999999;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-recaptcha .slz-form-item-controls .slz-form-item-control-buttons a.slz-form-item-control-required.required {
+	color: #ff0000;
+}
+
+/* end: controls */
+
+
+/* preview */
+
+.slz-option-type-form-builder .slz-form-builder-item-type-recaptcha .slz-form-item-preview {
+	padding: 5px 0;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-recaptcha .slz-form-item-preview .slz-form-item-preview-label {
+	padding: 5px 0 10px;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-recaptcha .slz-form-item-preview .slz-form-item-preview-label span {
+	display: none;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-recaptcha .slz-form-item-preview .slz-form-item-preview-label span.required {
+	display: inline;
+	color: #ff0000;
+}
+
+/* end: preview */
+
+.slz-option-type-form-builder .slz-form-builder-item-type-recaptcha .slz-form-item-recaptcha-preview .slz-col-xs-6.alpha {
+    padding-right: 5px;
+}
+
+body.rtl .slz-option-type-form-builder .slz-form-builder-item-type-recaptcha .slz-form-item-recaptcha-preview .slz-col-xs-6.alpha {
+	padding-right: 0;
+	padding-left: 5px;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-recaptcha .slz-form-item-recaptcha-preview .slz-col-xs-6.omega {
+    padding-left: 5px;
+}
+
+body.rtl .slz-option-type-form-builder .slz-form-builder-item-type-recaptcha .slz-form-item-recaptcha-preview .slz-col-xs-6.omega {
+	padding-right: 5px;
+	padding-left: 0;
+}

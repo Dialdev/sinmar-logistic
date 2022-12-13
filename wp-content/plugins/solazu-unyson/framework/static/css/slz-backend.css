@@ -1,0 +1,95 @@
+/* icon slz */
+i.slz-vc-slzcore{
+    background: url(../img/icons/slz-icon.png);
+}
+/* thumbnail custom column */
+th.column-thumbnail{
+	width: 130px;
+}
+
+/* vc param type attach files */
+.slz-attach-files-block .media-box {
+    margin-top: 0;
+    display: block;
+    float: left;
+    height: 80px;
+    width: 80px;
+    background: #F5F5F5;
+    border: 1px solid #DFDFDF;
+    font-size: 0;
+    color: #F5F5F5;
+    position: relative;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.slz-attach-files-block .media-box:hover {
+    color: #C8C8C8;
+    border-color: #C8C8C8;
+    text-decoration: none;
+}
+
+.slz-attach-files-block .media-box .icon-add {
+    text-transform: none;
+    speak: none;
+    font-family: VC-Icons!important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    color: #87D148;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.slz-attach-files-block .media-box .icon-remove {
+    text-transform: none;
+    speak: none;
+    font-family: VC-Icons!important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    color: #FF7877;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.slz-attach-files-block .media-box .icon-add:before {
+    content: "\e145";
+}
+
+.slz-attach-files-block .media-box .icon-remove:before {
+    content: "\e5cd";
+}
+
+.slz-attach-files-block .media-box .thumb {
+    width: 100%;
+    height: 100%;
+    background-image: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center ;
+}
+
+.slz-attach-files-block .media-box .title {
+    text-align: center;
+    font-size: 11px;
+    color: #f9f9f9;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(103, 89, 89, 0.39);
+    bottom: 0;
+}

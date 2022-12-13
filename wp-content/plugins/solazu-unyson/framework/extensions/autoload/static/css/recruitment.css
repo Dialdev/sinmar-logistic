@@ -1,0 +1,197 @@
+/*
+*  STYLE DEFAULT RECRUITMENT
+*
+*
+*  [Table of contents]
+*
+*  [&. Content / #key]
+*  [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+*
+*  Summary:
+*
+*
+*  1. Recruitment Tab
+*  n. Responsive 
+*
+*
+*/
+
+
+/*----------  1. Recruiment Tab  ----------*/
+    .sc-recruitment-style-tab .tab-list-wrapper {
+        padding-top: 12px;
+    }
+
+    .sc-recruitment-style-tab .slz-template-01 {
+        margin-bottom: 30px;
+    }
+
+    .sc-recruitment-style-tab .slz-template-01:last-child {
+        margin-bottom: 0;
+    }
+
+    .sc-recruitment-style-tab .slz-recent-post .media {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        position: relative;
+        overflow: visible;
+        display: table;
+        width: 100%;
+    }
+
+    .sc-recruitment-style-tab .slz-recent-post .media:before {
+        content: '';
+        position: absolute;
+        left: 22%;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: #fafafa;
+        z-index: -1;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .sc-recruitment-style-tab .slz-recent-post .media-left {
+        width: 44%;
+        position: relative;
+        padding: 0;
+    }
+
+    .sc-recruitment-style-tab .slz-recent-post .block-label {
+        left: auto;
+        right: 0;
+    }
+
+    .sc-recruitment-style-tab .slz-recent-post .block-label .text {
+        font-size: 14px;
+        font-weight: 700;
+        padding: 12px 30px;
+    }
+
+    .sc-recruitment-style-tab .slz-recent-post .media-right {
+        width: auto;
+        padding: 10px 30px;
+    }
+
+    .sc-recruitment-style-tab .slz-recent-post .block-title {
+        font-size: 18px;
+        font-weight: 500;
+        color: #304771;
+        margin-bottom: 17px;
+    }
+
+    .sc-recruitment-style-tab .slz-recent-post .block-title:hover {
+        color: #c8ac48;
+    }
+
+    .slz-recent-post .block-info {
+        margin-bottom: 25px;
+    }
+
+    .sc-recruitment-style-tab .slz-recent-post .description {
+        margin-bottom: 20px;
+    }
+
+    .sc-recruitment-style-tab .slz-recent-post .wrapper-image {
+        width: 100%;
+    }
+
+    .sc-recruitment-style-tab .slz-recent-post .wrapper-image:before {
+        padding-top: 65%;
+    }
+
+    .sc-recruitment-style-tab .slz-recent-post .block-read-more {
+        float: right;
+        border-bottom: 0;
+        color: #304771;
+        font-weight: 500;
+        margin-right: 15px;
+        position: relative;
+    }
+
+    .sc-recruitment-style-tab .slz-recent-post .block-read-more:before {
+        position: absolute;
+        content: '';
+        height: 1px;
+        left: 0;
+        right: 100%;
+        bottom: 0;
+        background-color: #c8ac48;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .sc-recruitment-style-tab .slz-recent-post .block-read-more:hover {
+        color: #c8ac48;
+    }
+
+    .sc-recruitment-style-tab .slz-recent-post .block-read-more:hover:before {
+        right: 0;
+    }
+
+    .sc-recruitment-style-tab .slz-recent-post .block-read-more i {
+        float: right;
+        padding-top: 5px;
+    }
+    
+    .sc-recruitment-style-tab .slz-recent-post .block-image img {
+        height: 100%;
+        width: auto;
+        max-width: none;
+    }
+
+
+/*=====================================
+=            n. Responsive            =
+=====================================*/
+
+    @media screen and (max-width: 768px) {
+        .sc-recruitment-style-tab .tab-list-wrapper,
+        .sc-recruitment-style-tab .slz-recent-post .media {
+            padding-top: 0;
+        }
+
+        .sc-recruitment-style-tab .slz-recent-post .media-left {
+            width: 100%;
+            display: block;
+        }
+
+        .sc-recruitment-style-tab .slz-recent-post .media-right {
+            display: block;
+        }
+
+        .sc-recruitment-style-tab .slz-recent-post .media:before {
+            left: 0;
+            bottom: 35px;
+        }
+
+        .sc-recruitment-style-tab .slz-recent-post .block-read-more {
+            float: none;
+            display: inline-block;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .sc-recruitment-style-tab .slz-recent-post .media-right {
+            padding-top: 20px;
+            padding-bottom: 25px;
+            display: block;
+            width: 100%;
+        }
+
+        .sc-recruitment-style-tab .slz-recent-post .media-left {
+            display: block;
+            width: 100%;
+        }
+
+        .sc-recruitment-style-tab .slz-recent-post .media:before {
+            left: 0;
+            right: 0;
+        }
+    }
+
+/*=====  End of n. Responsive  ======*/

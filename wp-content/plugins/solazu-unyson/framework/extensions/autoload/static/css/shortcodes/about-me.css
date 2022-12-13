@@ -1,0 +1,337 @@
+/*
+*  STYLE FOR ABOUT ME
+*
+*
+*  [Table of contents]
+*
+*  [&. Content / #key]
+*  [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+*
+*  Summary:
+*
+*
+*  1. About Me 01
+*  2. About Me 02
+*  3. About Me 03
+*  n. Responsive
+*
+*
+*/
+
+
+/*----------  1. About Me 01  ----------*/
+    .slz-about-me-01 {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .slz-about-me-01 .block-wrapper {
+        margin-top: 60px;
+        text-align: center;
+        border: solid 1px #ddd;
+        padding: 80px 30px 30px;
+        background-color: #ffffff;
+        position: relative;
+    }
+
+    .slz-about-me-01 .image-wrapper {
+        width: 120px;
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        overflow: hidden;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+
+    .slz-about-me-01 .image-wrapper:before {
+        content: "";
+        display: block;
+        padding-top: 100%;
+    }
+
+    .slz-about-me-01 .image-wrapper:after {
+        position: absolute;
+        content: "";
+        z-index: -1;
+        left: -3px;
+        right: -3px;
+        top: -3px;
+        bottom: -3px;
+        background-color: #fff;
+        border: solid 1px #ddd;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+    }
+
+    .slz-about-me-01 .image-wrapper img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: auto;
+        height: 100%;
+        max-width: none;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .slz-about-me-01 .name {
+        font-size: 18px;
+        color: #18364a;
+        font-weight: 600;
+        position: relative;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    .slz-about-me-01 .social-wrapper {
+        display: inline-block;
+        color: #5c6689;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    .slz-about-me-01 .list-social-wrapper {
+        margin: 10px 0 0 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .slz-about-me-01 .list-social-wrapper li {
+        padding: 0;
+        margin: 0 10px;
+    }
+
+    .slz-about-me-01 .heading-wrapper {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .slz-about-me-01 .heading-wrapper .heading-left {
+        float: left;
+    }
+
+    .slz-about-me-01 .heading-wrapper .heading-right {
+        float: right;
+    }
+
+/*----------  2. About Me 02  ----------*/
+    .slz-about-me-02 {
+        display: block;
+    }
+
+    .slz-about-me-02 .block-wrapper {
+        margin-top: 0;
+        font-size: 0;
+        text-align: left;
+        border: solid 1px #ddd;
+        padding: 30px;
+        background-color: #ffffff;
+        position: relative;
+    }
+
+    .slz-about-me-02 .image-wrapper {
+        width: 100px;
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 14px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .slz-about-me-02 .image-wrapper:before {
+        content: "";
+        display: block;
+        padding-top: 100%;
+    }
+
+    .slz-about-me-02 .image-wrapper:after {
+        position: absolute;
+        content: "";
+        z-index: 2;
+        left: -3px;
+        right: -3px;
+        top: -3px;
+        bottom: -3px;
+        border: solid 1px #ddd;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+    }
+
+    .slz-about-me-02 .image-wrapper img {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: auto;
+        max-width: none;
+        height: 100%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .slz-about-me-02 .content-wrapper {
+        width: calc(100% - 100px);
+        display: inline-block;
+        vertical-align: top;
+        padding-left: 25px;
+        font-size: 14px;
+    }
+
+    .slz-about-me-02 .name {
+        font-size: 18px;
+        color: #18364a;
+        font-weight: 600;
+        position: relative;
+        display: inline-block;
+    }
+
+    .slz-about-me-02 .content-text {
+        padding-top: 30px;
+    }
+
+    .slz-about-me-02 .list-social-wrapper {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+    .slz-about-me-02 .list-social-wrapper li {
+        padding: 0;
+        margin: 0 10px;
+    }
+
+    .slz-about-me-02 .list-social-wrapper li:last-child {
+        margin-right: 0;
+    }
+
+    .slz-about-me-02 .heading-wrapper {
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .slz-about-me-02 .heading-wrapper .heading-left {
+        float: left;
+    }
+
+    .slz-about-me-02 .heading-wrapper .heading-right {
+        float: right;
+    }
+
+/*----------  3. About Me 03  ----------*/
+    .slz-about-me-02.style-02 .block-wrapper {
+        padding: 30px;
+        border: none;
+        background-color: #fafafa;
+    }
+
+    .slz-about-me-02.style-02 .image-wrapper img {
+        border-radius: 0%;
+        -webkit-border-radius: 0%;
+        max-width: 140px;
+    }
+
+    .slz-about-me-02.style-02 .image-wrapper:after {
+        border-radius: 0%;
+        -webkit-border-radius: 0%;
+        content: none;
+    }
+
+    .slz-about-me-02.style-02 .content-wrapper {
+        width: calc(100% - 140px);
+    }
+
+    .slz-about-me-02.style-02 .heading-wrapper {
+        border: none;
+    }
+
+    .slz-about-me-02.style-02 .name {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .slz-about-me-02.style-02 .info-wrapper {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .slz-about-me-02.style-02 .list-info li {
+        position: relative;
+        text-transform: capitalize;
+    }
+
+    .slz-about-me-02.style-02 .list-info li + li {
+        padding-left: 25px;
+    }
+
+    .slz-about-me-02.style-02 .list-info li + li:before {
+        content: '/';
+        position: absolute;
+        top: 0;
+        left: 10px;
+    }
+
+    .slz-about-me-02.style-02 .personal-link {
+        font-size: 14px;
+        font-style: italic;
+        display: block;
+    }
+
+    .slz-about-me-02.style-02 .social-wrapper {
+        display: block;
+        text-align: right;
+    }
+
+    .slz-about-me-02.style-02 .content-text {
+        padding-top: 15px;
+    }
+
+/*=====================================
+=            n. Responsive            =
+=====================================*/
+
+    @media screen and (max-width: 1024px) {
+        .slz-about-me-01 .block-wrapper {
+            padding: 80px 20px 20px 20px;
+        }
+
+        .slz-about-me-02 .block-wrapper {
+            padding: 20px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .slz-about-me-02 .image-wrapper {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .slz-about-me-02 .content-wrapper {
+            display: block;
+            width: 100%;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        .slz-about-me-02 .content-text {
+            padding-top: 20px;
+            text-align: center;
+        }
+    }
+
+/*=====  End of n. Responsive  ======*/

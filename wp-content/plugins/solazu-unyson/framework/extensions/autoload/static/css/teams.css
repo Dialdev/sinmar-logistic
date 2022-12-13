@@ -1,0 +1,1109 @@
+/*
+*  STYLE DEFAULT TEAM
+*
+*
+*  [Table of contents]
+*
+*  [&. Content / #key]
+*  [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+*
+*  Summary:
+*
+*
+*  1. Team Layout 1
+*  2. Team Layout 2
+*  3. Team Layout 3
+*  4. Team Layout 4
+*  5. Team Layout 5
+*  6. Team Layout 6
+*  7. Team Carousel
+*
+*/
+
+
+/*----------  1. Team Layout 1  ----------*/
+    .slz-block-team-01 {
+        font-size: 14px;
+        background-color: #fff;
+        text-align: center;
+        position: relative;
+    }
+
+    .slz-block-team-01 .team-img {
+        position: relative;
+        overflow: hidden;
+        display: block;
+    }
+
+    .slz-block-team-01 .team-img:before {
+        content: "";
+        display: block;
+        padding-top: 75%;
+    }
+
+    .slz-block-team-01 .team-img .img-full {
+        width: auto;
+        height: 100%;
+        max-width: none;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .slz-block-team-01 .team-img .link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+    }
+
+    .slz-block-team-01 .team-body {
+        padding: 15px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        font-size: 14px;
+    }
+
+    .slz-block-team-01 .team-body .title {
+        font-weight: 700;
+        color: #213047;
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .slz-block-team-01 .team-body .title:hover {
+        color: #415f8d;
+    }
+
+    .slz-block-team-01 .team-body .title + .position {
+        margin-top: 5px;
+    }
+
+    .slz-block-team-01 .team-body .position {
+        color: #666c72;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    .slz-block-team-01 .team-body .position + .description {
+        margin-top: 20px;
+    }
+    
+    .slz-block-team-01 .team-body .position + .slz-info-block {
+        margin-top: 10px;
+    }
+    
+    .slz-block-team-01 .team-body .slz-info-block + .description {
+        margin-top: 10px;
+    }
+    
+    .slz-block-team-01 .team-body .description + .social-list .item {
+        margin-top: 10px;
+    }
+    
+    .slz-block-team-01 .description-wrapper + .social-list {
+        margin-top: 10px;
+    }
+    
+    .slz-block-team-01 .social-list .item {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 0;
+        color: #666c72;
+        display: inline-block;
+    }
+    
+    .slz-block-team-01 .social-list .item:first-child {
+        margin-left: 0px;
+    }
+    
+    .slz-block-team-01 .social-list .item:last-child {
+        margin-right: 0px;
+    }
+    
+    .slz-block-team-01 .social-list .item .text {
+        display: none;
+    }
+    
+    .slz-block-team-01.team-padding-box {
+        padding: 15px;
+    }
+
+    .slz-block-team-01.team-padding-box.team-circle-img .team-img {
+        padding-top: 0px;
+    }
+
+    .slz-block-team-01.team-padding-box .team-body {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .slz-block-team-01 .slz-info-block {
+        display: block;
+        width: 100%;
+    }
+
+    .slz-block-team-01 .slz-info-block:before {
+        content: "";
+        display: table;
+    }
+
+    .slz-block-team-01 .slz-info-block:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .slz-block-team-01 .slz-info-block .mobile {
+        position: relative;
+        display: block;
+        color: #666c72;
+    }
+
+    .slz-block-team-01 .slz-info-block .mobile:before {
+        font-family: 'FontAwesome';
+        content: "\f095";
+        margin-right: 5px;
+        display: inline-block;
+    }
+
+    .slz-block-team-01 .slz-info-block .email {
+        position: relative;
+        display: block;
+        color: #666c72;
+    }
+
+    .slz-block-team-01 .slz-info-block .email:before {
+        font-family: 'FontAwesome';
+        content: "\f0e0";
+        margin-right: 5px;
+        display: inline-block;
+    }
+
+/*----------  2. Team Layout 2  ----------*/
+    .slz-block-team-02 {
+        background-color: #fff;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .slz-block-team-02 .block-image {
+        position: relative;
+        background: #fff;
+    }
+
+    .slz-block-team-02 .block-image:before,
+    .slz-block-team-02 .block-image:after {
+        content: none;
+    }
+
+    .slz-block-team-02 .team-img {
+        position: relative;
+        display: block;
+        overflow: hidden;
+    }
+
+    .slz-block-team-02 .team-img:before {
+        content: "";
+        display: block;
+        padding-top: 75%;
+    }
+
+    .slz-block-team-02 .team-img .img-full {
+        width: auto;
+        height: 100%;
+        max-width: none;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .slz-block-team-02 .team-img .link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+    }
+
+    .slz-block-team-02 .team-img + .social-list {
+        border: 1px solid #ddd;
+        border-bottom: none;
+    }
+
+    .slz-block-team-02 .team-img + .social-list .item {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .slz-block-team-02 .team-body {
+        padding: 15px;
+        border: 1px solid #ddd;
+    }
+
+    .slz-block-team-02 .team-body .title {
+        font-weight: 700;
+        color: #213047;
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    .slz-block-team-02 .team-body .title:hover {
+        color: #415f8d;
+    }
+
+    .slz-block-team-02 .team-body .position {
+        color: #666c72;
+        font-weight: 500;
+    }
+
+    .slz-block-team-02 .team-body .position + .description {
+        margin-top: 20px;
+    }
+
+    .slz-block-team-02 .team-body .position + .slz-info-block {
+        margin-top: 10px;
+    }
+
+    .slz-block-team-02 .team-body .slz-info-block + .description {
+        margin-top: 10px;
+    }
+
+    .slz-block-team-02 .social-list {
+        margin-top: 0px;
+    }
+
+    .slz-block-team-02 .social-list .item {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 0;
+        color: #666c72;
+        display: inline-block;
+    }
+
+    .slz-block-team-02 .social-list .item:first-child {
+        margin-left: 0px;
+    }
+
+    .slz-block-team-02 .social-list .item:last-child {
+        margin-right: 0px;
+    }
+
+    .slz-block-team-02 .social-list .item .text {
+        display: none;
+    }
+
+    .slz-block-team-02.team-no-social .team-body .description {
+        margin-bottom: 0px;
+    }
+
+    .slz-block-team-02.team-no-social .social-list {
+        display: none;
+    }
+
+    .slz-block-team-02.team-no-social.team-no-description .team-body .position {
+        margin-bottom: 0px;
+    }
+
+    .slz-block-team-02 .slz-info-block {
+        display: block;
+        width: 100%;
+    }
+
+    .slz-block-team-02 .slz-info-block:before {
+        content: "";
+        display: table;
+    }
+
+    .slz-block-team-02 .slz-info-block:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .slz-block-team-02 .slz-info-block .mobile {
+        position: relative;
+        display: block;
+        color: #666c72;
+    }
+
+    .slz-block-team-02 .slz-info-block .mobile:hover {
+        color: #337ab7;
+    }
+
+    .slz-block-team-02 .slz-info-block .mobile:before {
+        font-family: 'FontAwesome';
+        content: "\f095";
+        margin-right: 5px;
+        display: inline-block;
+    }
+
+    .slz-block-team-02 .slz-info-block .email {
+        position: relative;
+        display: block;
+        color: #666c72;
+    }
+
+    .slz-block-team-02 .slz-info-block .email:hover {
+        color: #337ab7;
+    }
+
+    .slz-block-team-02 .slz-info-block .email:before {
+        font-family: 'FontAwesome';
+        content: "\f0e0";
+        margin-right: 5px;
+        display: inline-block;
+    }
+
+/*----------  3. Team Layout 3  ----------*/
+    .slz-block-team-03 {
+        font-size: 14px;
+    }
+
+    .slz-block-team-03:before {
+        content: "";
+        display: table;
+    }
+
+    .slz-block-team-03:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .slz-block-team-03 .team-img {
+        position: relative;
+        text-align: center;
+    }
+
+    .slz-block-team-03 .team-img .title {
+        font-size: 18px;
+        font-weight: 700;
+        color: #213047;
+    }
+
+    .slz-block-team-03 .social-list {
+        list-style: none;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .slz-block-team-03 .social-list .item {
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+
+    .slz-block-team-03 .social-list .item .text {
+        display: none;
+    }
+
+    .slz-block-team-03 .social-list .item:first-child {
+        margin-left: 0px;
+    }
+
+    .slz-block-team-03 .social-list .item:last-child {
+        margin-right: 0px;
+    }
+
+    .slz-block-team-03 .col-left {
+        width: 33.33333333%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .slz-block-team-03 .col-right {
+        width: 66.66666667%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .slz-block-team-03 .col-right .description {
+        padding-bottom: 180px;
+    }
+
+    .slz-block-team-03 .col-right .description p + ul {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .slz-block-team-03 .col-right .description ul {
+        padding-left: 15px;
+    }
+
+    .slz-block-team-03 .col-right .description ul li {
+        list-style: disc;
+    }
+
+    .slz-block-team-03 .col-right .description ul + .quote-item {
+        margin-top: 10px;
+    }
+
+    .slz-block-team-03 .col-right .description .quote-item {
+        background-color: #F6F7F7;
+        padding: 15px;
+        display: table;
+    }
+
+    .slz-block-team-03 .col-right .description .quote-item .icon-quote {
+        display: table-cell;
+        font-size: 120px;
+        color: #337ab7;
+        padding: 0 15px 0 0;
+        vertical-align: middle;
+        position: relative;
+        top: 10px;
+    }
+
+    .slz-block-team-03 .col-right .description .quote-item .block-quote {
+        display: table-cell;
+        vertical-align: middle;
+        border-left: 2px solid #ccc;
+        padding: 0 15px;
+    }
+
+    .slz-block-team-03 .slz-info-block {
+        display: block;
+        width: 100%;
+    }
+
+    .slz-block-team-03 .slz-info-block:before {
+        content: "";
+        display: table;
+    }
+
+    .slz-block-team-03 .slz-info-block:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .slz-block-team-03 .slz-info-block .mobile {
+        position: relative;
+        display: block;
+        color: #666c72;
+    }
+
+    .slz-block-team-03 .slz-info-block .mobile:hover {
+        color: #337ab7;
+    }
+
+    .slz-block-team-03 .slz-info-block .mobile:before {
+        font-family: 'FontAwesome';
+        content: "\f095";
+        margin-right: 5px;
+        display: inline-block;
+    }
+
+    .slz-block-team-03 .slz-info-block .email {
+        position: relative;
+        display: block;
+        color: #666c72;
+    }
+
+    .slz-block-team-03 .slz-info-block .email:hover {
+        color: #337ab7;
+    }
+
+    .slz-block-team-03 .slz-info-block .email:before {
+        font-family: 'FontAwesome';
+        content: "\f0e0";
+        margin-right: 5px;
+        display: inline-block;
+    }
+
+    .slz-team-wrapper-03 .slz-team-nav-03 {
+        font-size: 14px;
+        position: relative;
+    }
+
+    .slz-team-wrapper-03 .slz-team-nav-03 .team-img {
+        position: relative;
+        text-align: center;
+    }
+
+    .slz-team-wrapper-03 .slz-team-nav-03 .team-img a {
+        display: block;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .slz-team-wrapper-03 .slz-team-nav-03 .team-img img {
+        display: inline-block;
+    }
+
+    .slz-team-wrapper-03 .slick-arrow {
+        position: absolute;
+        top: 50%;
+        background-color: #fff;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        z-index: 10;
+    }
+
+    .slz-team-wrapper-03 .slick-arrow.btn-next {
+        right: 0;
+    }
+
+    .slz-team-wrapper-03 .slick-arrow.btn-prev {
+        left: 0;
+    }
+
+    .slz-team-wrapper-03 .slide-nav {
+        position: absolute;
+        bottom: 0;
+    }
+
+/*----------  4. Team Layout 4  ----------*/
+    .slz-block-team-04 {
+        position: relative;
+        padding-top: 50px;
+    }
+
+    .slz-block-team-04 .team-img {
+        width: 100px;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        z-index: 10;
+        display: block;
+        overflow: hidden;
+        box-shadow: 0px 15px 60px 5px rgba(0, 0, 0, 0.05);
+        -webkit-box-shadow: 0px 15px 60px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .slz-block-team-04 .team-img:before {
+        display: block;
+        padding-top: 100%;
+        content: '';
+    }
+
+    .slz-block-team-04 .team-img img {
+        width: auto;
+        height: 100%;
+        max-width: none;
+        position: absolute;
+        margin: 0;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .slz-block-team-04 .team-img .link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+    }
+
+    .slz-block-team-04 .social-list {
+        display: block;
+        float: left;
+        position: absolute;
+        z-index: 9;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .slz-block-team-04:hover .social-list {
+        top: 120px;
+        opacity: 1;
+    }
+
+    .slz-block-team-04 .social-list .social-item {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 0px;
+        text-align: left;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .slz-block-team-04 .social-list .social-item .slz-icon {
+        font-size: 14px;
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        background-color: #ccc;
+    }
+
+    .slz-block-team-04 .social-list .social-item .text {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .slz-block-team-04 .social-list .more-social-item {
+        position: relative;
+        text-align: center;
+        margin-bottom: 10px;
+        height: 30px;
+        max-width: 0;
+        -webkit-transition: max-width 0.3s ease 0.3s;
+        -moz-transition: max-width 0.3s ease 0.3s;
+        -o-transition: max-width 0.3s ease 0.3s;
+        transition: max-width 0.3s ease 0.3s;
+    }
+
+    .slz-block-team-04 .social-list .more-social-item .text {
+        width: 30px;
+        height: inherit;
+        background-color: #ccc;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+    }
+
+    .slz-block-team-04 .social-list .more-social-item .more-list {
+        height: 0;
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transform: translate(0, -30px);
+        -moz-transform: translate(0, -30px);
+        -ms-transform: translate(0, -30px);
+        -o-transform: translate(0, -30px);
+        transform: translate(0, -30px);
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .slz-block-team-04 .social-list .more-social-item .social-item {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .slz-block-team-04 .social-list .more-social-item .social-item:last-child {
+        margin-right: 0;
+    }
+
+    .slz-block-team-04 .social-list .more-social-item:hover {
+        max-width: 1000px;
+        -webkit-transition: max-width 0s ease 0s;
+        -moz-transition: max-width 0s ease 0s;
+        -o-transition: max-width 0s ease 0s;
+        transition: max-width 0s ease 0s;
+    }
+
+    .slz-block-team-04 .social-list .more-social-item:hover .more-list {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transform: translate(10px, -30px);
+        -moz-transform: translate(10px, -30px);
+        -ms-transform: translate(10px, -30px);
+        -o-transform: translate(10px, -30px);
+        transform: translate(10px, -30px);
+    }
+
+    .slz-block-team-04 .team-body {
+        position: relative;
+        margin-left: 50px;
+        padding: 30px 30px 30px 70px;
+        background-color: #fcfcfc;
+    }
+
+    .slz-block-team-04 .title {
+        font-weight: 900;
+        font-size: 24px;
+        color: #3a3d4b;
+        text-transform: capitalize;
+    }    
+
+    .slz-block-team-04 .title:hover,
+    .slz-block-team-04 .title:focus {
+        color: #db0f31;
+    }
+
+    .slz-block-team-04 .position {
+        font-size: 14px;
+        color: #3a3d4b;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .slz-block-team-04 .title + .position {
+        margin-top: 10px;
+    }    
+
+    .slz-block-team-04 .slz-info-block .info-item {
+        position: relative;
+        display: block;
+    }
+
+    .slz-block-team-04 .slz-info-block .info-item:before {
+        font-family: 'FontAwesome';
+        content: "\f095";
+        margin-right: 5px;
+        display: inline-block;
+    }
+
+    .slz-block-team-04 .slz-info-block .mobile:before {
+        content: "\f095";
+    }
+
+    .slz-block-team-04 .slz-info-block .email:before {
+        content: "\f0e0";
+    }
+
+    .slz-block-team-04 .description {
+        margin-top: 20px;
+    }
+
+    .slz-block-team-04 .read-more {
+        margin-top: 10px;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+/*----------  5. Team Layout 5  ----------*/
+    .slz-block-team-05 {
+        position: relative;
+        -webkit-backface-visibility: hidden;
+        -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    }
+
+    .slz-block-team-05:hover .team-content {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .slz-block-team-05 .team-image {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+
+    .slz-block-team-05 .team-image:before {
+        display: block;
+        content: '';
+        padding-top: 84%;
+    }
+
+    .slz-block-team-05 .team-image:after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        -o-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    .slz-block-team-05 .team-image .img-full {
+        width: auto;
+        height: 100%;
+        max-width: none;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .slz-block-team-05 .team-image .link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+    }
+
+    .slz-block-team-05 .team-content {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        right: 30px;
+        bottom: 30px;
+        opacity: 0;
+        visibility: hidden;
+        background-color: rgba(228, 19, 55, 0.9);
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        z-index: 4;
+    }
+
+    .slz-block-team-05 .team-content-wrapper {
+        height: 100%;
+        font-size: 0;
+    }
+
+    .slz-block-team-05 .sub-content {
+        display: inline-block;
+        width: 50px;
+        height: 100%;
+        text-align: center;
+    }
+
+    .slz-block-team-05 .mCSB_scrollTools {
+        width: 6px;
+    }
+
+    .slz-block-team-05 .team-social {
+        display: table;
+        height: 100%;
+        width: 50px;
+    }
+
+    .slz-block-team-05 .social-item {
+        display: table-row;
+    }
+
+    .slz-block-team-05 .social-item .icons {
+        display: table-cell;
+        vertical-align: middle;
+        line-height: 48px;
+        font-size: 18px;
+        width: 100%;
+        color: #fff;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .slz-block-team-05 .main-content {
+        display: inline-block;
+        vertical-align: top;
+        padding: 20px 20px 25px 20px;
+        width: calc(100% - 50px);
+        color: rgba(255, 255, 255, 0.7);
+        height: 100%;
+        font-size: initial;
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .slz-block-team-05 .title {
+        line-height: 1.4;
+        font-size: 20px;
+        text-transform: capitalize;
+        color: #fff;
+        font-weight: 700;
+    }
+
+    .slz-block-team-05 .team-position {
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+
+    .slz-block-team-05 .team-text {
+        max-height: 100px;
+        margin-top: 10px;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .slz-block-team-05 .team-text .mCSB_inside>.mCSB_container {
+        margin-right: 10px;
+    }
+
+    .slz-block-team-05 .btn {
+        padding: 0;
+        border: none;
+        margin-top: 12px;
+    }
+
+    .slz-block-team-05 .btn-icon {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        background-color: #555;
+        color: #fff;
+        margin-right: 10px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        font-size: 12px;
+    }
+
+    .slz-block-team-05 .btn-text {
+        color: #fff;
+        font-size: 16px;
+        display: inline-block;
+        vertical-align: top;
+        text-transform: capitalize;
+    }
+
+    .slz-list-inline > li {
+        display: inline-block;
+    }
+
+/*----------  6. Team Layout 6  ----------*/
+    .slz-carousel-wrapper-02 {
+        position: relative;
+    }
+
+    .slz-carousel-wrapper-02 .carousel-overflow {
+        overflow: visible;
+    }
+
+    .slz-carousel-wrapper-02 .slz-carousel-img-wrapper {
+        position: absolute;
+        top: -85px;
+        left: 0;
+        width: 460px;
+        height: 600px;
+    }
+
+    .slz-carousel-wrapper-02 .slz-carousel-img .team-img img {
+        width: 100%;
+    }
+
+    .slz-carousel-wrapper-02 .slz-carousel-info-wrapper {
+        width: 75%;
+        margin: 85px 0 0 auto;
+        padding: 40px 140px 40px 220px;
+        text-align: center;
+        box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+    }
+
+    .slz-carousel-wrapper-02 .slz-carousel-info-wrapper .slick-dotted.slick-slider {
+        margin-bottom: 0;
+    }
+
+    .slz-carousel-wrapper-02 .slz-carousel-info-wrapper .slick-dots {
+        bottom: 50%;
+        right: -200px;
+        width: auto;
+    }
+
+    .slz-carousel-wrapper-02 .slz-carousel-info-wrapper .slick-dots li {
+        display: block;
+    }
+
+    .slz-carousel-wrapper-02 .team-info .name {
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .slz-carousel-wrapper-02 .team-info .position {
+        text-transform: capitalize;
+        margin-top: 5px;
+    }
+
+    .slz-carousel-wrapper-02 .team-info .info-title {
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-top: 15px;
+    }
+
+    .slz-carousel-wrapper-02 .team-info .info-description {
+        margin-top: 5px;
+    }
+
+    .slz-carousel-wrapper-02 .team-info .info-description.contact-info i:before {
+        padding-right: 5px;
+    }
+
+    .slz-carousel-wrapper-02 .team-info .info-description.contact-info i + i {
+        padding-left: 20px;
+        position: relative;
+    }
+
+    .slz-carousel-wrapper-02 .team-info .info-description.contact-info i + i:after {
+        position: absolute;
+        content: '/';
+        top: 0;
+        left: 8px;
+    }
+
+    .slz-carousel-wrapper-02 .team-info .info-social {
+        margin: 15px 0 0 0;
+    }
+
+    .slz-carousel-wrapper-02 .team-info .info-social .item {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+        line-height: 24px;
+    }
+
+    .slz-carousel-wrapper-02 .team-info .info-social .item:last-child {
+        margin-right: 0;
+    }
+
+    .slz-carousel-wrapper-02 .team-info .info-social .item i,
+    .slz-carousel-wrapper-02 .team-info .info-social .item .text {
+        line-height: inherit;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .slz-carousel-wrapper-02 .team-info .info-social .item i {
+        margin-right: 5px;
+        height: auto;
+        width: auto;
+        margin-left: 0;
+    }
+
+    .slz-carousel-wrapper-02 .team-info .info-social .item .text {
+        font-size: 0;
+    }
+
+    .slz-carousel-wrapper-02 .team-info .read-more {
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+/*----------  7. Team Carousel  ----------*/
+    .sc_team_carousel .slz-carousel-wrapper .slz-carousel .slick-slide img {
+        width: auto;
+    }

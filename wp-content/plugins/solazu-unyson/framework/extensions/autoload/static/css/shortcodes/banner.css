@@ -1,0 +1,140 @@
+/*
+*  STYLE FOR BANNER
+*
+*
+*  [Table of contents]
+*
+*  [&. Content / #key]
+*  [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+*
+*  Summary:
+*
+*
+*  1. Banner 01
+*  2. Banner 02
+*  n. Responsive
+*
+*
+*/
+
+
+
+/*----------  1. Banner 01  ----------*/
+    .slz-banner-01 {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .slz-banner-01 .img-bg {
+        position: absolute;
+        z-index: 1;
+        left: 50%;
+        top: 50%;
+        width: 100%;
+        height: auto;
+        display: block;
+        max-width: none;
+        margin-bottom: 0;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .slz-banner-01 .title {
+        margin: 0;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+
+    .slz-banner-01 .title + .description {
+        margin-top: 30px;
+    }
+
+    .slz-banner-01 .slz-group-btn {
+        margin-top: 30px;
+    }
+
+    .slz-banner-01 .content-wrapper {
+        color: #fff;
+        z-index: 2;
+        position: relative;
+        padding: 100px 150px;
+    }
+
+/*----------  2. Banner 02  ----------*/
+    .slz-banner-01.style-2 {
+        text-align: left;
+    }
+
+    .slz-banner-01.style-2 .content-wrapper {
+        display: table;
+        width: 100%;
+    }
+
+    .slz-banner-01.style-2 .title {
+        display: table-header-group;
+    }
+
+    .slz-banner-01.style-2 .description {
+        position: relative;
+        padding-right: 15px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .slz-banner-01.style-2 .slz-group-btn {
+        display: table-cell;
+        min-width: 200px;
+        vertical-align: middle;
+        margin-top: 0;
+    }
+
+
+/*=====================================
+=            n. Responsive            =
+=====================================*/
+
+    @media screen and (max-width: 1024px) {
+        .slz-banner-01 .content-wrapper {
+             padding: 60px 100px;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .slz-banner-01 .content-wrapper {
+             padding: 50px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .slz-banner-01 .content-wrapper {
+             padding: 30px;
+        }
+
+        .slz-banner-01 .slz-group-btn,
+        .slz-banner-01.style-2 .slz-group-btn {
+            margin-top: 20px;
+        }
+
+        .slz-banner-01.style-2 {
+            text-align: center;
+        }
+
+        .slz-banner-01.style-2 .description,
+        .slz-banner-01.style-2 .slz-group-btn {
+            display: block;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .slz-banner-01 .img-bg {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+/*=====  End of n. Responsive  ======*/

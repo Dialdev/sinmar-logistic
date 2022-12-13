@@ -1,0 +1,77 @@
+.slz-option-type-addable-box {
+	max-width: 100%;
+}
+
+.slz-option-type-addable-box.has-boxes.width-type-full {
+	width: 9999px;
+}
+
+.slz-option-type-addable-box.has-boxes.width-type-fixed {
+	width: 428px; /* same as .slz-backend-option-fixed-width */
+}
+
+.slz-option-type-addable-box > .slz-option-boxes.ui-sortable > .slz-option-box > .slz-postbox {
+	min-width: 100%;
+}
+
+.slz-option-type-addable-box > .slz-option-boxes.ui-sortable > .slz-option-box > .slz-postbox > .hndle {
+	cursor: move !important; /* to rewrite .slz-postbox h3.hndle */
+	word-break: break-all; /* if box text is too long, do not move controls outside box */
+	position: relative;
+}
+
+.slz-option-type-addable-box > .slz-option-boxes.ui-sortable > .slz-option-box > .slz-postbox > .hndle > span {
+	overflow: hidden;
+	white-space: nowrap;
+	max-width: 100%;
+	display: block;
+}
+
+#wpbody-content .slz-option-type-addable-box .metabox-holder {
+	padding: 0;
+	margin: 0;
+}
+
+.slz-option-type-addable-box > .slz-option-boxes > .slz-option-box {
+	margin-bottom: 20px;
+}
+
+.slz-option-type-addable-box > .slz-option-boxes.ui-sortable > .slz-option-box > .slz-postbox > .hndle span:after {
+	content: '\00a0'; /* &nbsp; - when title is empty, box has too small (broken) height */
+}
+
+.slz-option-type-addable-box > .slz-option-boxes.ui-sortable > .slz-option-box > .slz-postbox > .hndle img {
+	vertical-align: middle;
+}
+
+.slz-option-type-addable-box .slz-backend-option-design-customizer {
+	padding: 15px;
+}
+
+
+/* Controls */
+
+
+.slz-option-type-addable-box > .slz-option-boxes > .slz-option-box .hndle .slz-html-after-title {
+	position: absolute;
+	top: 0;
+	right: 27px;
+	display: block;
+	height: 100%;
+	background-color: #FFF;
+	box-sizing: border-box;
+	padding: 0 3px;
+	padding-top: inherit;
+}
+
+.slz-option-type-addable-box > .slz-option-boxes > .slz-option-box .hndle .slz-html-after-title .slz-option-box-controls .slz-option-box-control {
+	text-decoration: none;
+}
+
+.slz-option-type-addable-box > .slz-option-boxes > .slz-option-box .hndle .slz-html-after-title .slz-option-box-controls .slz-option-box-control-wrapper {
+	color: #cccccc;
+}
+
+/* end: Controls */
+
+

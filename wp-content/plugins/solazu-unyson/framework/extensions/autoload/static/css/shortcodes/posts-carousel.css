@@ -1,0 +1,217 @@
+/*
+*  STYLE FOR POST CAROUSEL
+*
+*
+*  [Table of contents]
+*
+*  [&. Content / #key]
+*  [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+*
+*  Summary:
+*
+*
+*  1. General
+*  2. Layout India
+*  3. Layout Kingdom
+*  4. Layout Turkey
+*  5. Layout Germany
+*  n. Responsive
+*
+*
+*/
+
+
+/*----------  1. General   --------------*/
+    .slz-carousel-wrapper .slz-block-item-01 {
+        background-color: #fafafa;
+        box-shadow: none;
+    }
+
+/*----------  2. Layout India   ----------*/
+    .slz-carousel-wrapper .slz-carousel-vertical .item {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+/*----------  3. Layout Kingdom   --------*/
+    .slz-carousel-wrapper .slz-block-slider-01 .slick-dotted.slick-slider {
+        margin-bottom: 0;
+    }
+
+    .slz-block-slider-01 {
+        margin: 0 -15px;
+        font-size: 0;
+        position: relative;
+    }
+
+    .slz-block-slider-01 .block-slider-main-01 .slick-list {
+        padding: 30px 0;
+    }
+
+    .slz-block-slider-01 .slick-dots {
+        bottom: 30px;
+        left: 0;
+        text-align: right;
+        width: 50%;
+        padding-right: 15px;
+    }
+
+    .slz-block-slider-01 .block-slider-main-01 {
+        margin-bottom: 0;
+    }
+
+    .slz-block-slider-01 .block-slider-main-01 .slick-item {
+        padding: 0 15px;
+    }
+
+    .slz-block-slider-01 .block-slider-main-01 .block-image:hover .link:after{
+        opacity: 1;
+    }
+
+    .slz-block-slider-01 .block-slider-nav-01 {
+        margin: 0 -5px;
+    }
+
+    .slz-block-slider-01 .slider-nav-wrapper {
+        margin-left: calc(50% + 100% / 12);
+        width: calc(50% -  100% / 12 - 15px);
+        position: absolute;
+        bottom: 30px;
+    }
+
+    .slz-block-slider-01 .slider-nav-wrapper .slick-item {
+        padding: 0 5px;
+    }
+
+    .slz-block-slider-01 .slider-nav-wrapper .block-image .link:after {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .slz-block-slider-01 .slider-nav-wrapper:hover .slick-current .block-image .link:after {
+        opacity: 1;
+    }
+
+    .slz-block-slider-01 .slider-nav-wrapper .block-image:hover .link:after,
+    .slz-block-slider-01 .slider-nav-wrapper .slick-current .block-image .link:after,
+    .slz-block-slider-01 .slider-nav-wrapper .slick-current .block-image:hover .link:after {
+        opacity: 0;
+    }
+
+    .slz-block-slider-01 .block-left {
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .slz-block-slider-01 .block-right {
+        margin-left: calc(100% / 12);
+        width: calc(50% -  100% / 12);
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .slz-block-slider-01 .block-image-wrapper {
+        background-color: #fff;
+        box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.05);
+        -webkit-box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.05);
+        height: 340px;
+    }
+
+    .slz-block-slider-01 .block-image-wrapper .block-image {
+        left: 50px;
+        top: -30px;
+        height: 100%;
+        background-color: transparent;
+    }
+
+    .slz-block-slider-01 .block-slide-description {
+        color: #666c72;
+        padding-bottom: 110px;
+        font-size: 14px;
+    }
+
+    .slz-block-slider-01 .block-slide-description .block-title {
+        font-size: 24px;
+        font-weight: 500;
+        color: #18364a;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .slz-block-slider-01 .block-slide-description p {
+        margin-bottom: 15px;
+    }
+
+/*----------  4. Layout Turkey  ----------*/
+    .sc_carousel_posts .slz-carousel-syncing .slz-carousel-wrapper {
+        margin: 0;
+    }
+
+    .sc_carousel_posts .slz-carousel-syncing .image-gallery-wrapper .content {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 5;
+        padding: 10px;
+        color: #fff;
+        font-size: 16px;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+/*----------  5. Layout Germany  ---------*/
+    .slz-carousel-vertical-02 .slider-for {
+        width: 60%;
+        float: left;
+        position: relative;
+    }
+
+    .slz-carousel-vertical-02 .slider-for .item {
+        position: relative;
+    }
+
+    .slz-carousel-vertical-02 .slider-nav {
+        width: 40%;
+        padding: 0 15px;
+        float: left;
+        border-left: none;
+        overflow-y: auto;
+    }
+
+    .slz-carousel-vertical-02 .slider-nav .item {
+        padding: 20px;
+        border-bottom: 1px solid #ebebeb;
+        position: relative;
+        cursor: pointer;
+        list-style: none;
+        background-color: #fafafa;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .slz-carousel-vertical-02 .slider-nav .item.slick-current {
+        background-color: #ebebeb;
+    }
+
+/*=====================================
+=            n. Responsive            =
+=====================================*/
+
+    @media screen and (max-width: 767px) {
+        .slz-carousel-vertical {
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+        .slz-carousel-wrapper .slz-carousel-vertical .item {
+            padding: 0 10px;
+        }
+    }
+
+/*=====  End of n. Responsive  ======*/

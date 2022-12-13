@@ -1,0 +1,75 @@
+blockquote,
+    q {
+        -webkit-hyphens: none;
+        -moz-hyphens:    none;
+        -ms-hyphens:     none;
+        hyphens:         none;
+        quotes: none;
+    }
+
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: "";
+        content: none;
+    }
+
+    blockquote {
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 400;
+        background: #fafafa;
+        border-left: none;
+        margin:0px 0px 20px;
+        padding: 30px 30px 30px 50px;
+        position: relative;
+        border-radius: 5px;
+    }
+
+    blockquote:before{
+        font-size: 5rem;
+        color: #db0f31;
+        left: 15px;
+        top: 5px;
+        line-height: 1;
+        display: table;
+        position: absolute;
+        content: '“';
+        vertical-align: middle;
+        padding-right: 15px;
+        font-style: italic;
+        font-family: "Lato";
+    }
+
+    blockquote p {
+        font-size: 18px;
+        color: #18364a;
+        line-height: 28px;
+    }
+
+    blockquote blockquote {
+        margin-right: 0;
+    }
+
+    blockquote cite,
+    blockquote small {
+        font-size: 14px;
+        font-weight: normal;
+        font-weight: 400;
+        color: #888888;
+        text-align: left;
+        display: block;
+        margin-top: 5px;
+    }
+
+    blockquote em,
+    blockquote i {
+        font-style: normal;
+        font-weight: 300;
+    }
+
+    blockquote strong,
+    blockquote b {
+        font-weight: 400;
+    }

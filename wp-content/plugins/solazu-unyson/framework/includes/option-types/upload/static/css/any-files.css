@@ -1,0 +1,22 @@
+.slz-option-type-upload.any-files.empty span {
+	display: none;
+}
+.slz-option-type-upload.any-files span {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.slz-option-type-upload.any-files em {
+	font-style: normal;
+}
+.slz-option-type-upload.any-files a {
+	outline: none;
+}
+.slz-option-type-upload.any-files button {
+	vertical-align: middle;
+}
+
+
+.slz-backend-option-input-type-upload .slz-option-help-in-input {
+	top: 4px !important;
+}

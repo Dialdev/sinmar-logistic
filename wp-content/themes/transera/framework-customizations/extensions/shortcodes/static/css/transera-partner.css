@@ -1,0 +1,50 @@
+
+/*----------  List Logo Partner  ----------*/
+.slz-list-logo .link img{
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.slz-list-logo:hover .link img{
+    opacity:0.6;
+}
+.slz-list-logo:hover .link:hover img{
+    opacity:1;
+}
+
+
+@media screen and (max-width: 768px) {
+    .slz-list-block.slz-list-logo.slz-column-3 .item:nth-child(-n + 3),
+    .slz-list-block.slz-list-logo.slz-column-4 .item:nth-child(-n + 4),
+    .slz-list-block.slz-list-logo.slz-column-4 .item:nth-child(-n + 3) {
+        margin-top: 60px;
+    }
+
+    .slz-list-block.slz-list-logo.slz-column-2 .item:nth-child(-n + 2),
+    .slz-list-block.slz-list-logo.slz-column-3 .item:nth-child(-n + 2),
+    .slz-list-block.slz-list-logo.slz-column-4 .item:nth-child(-n + 2) {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .slz-list-block.slz-list-logo .item {
+        margin-top: 30px;
+    }
+
+    .slz-list-block.slz-list-logo.slz-column-3 .item:nth-child(-n + 3),
+    .slz-list-block.slz-list-logo.slz-column-4 .item:nth-child(-n + 4),
+    .slz-list-block.slz-list-logo.slz-column-4 .item:nth-child(-n + 3) {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .slz-list-block.slz-list-logo.slz-column-3 .item:first-child,
+    .slz-list-block.slz-list-logo.slz-column-4 .item:first-child,
+    .slz-list-block.slz-list-logo.slz-column-4 .item:first-child {
+        margin-top: 0;
+    }
+}

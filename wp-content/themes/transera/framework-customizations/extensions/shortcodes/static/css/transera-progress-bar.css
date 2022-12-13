@@ -1,0 +1,134 @@
+/*----------  Progress Bar 01  ----------*/
+.slz-progress-bar-01 {
+    padding: 10px 0;
+}
+.slz-progress-bar-01:first-child {
+    padding-top: 0;
+}
+.slz-progress-bar-01:last-child {
+    padding-bottom: 0;
+}
+.slz-progress-bar-01 .progress-bar {
+    border-radius: 0;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    background-color: #db0f32;
+    position: relative;
+}
+
+.slz-progress-bar-01 .progress-bar:before {
+    content: '\25CF';
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: 3px;
+    top: -4px;
+    text-align: right;
+}
+
+.slz-progress-bar-01 .progress-title .percent {
+    display: none;
+}
+
+.slz-progress-bar-01 .progress {
+    height: 14px;
+    background-color: #f0f0f0;
+    box-shadow: none;
+}
+
+.slz-progress-bar-01 .progress-title {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.slz-progress-bar-01.style-5 .progress-title {
+    padding-bottom: 0;
+    padding-top: 5px;
+}
+
+.slz-progress-bar-01.style-5:first-child {
+    padding-top: 10px;
+    padding-bottom: 0px;
+
+}
+
+.slz-progress-bar-01.style-5:last-child {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.slz-progress-bar-01 .progress-title span {
+    font-weight: bold;
+    font-size: 15px;
+    color: #2b2e34;
+    margin: 0;
+    display: block;
+}
+
+.slz-progress-bar-01.style-4 .progress-title span {
+    color: #fff;
+}
+/*----------  Progress Bar 02  ----------*/
+.slz-progress-bar-02 .progress-circle {
+     width: 90px;
+     height: 90px;
+     vertical-align: top;
+}
+.slz-progress-bar-02 .circle {
+    width: 90px;
+    height: 90px;
+}
+.slz-progress-bar-02 .percent {
+    font-size: 24px;
+    font-weight: 900;
+    color: #666c72;
+}
+.slz-progress-bar-02 .progress-circle + .progress-content {
+    display: inline-block;
+    width: calc( 100% - 95px);
+    padding-left: 10px;
+    text-align: left;
+    margin-top: 0;
+}
+.slz-progress-bar-02 .progress-content .title {
+    color: #18364a;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.slz-progress-bar-02 .progress-content .description {
+    font-size: 14px;
+    color: #666c72;
+}
+
+.sc_progress_bar > .row + .row {
+    margin-top: 50px;
+}
+
+/*----------  Progress Bar 03  ----------*/
+    .slz-progress-bar-01.style-4 .progress-bar:before {
+        content: "";
+        width: 12px;
+        height: 12px;
+        background-color: #fff;
+        border-radius: 50%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+/*----------  RESPONSIVE  ----------*/
+    @media screen and (max-width: 768px) {
+
+        .sc_progress_bar > .row .col-md-6 {
+            margin-top: 30px;
+        }
+
+        .sc_progress_bar > .row .col-md-6:first-child {
+            margin-top: 0;
+        }
+
+        .sc_progress_bar > .row + .row {
+            margin-top: 30px;
+        }
+    }

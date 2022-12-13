@@ -1,0 +1,158 @@
+/*
+Styles for options type from option-types.php file, that has no own style.css
+*/
+
+
+/* placeholder */
+
+.slz-option ::-webkit-input-placeholder {
+	font-style: italic;
+	line-height: 1.4em;
+}
+
+.slz-option ::-moz-placeholder {
+	font-style: italic;
+	line-height: 1.4em;
+}
+
+.slz-option :-ms-input-placeholder {
+	font-style: italic;
+	line-height: 1.4em;
+}
+
+.slz-option :-moz-placeholder {
+	font-style: italic;
+	line-height: 1.4em;
+}
+
+.slz-option::-webkit-input-placeholder {
+	font-style: italic;
+	line-height: 1.4em;
+}
+
+.slz-option::-moz-placeholder {
+	font-style: italic;
+	line-height: 1.4em;
+}
+
+.slz-option:-ms-input-placeholder {
+	font-style: italic;
+	line-height: 1.4em;
+}
+
+.slz-option:-moz-placeholder {
+	font-style: italic;
+	line-height: 1.4em;
+}
+
+/* end: placeholder */
+
+
+textarea.slz-option-type-textarea {
+	max-width: 100%;
+	min-width: 100%;
+}
+
+
+.slz-backend-option-type-hidden,
+.slz-backend-option-type-unique {
+	display: none;
+}
+
+
+.slz-backend-option-input-type-text .slz-option-help-in-input,
+.slz-backend-option-input-type-short-text .slz-option-help-in-input,
+.slz-backend-option-input-type-select .slz-option-help-in-input,
+.slz-backend-option-input-type-short-select .slz-option-help-in-input,
+.slz-backend-option-input-type-password .slz-option-help-in-input {
+	top: 4px !important;
+}
+
+
+.slz-option-type-checkboxes > div,
+.slz-option-type-radio > div {
+	margin-bottom: 6px;
+}
+
+
+.slz-option-width-short {
+	width: 100px !important;
+}
+
+/* Radio and Checkboxes inline */
+
+.slz-option-type-checkboxes.slz-option-type-checkboxes-inline > div,
+.slz-option-type-radio.slz-option-type-radio-inline > div {
+	float: left;
+	margin-right: 10px;
+}
+
+.slz-option-type-checkboxes.slz-option-type-checkboxes-inline > div:last-child,
+.slz-option-type-radio.slz-option-type-radio-inline > div:last-child {
+	margin-right: 0;
+}
+
+/* RTL Radio and Checkboxes inline */
+body.rtl .slz-option-type-checkboxes.slz-option-type-checkboxes-inline > div:not(:last-child),
+body.rtl .slz-option-type-radio.slz-option-type-radio-inline > div:not(:last-child) {
+	float: right;
+	margin: 0 0 0 10px;
+}
+
+/* end: Radio amd Checkboxes inline */
+
+/* modal fixes */
+
+.slz-modal .media-frame input[type=password],
+.slz-modal .media-frame input[type=number],
+.slz-modal .media-frame input[type=search],
+.slz-modal .media-frame input[type=email],
+.slz-modal .media-frame input[type=text],
+.slz-modal .media-frame input[type=url],
+.slz-modal .media-frame select,
+.slz-modal .media-frame textarea {
+	font-size: 14px;
+}
+
+.slz-modal .media-frame select {
+	line-height: 28px;
+	height: 28px;
+	padding: 2px;
+	margin: 1px;
+}
+
+.slz-modal .media-frame select[multiple] {
+	height: auto;
+}
+
+.slz-modal .media-frame input[type=password],
+.slz-modal .media-frame input[type=number],
+.slz-modal .media-frame input[type=search],
+.slz-modal .media-frame input[type=email],
+.slz-modal .media-frame input[type=text],
+.slz-modal .media-frame input[type=url] {
+	height: 28px;
+	padding: 3px 5px;
+}
+
+.slz-modal .media-frame textarea {
+	padding: 3px 5px;
+}
+
+.slz-modal .media-frame textarea.code {
+	line-height: 1.4;
+}
+
+@media (max-width: 782px) {
+	.slz-option-type-checkboxes label,
+	.slz-option-type-radio label {
+		vertical-align: middle;
+		line-height: 2.2em;
+	}
+
+	select.slz-option-type-select-multiple {
+		height: auto !important;
+	}
+}
+
+/* end: modal fixes */

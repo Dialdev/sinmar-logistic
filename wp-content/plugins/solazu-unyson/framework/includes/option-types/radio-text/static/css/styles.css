@@ -1,0 +1,43 @@
+.slz-option-type-radio-text .predefined,
+.slz-option-type-radio-text .predefined .slz-option-type-radio,
+.slz-option-type-radio-text .predefined .slz-option-type-radio div,
+.slz-option-type-radio-text .custom {
+	display: inline-block;
+}
+
+.slz-option-type-radio-text .predefined {
+	vertical-align: middle;
+}
+
+.slz-option-type-radio-text .predefined .slz-option-type-radio div {
+	margin-left: 10px;
+}
+
+body.rtl .slz-option-type-radio-text .predefined .slz-option-type-radio div {
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+.slz-option-type-radio-text .predefined .slz-option-type-radio div:first-child {
+	margin-left: inherit;
+}
+
+body.rtl .slz-option-type-radio-text .predefined .slz-option-type-radio div:first-child {
+	margin-right: inherit;
+}
+
+.slz-option-type-radio-text .custom input.slz-option-type-text{
+	width: 100px;
+	margin-left: 10px;
+}
+
+.slz-option-type-radio-text .custom input.slz-option-type-text:first-child{
+	margin: 0;
+}
+
+
+.slz-backend-option-input-type-radio-text .slz-option-help-in-input {
+	top: 4px !important;
+}
+
+

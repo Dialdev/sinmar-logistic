@@ -1,0 +1,104 @@
+.slz-option-type-color-palette .predefined,
+.slz-option-type-color-palette .predefined .slz-option-type-radio,
+.slz-option-type-color-palette .predefined .slz-option-type-radio div,
+.slz-option-type-color-palette .custom {
+    display: inline-block;
+}
+
+.slz-option-type-color-palette .predefined {
+    vertical-align: middle;
+}
+
+.slz-option-type-color-palette .predefined .slz-option-type-radio div {
+    margin-left: 7px;
+}
+
+.slz-option-type-color-palette .predefined .slz-option-type-radio div:first-child {
+    margin-left: inherit;
+}
+
+.slz-option-type-color-palette .custom input.slz-option-type-text{
+    width: 100px;
+    margin-left: 10px;
+}
+
+.slz-option-type-color-palette .custom input.slz-option-type-text:first-child{
+    margin: 0;
+}
+
+
+.slz-backend-option-input-type-color-palette .slz-option-help-in-input {
+    top: 4px !important;
+}
+
+.slz-option-type-color-palette .predefined .slz-option.slz-option-type-radio  label {
+    position: relative;
+    top: -4px;
+}
+
+.slz-option-type-color-palette input[type=radio] {
+    margin-right: 10px;
+    position: relative;
+    left: 5px;
+    top: 7px;
+    visibility: hidden;
+}
+
+.slz-option-type-color-palette .predefined .slz-option.slz-option-type-radio div:last-child input[type=radio] {
+    visibility: visible;
+}
+
+.slz-option-type-color-palette .slz-palette {
+    display: block;
+    padding: 2px;
+    border-radius: 2px;
+    position:absolute;
+    z-index: 1;
+
+}
+
+.slz-option-type-color-palette .slz-palette.slz-palette-border,
+.slz-option-type-color-palette .slz-palette.slz-palette-border:hover{
+    border: 3px solid #64bd1f;
+    top: 1px;
+}
+
+.slz-option-type-color-palette .slz-palette {
+    border: 3px solid transparent;
+    top: 1px;
+}
+
+.slz-option-type-color-palette .slz-palette .slz-palette-border-white{
+    border: 1px solid #e8e8e8;
+    width: 16px;
+    height: 16px;
+}
+
+.slz-option-type-color-palette .slz-palette:hover {
+    border: 3px solid #dddddd;
+    top: 1px;
+}
+
+.slz-option-type-color-palette .slz-palette-inner{
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+
+.slz-backend-option-design-default > .slz-backend-option-input.slz-backend-option-input-type-color-palette.width-type-fixed > .slz-inner{
+    width:auto;
+}
+
+.slz-option-type-color-palette .predefined{
+    margin-top: -4px;
+}
+
+.slz-force-xs .slz-option-type-multi-picker .slz-backend-option-design-default{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.slz-force-xs .slz-option-type-color-palette .predefined .slz-option-type-radio div {
+    margin-left: 3px;
+}
+

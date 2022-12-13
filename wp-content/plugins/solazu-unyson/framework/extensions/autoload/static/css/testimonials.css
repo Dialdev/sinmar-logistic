@@ -1,0 +1,715 @@
+/*
+*  STYLE DEFAULT TESTIMONIAL
+*
+*
+*  [Table of contents]
+*
+*  [&. Content / #key]
+*  [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+*
+*  Summary:
+*
+*
+*  0. General
+*  1. Testimonial Layout 1
+*  2. Testimonial Layout 2
+*  3. Testimonial Layout 3
+*  4. Testimonial Layout 4
+*  5. Testimonial Layout 5
+*  6. Testimonial Layout 6
+*  n. Responsive 
+*
+*
+*/
+
+
+/*----------  0. General  ----------------------*/
+    .slz-testimonial .btn {
+        position: absolute;
+        top: 50%;
+        font-size: 50px;
+        background-color: transparent;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .slz-testimonial .btn:hover,
+    .slz-testimonial .btn:focus
+    .slz-testimonial .btn:active {
+        box-shadow: none;
+    }
+
+    .slz-testimonial .btn-prev {
+        left: -50px;
+    }
+
+    .slz-testimonial .btn-next {
+        right: -50px;
+        left: auto;
+    }
+
+    .slz-testimonial .slick-dots {
+        padding: 0;
+        margin: 0;
+    }
+
+    .slz-testimonial .slick-dots li button {
+        padding: 0;
+    }
+
+    .slz-testimonial .slick-dots li button:before {
+        font-size: 12px;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .slz-testimonial .name {
+        font-size: 18px;
+        font-weight: 600;
+        color: #666c72;
+        text-transform: capitalize;
+    }
+
+    .slz-testimonial .icons {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .slz-testimonial .thumbnail-img-wrapper {
+        width: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/*----------  1. Testimonial Layout 1  ----------*/
+    .slz-testimonial-01 .client-wrapper {
+        position: relative;
+        margin-bottom: 30px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .slz-testimonial-01 .client-wrapper .item {
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .slz-testimonial-01 .img-wrapper {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
+    .slz-testimonial-01 .img-wrapper:before {
+        content: "";
+        padding-top: 100%;
+        display: block;
+    }
+
+    .slz-testimonial-01 .img-wrapper img {
+        margin: 0 auto;
+        width: auto;
+        height: 100%;
+        max-width: none;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .slz-testimonial-01 .thumbnail-img-wrapper img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .slz-testimonial-01 .info-wrapper .name,
+    .slz-testimonial-01 .info-wrapper .position {
+        opacity: 0;
+        visibility: hidden;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .slz-testimonial-01 .slick-current .info-wrapper .name,
+    .slz-testimonial-01 .slick-current .info-wrapper .position {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .slz-testimonial-01 .quote-wrapper {
+        text-align: center;
+    }
+
+    .slz-testimonial-01 .quote-wrapper .item {
+        text-align: left;
+    }
+
+    .slz-testimonial-01 .quote-wrapper .description {
+        font-size: 16px;
+        font-style: italic;
+        margin-bottom: 0;
+        position: relative;
+        padding-left: 80px;
+    }
+
+    .slz-testimonial-01 .quote-wrapper .description:before {
+        content: "\275D";
+        display: inline-block;
+        font-size: 120px;
+        line-height: 80px;
+        position: absolute;
+        color: #da0f32;
+        vertical-align: middle;
+        font-style: normal;
+        top: 5px;
+        left: 0;
+    }
+
+    .slz-testimonial-01 .quote-wrapper .slick-arrow {
+        display: none !important;
+    }
+
+    .slz-testimonial-01.layout-06 .client-wrapper .slick-arrow {
+        display: none !important;
+    }
+
+    .slz-testimonial-01.layout-06 .quote-wrapper .slick-arrow {
+        display: block !important;
+    }
+
+/*----------  2. Testimonial Layout 2  ----------*/
+    .slz-testimonial-02 .item {
+        position: relative;
+        text-align: right;
+        padding: 30px 40px 30px 0;
+    }
+
+    .slz-testimonial-02 .client-item {
+        position: absolute;
+        width: 25%;
+        top: 0;
+        left: 0;
+    }
+
+    .slz-testimonial-02 .img-wrapper {
+        display: block;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .slz-testimonial-02 .img-wrapper:before {
+        display: block;
+        content: '';
+        padding-top: 100%;
+    }
+
+    .slz-testimonial-02 .img-wrapper img {
+        width: auto;
+        height: 100%;
+        max-width: none;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .slz-testimonial-02 .quote-item {
+        display: inline-block;
+        text-align: center;
+        box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+        padding: 45px 30px 50px 100px;
+        width: 80%;
+    }
+
+    .slz-testimonial-02 .quote-item .img-wrapper {
+        width: 100px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .slz-testimonial-02 .thumbnail-img-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .slz-testimonial-02 .description {
+        margin-top: 20px;
+    }
+
+    .slz-testimonial-02 .slick-dots {
+        width: auto;
+        right: 0;
+        bottom: auto;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .slz-testimonial-02 .slick-dots li {
+        display: block;
+    }
+
+/*----------  3. Testimonial Layout 3  ----------*/
+    .slz-testimonial-03 .client-wrapper {
+        width: 120px;
+        padding-right: 30px;
+        float: left;
+        z-index: 2;
+    }
+
+    .slz-testimonial-03 .client-wrapper .slick-slide {
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    .slz-testimonial-03 .client-wrapper .slick-current {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .slz-testimonial-03 .client-wrapper .client-item,
+    .slz-testimonial-03 .client-wrapper .slick-slide,
+    .slz-testimonial-03 .client-wrapper .slick-current {
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+
+    .slz-testimonial-03 .client-wrapper .slick-list {
+        padding-top: 10px;
+    }
+
+    .slz-testimonial-03 .quote-wrapper {
+        padding-left: 120px;
+    }
+
+    .slz-testimonial-03 .img-wrapper {
+        position: relative;
+        top: 0;
+        z-index: 1;
+        overflow: hidden;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+
+    .slz-testimonial-03 .slick-current .img-wrapper {
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        top: -10px;
+    }
+
+    .slz-testimonial-03 .img-wrapper:before {
+        display: block;
+        content: "";
+        padding-top: 100%;
+    }
+
+    .slz-testimonial-03 .img-wrapper img {
+        width: auto;
+        height: 100%;
+        max-width: none;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .slz-testimonial-03 .quote-wrapper .info-wrapper,
+    .slz-testimonial-03 .quote-wrapper .description {
+        display: block;
+        padding-left: 60px;
+        position: relative;
+    }
+
+    .slz-testimonial-03 .quote-wrapper .info-wrapper {
+        margin-top: 20px;
+    }
+    .slz-testimonial-03 .name,
+    .slz-testimonial-03 .position {
+        display: inline-block;
+        position: relative;
+    }
+
+    .slz-testimonial-03 .name + .position:before {
+        content: "-";
+        margin: 0 10px;
+    }
+
+    .slz-testimonial-03 .quote-wrapper .description:before {
+        position: absolute;
+        content: "\275D";
+        font-size: 6rem;
+        top: 25px;
+        left: 0;
+        color: #da0f32;
+    }
+
+/*----------  4. Testimonial Layout 4  ----------*/
+    .slz-testimonial-01.layout-04 {
+        text-align: center;
+        position: relative;
+    }
+
+    .slz-testimonial-01.layout-04 .client-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .slz-testimonial-01.layout-04 .client-wrapper .item {
+        padding: 0 50px;
+        text-align: center;
+    }
+
+    .slz-testimonial-01.layout-04 .quote-wrapper .item {
+        text-align: center;
+    }
+
+    .slz-testimonial-01.layout-04 .slick-list {
+        max-width: 700px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .slz-testimonial-01.layout-04 .client-wrapper .slick-slide{
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+
+    .slz-testimonial-01.layout-04 .client-wrapper .slick-center{
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .slz-testimonial-01.layout-04 .client-wrapper .slick-slide,
+    .slz-testimonial-01.layout-04 .client-wrapper .slick-center{
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+
+    .slz-testimonial-01.layout-04 .img-wrapper {
+        margin-bottom: 0;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+        opacity: 0.6;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+
+    .slz-testimonial-01.layout-04 .slick-current .img-wrapper {
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        opacity: 1;
+    }
+
+    .slz-testimonial-01.layout-04 .info-wrapper {
+        margin-top: 30px;
+    }
+
+    .slz-testimonial-01.layout-04 .info-wrapper .name,
+    .slz-testimonial-01.layout-04 .info-wrapper .position {
+        display: inline-block;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .slz-testimonial-01.layout-04 .quote-wrapper .description {
+        padding-left: 0;
+    }
+
+    .slz-testimonial-01.layout-04 .quote-wrapper .description:before {
+        content: none;
+    }
+
+    .slz-testimonial-01.layout-04 .name + .position:before {
+        content: "-";
+        margin: 0 10px;
+    }
+
+    .slz-testimonial.layout-04 .btn-prev {
+        left: 50px;
+        top: 110%;
+    }
+
+    .slz-testimonial.layout-04 .btn-next {
+        right: 50px;
+        top: 110%;
+    }
+
+/*----------  5. Testimonial Layout 5  ----------*/
+    .slz-testimonial-02.layout-05 .item {
+        text-align: left;
+        padding: 0;
+    }
+
+    .slz-testimonial-02.layout-05 .description {
+        margin-top: 0;
+        position: relative;
+        padding-left: 60px;
+    }
+
+    .slz-testimonial-02.layout-05 .description:before  {
+        content: "\275D";
+        position: absolute;
+        line-height: 1;
+        font-size: 6rem;
+        color: #da0f32;
+        left: 0;
+    }
+
+    .slz-testimonial-02.layout-05 .info-wrapper {
+        margin-top: 20px;
+        padding-left: 60px;
+    }
+
+    .slz-testimonial-02.layout-05 .position {
+        display: block;
+    }
+
+    .slz-testimonial-02.layout-05 .slick-dots {
+        width: auto;
+        right: auto;
+        left: 50%;
+        bottom: -25px;
+        top: auto;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .slz-testimonial-02.layout-05 .slick-arrow {
+        display: inline-block !important;
+    }
+
+    .slz-testimonial-02.layout-05 .slick-dots li {
+        display: inline-block;
+    }
+
+/*----------  6. Testimonial Layout 6  ----------*/
+    .slz-testimonial-01.layout-06 .slick-dots {
+        display: none !important;
+    }
+
+    .slz-testimonial-01.layout-06 .quote-wrapper .img-wrapper {
+        margin: 0 auto 20px auto;
+        max-width: 150px;
+    }
+
+    .slz-testimonial-01.layout-06 .quote-wrapper .description {
+        padding-left: 0;
+    }
+
+    .slz-testimonial-01.layout-06 .quote-wrapper .description:before {
+        content: none;
+    }
+
+    .slz-testimonial-01.layout-06 .client-wrapper .slick-slide,
+    .slz-testimonial-01.layout-06 .client-wrapper .slick-center {
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+  
+/*=====================================
+=            n. Responsive            =
+=====================================*/
+
+    @media screen and (max-width: 600px) {
+        .slz-testimonial-01 .client-wrapper {
+            margin-bottom: 20px;
+        }
+
+        .slz-testimonial-01 .client-wrapper {
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+
+        .slz-testimonial-01 .client-wrapper .item {
+            padding: 0 10px;
+        }
+
+        .slz-testimonial-01 .img-wrapper {
+            margin-bottom: 15px;
+        }
+
+        .slz-testimonial-02 .slick-slider {
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+
+        .slz-testimonial-02 .item {
+            padding: 20px 15px;
+        }
+
+        .slz-testimonial-02 .client-item {
+            display: none;
+        }
+
+        .slz-testimonial-02 .quote-item {
+            padding: 20px;
+            width: 100%;
+        }
+
+        .slz-testimonial-02 .quote-item .img-wrapper {
+            margin-bottom: 15px;
+        }
+
+        .slz-testimonial-02 .slick-dots {
+            left: 50%;
+            bottom: -25px;
+            top: auto;
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+        }
+
+        .slz-testimonial-02 .slick-dots li {
+            display: inline-block;
+        }
+
+        .slz-testimonial-01.layout-04 .client-wrapper .item {
+            padding: 0 20px;
+        }
+
+        .slz-testimonial-01.layout-04 .info-wrapper {
+            margin-top: 20px;
+        }
+
+        .slz-testimonial.layout-04 .btn-prev,
+        .slz-testimonial.layout-04 .btn-next {
+            display: none;
+        }
+
+        .slz-testimonial-02.layout-05 .item {
+            padding: 0 15px;
+        }    
+    }
+
+    @media screen and (max-width: 480px) {
+        .slz-testimonial-01 .quote-wrapper .description {
+            padding-left: 0
+        }
+
+        .slz-testimonial-01 .quote-wrapper .description:before {
+            content: none;
+        }
+
+        .slz-testimonial-03 .client-wrapper {
+            width: 100%;
+            float: none;
+            padding-right: 0;
+            margin-left: -10px;
+            margin-right: -10px;
+        }
+
+        .slz-testimonial-03 .client-wrapper .client-item {
+            padding: 0 10px;
+        }
+
+        .slz-testimonial-03 .slick-current .img-wrapper {
+            top: auto;
+        }
+
+        .slz-testimonial-03 .quote-wrapper {
+            padding-left: 0;
+            margin-top: 20px;
+        }
+
+        .slz-testimonial-01.layout-04 .client-wrapper .item {
+            padding: 0 10px;
+        }
+    }
+
+    @media screen and (max-width: 380px) {
+        .slz-testimonial-03 .quote-wrapper .description:before {
+            font-size: 4rem;
+            top: 15px;
+        }
+
+        .slz-testimonial-03 .quote-wrapper .description {
+            padding-left: 0px;
+        }
+
+        .slz-testimonial-03 .quote-wrapper .description:before {
+            content: none;
+        }
+    }
+
+/*=====  End of n. Responsive  ======*/

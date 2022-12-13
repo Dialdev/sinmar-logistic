@@ -1,0 +1,147 @@
+/*
+*  STYLE FOR TIMELINE 
+*
+*
+*  [Table of contents]
+*
+*  [&. Content / #key]
+*  [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+*
+*  Summary:
+*
+*
+*  1. Timeline
+*
+*
+*/
+
+/*----------  1. Timeline ----------*/
+    .slz-timeline {
+        position: relative;
+        padding: 60px 0;
+    }
+
+    .slz-timeline:before {
+        position: absolute;
+        content: '';
+        width: 2px;
+        height: 100%;
+        top: 0;
+        left: 50%;
+        background-color: rgba(0, 0, 0, 0.3);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .slz-timeline .milestone {
+        display: table;
+        width: 100%;
+        position: relative;
+        padding: 40px 0;
+    }
+
+    .slz-timeline .milestone:before {
+        position: absolute;
+        content: '';
+        width: 25px;
+        height: 25px;
+        top: 50%;
+        left: 50%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        background-color: #337ab7;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .slz-timeline .milestone .milestone-content {
+        display: inline-block;
+        width: 50%;
+        padding-right: 175px;
+        text-align: right;
+        position: relative;
+    }
+
+    .slz-timeline .milestone .milestone-content:before {
+        position: absolute;
+        content: '';
+        top: 50%;
+        right: 25px;
+        width: 40px;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.2);
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .slz-timeline .milestone .milestone-time {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .slz-timeline .milestone .milestone-text {
+        display: inline-block;
+        max-width: 280px;
+    }
+
+    .slz-timeline .milestone .milestone-img {
+        position: absolute;
+        top: 50%;
+        left: auto;
+        right: 75px;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .slz-timeline .milestone .milestone-number {
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        width: 50%;
+        font-size: 40px;
+        font-weight: 700;
+        padding-left: 35px;
+        color: rgba(0, 0, 0, 0.2);
+        line-height: 1.2;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .slz-timeline .milestone:nth-child(even) .milestone-content {
+        float: right;
+        padding-right: 0;
+        padding-left: 175px;
+        text-align: left;
+    }
+
+    .slz-timeline .milestone:nth-child(even) .milestone-content:before {
+        right: auto;
+        left: 25px;
+    }
+
+    .slz-timeline .milestone:nth-child(even) .milestone-img {
+        left: 75px;
+        right: auto;
+    }
+
+    .slz-timeline .milestone:nth-child(even) .milestone-number {
+        left: auto;
+        right: 100%;
+        padding-left: 0;
+        padding-right: 35px;
+    }
+
+
+

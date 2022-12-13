@@ -1,0 +1,373 @@
+/**
+ *    [Table of contents]
+ *
+ *    [&. Content / #key]
+ *    [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ *    Summary:
+ *
+ *    0. VARIABLE LESS
+ *        - 0.1. Color
+ *    1. RESPONSIVE SCREEN
+ 		  - 1.0. Responsive for layout boxed style
+ *        - 1.1. Media screen max width 1024px
+ *        - 1.2. Media screen max width 768px
+ *        - 1.3. Media screen max width 767px
+ *        - 1.4. Media screen max width 600px
+ *        - 1.5. Media screen max width 480px
+ *        - 1.6. Media screen max width 380px
+ *        - 1.7. Media screen max width 320px
+ */
+
+/*
+=========================================
+=            RESPONSIVE SCREEN          =
+=========================================
+*/
+
+/*----------  1.0. Responsive for layout boxed style  ----------*/
+@media (min-width:1600px) {
+    .slz-banner-01 .content-wrapper {
+        padding: 80px 150px;
+    }
+}
+@media (min-width:992px) and (max-width:1023px) {
+    .body-wrapper.style-boxed {
+        width: auto!important
+    }
+    .body-wrapper.style-boxed .header-middle {
+        width: auto;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1199px) {
+    .body-wrapper.style-boxed {
+        width: 1000px!important
+    }
+    .body-wrapper.style-boxed .header-middle {
+        width: 1000px;
+    }
+    .body-wrapper.style-boxed .container {
+        width: 100%
+    }
+}
+
+@media (min-width:1200px) {
+    .body-wrapper.style-boxed .container {
+        width: 100%
+    }
+    .slz-carousel-wrapper .slick-arrow.btn-prev{
+        left:-58px;
+    }
+    .slz-carousel-wrapper .slick-arrow.btn-next{
+        right:-58px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+	 /*boxed style*/
+    .body-wrapper.style-boxed {
+        width: auto!important
+    }
+
+    .body-wrapper.style-boxed .header-middle {
+        width: auto;
+    }
+}
+
+
+/*----------  1.1. Media screen max width 1024px  ----------*/
+    @media screen and (max-width: 1024px) {
+        /*----------  Main Title  ----------*/
+    	.sc_main_title.style-1 .slz-main-title .title {
+    		font-size: 35px;
+    	}
+    	.sc_main_title.style-1 i {
+    		font-size: 30px;
+    	}
+        .slz-carousel-wrapper .slick-arrow{
+            width:32px;
+            height:32px;
+            line-height:30px;
+            font-size:16px;
+        }
+    	.slz-carousel-wrapper .slick-arrow.btn-prev{
+    	    left:-35px;
+    	}
+    	.slz-carousel-wrapper .slick-arrow.btn-next{
+    	    right:-35px;
+    	}
+    	.sc_main_title{
+    	    margin-bottom: 40px;
+    	}
+    	.slz_col-md-12{
+    	    width:100%;
+    	    float: none;
+    	}
+    }
+
+/*----------  1.2. Media screen max width 768px  ----------*/
+
+    @media screen and (max-width: 768px) {
+        .sc_icon_box > .row > .col-md-3 {
+            width: 50%;
+            float: left;
+            margin-top: 30px;
+        }
+
+        .sc_icon_box > .row > .col-md-3:nth-child(-n + 2) {
+            margin-top: 0;
+        }
+
+        .slz-list-block.slz-column-2 .slz-block-item-02 .block-title,
+        .slz-list-block.slz-column-1 .slz-block-item-02 .block-title {
+            font-size: 24px;
+            line-height: 1.2;
+        }
+
+        .slz-list-block.slz-column-2 .slz-block-item-02 .sub-content,
+        .slz-list-block.slz-column-1 .slz-block-item-02 .sub-content {
+            width: 70px;
+        }
+
+        .slz-list-block.slz-column-2 .slz-block-item-02 .main-content,
+        .slz-list-block.slz-column-1 .slz-block-item-02 .main-content {
+            padding-left: 20px;
+            width: calc(100% - 70px);
+        }
+
+        .slz-list-block.slz-column-2 .slz-block-item-02 .date-time,
+        .slz-list-block.slz-column-1 .slz-block-item-02 .date-time {
+            padding: 5px;
+        }
+
+        .slz-list-block.slz-column-1 .slz-block-item-02 .date-time .month,
+        .slz-list-block.slz-column-1 .slz-block-item-02 .date-time .year,
+        .slz-list-block.slz-column-2 .slz-block-item-02 .date-time .month,
+        .slz-list-block.slz-column-2 .slz-block-item-02 .date-time .year{
+            font-size: 12px;
+        }
+
+        .slz-list-block.slz-column-1 .slz-block-item-02 .date-time .day,
+        .slz-list-block.slz-column-2 .slz-block-item-02 .date-time .day {
+            font-size: 30px;
+        }
+
+        .slz-footer-top .col-sm-6 {
+            margin-top: 40px;
+        }
+
+        .slz-footer-top .col-sm-6:nth-child(-n + 2) {
+            margin-top: 0;
+        }
+
+        footer .slz-widgets.slz-dark .slz-footer-top .widget-title,
+        footer .slz-widgets.slz-dark .slz-footer-top .title-widget {
+            margin-bottom: 15px;
+        }
+        .slz_col-md-12{
+            width:100%;
+            float: none;
+        }
+    }
+
+/*----------  1.3. Media screen max width 767px  ----------*/
+
+    @media screen and (max-width: 767px) {
+        .slz-footer-top .col-sm-6 {
+            margin-top: 30px;
+        }
+
+        .slz-footer-top .col-sm-6:nth-child(-n + 2) {
+            margin-top: 30px;
+        }
+
+        .slz-footer-top .col-sm-6:first-child {
+            margin-top: 0;
+        }
+
+    }
+
+/*----------  1.4. Media screen max width 600px  ----------*/
+
+    @media screen and (max-width: 600px) {
+
+        .slz-title-command .title-command-wrapper {
+            width: calc(100% - 30px);
+            min-width: 0;
+        }
+
+        .slz-title-command .title-command-wrapper .title {
+            font-size: 36px;
+            line-height: 1.2;
+        }
+
+        .breadcrumb-wrapper {
+            margin-top: 10px;
+        }
+
+        footer .slz-widgets .widget-title, footer .slz-widgets .title-widget {
+            margin-bottom: 20px;
+        }
+
+        .sc_block_posts .slz-list-block.slz-column-4 > .item,
+        .sc_block_posts .slz-list-block.slz-column-3 > .item,
+        .sc_block_posts .slz-list-block.slz-column-2 > .item {
+            width: 100%;
+        }
+
+        .sc_block_posts .slz-list-block.slz-column-2 .item:nth-child(-n + 2),
+        .sc_block_posts .slz-list-block.slz-column-3 .item:nth-child(-n + 2),
+        .sc_block_posts .slz-list-block.slz-column-4 .item:nth-child(-n + 2) {
+            margin-top: 30px;
+        }
+
+
+        .sc_block_posts .slz-list-block.slz-column-2 .item:first-child,
+        .sc_block_posts .slz-list-block.slz-column-3 .item:first-child,
+        .sc_block_posts .slz-list-block.slz-column-4 .item:first-child {
+            margin-top: 0;
+        }
+    }
+
+
+/*----------  1.5. Media screen max width 480px  ----------*/
+    @media screen and (max-width: 480px) {
+        .sc_icon_box > .row > .col-md-3 {
+            width: 100%;
+            float: none;
+        }
+
+        .sc_icon_box > .row > .col-md-3:nth-child(-n + 2) {
+            margin-top: 30px;
+        }
+
+        .sc_icon_box > .row > .col-md-3:first-child {
+            margin-top: 0;
+        }
+
+        .slz-footer-bottom .item-wrapper {
+            display: block;
+            width: 100%;
+            text-align: left !important;
+        }
+
+        .slz-footer-bottom .item-wrapper + .item-wrapper {
+            margin-top: 10px;
+        }
+
+        .comment-info-wrapper .author-name + .info {
+            margin-right: 0;
+            line-height: 18px;
+        }
+
+        .comment-info-wrapper .author-name {
+            font-weight: 700;
+        }
+
+        .blog-detail-wrapper .blog-detail-info .sub-content {
+            width: 70px;
+        }
+
+        .blog-detail-wrapper .blog-detail-info  .main-content {
+            padding-left: 20px;
+            width: calc(100% - 70px);
+        }
+
+        .blog-detail-wrapper .date-time {
+            padding: 5px;
+        }
+
+        .blog-detail-wrapper .date-time .month,
+        .blog-detail-wrapper .date-time .year {
+            font-size: 12px;
+        }
+
+        .blog-detail-wrapper .main-content .title {
+            font-size: 24px;
+        }
+
+    }
+
+/*----------  1.5. Media screen max width 414px  ----------*/
+    @media screen and (max-width: 414px) {
+        /*----------  Main Title  ----------*/
+    	.sc_main_title.style-1 .slz-main-title .title {
+    		font-size: 30px;
+    	}
+    	.sc_main_title.style-1 .slz-main-title .subtitle {
+    		letter-spacing: 2px;
+    	}
+    	.sc_main_title.style-2 img,
+    	.sc_main_title.style-2 i {
+    		top: 11px;
+    	}
+    	.sc_main_title.style-2 .slz-main-title .title,
+    	.sc_main_title.style-2 i {
+    		font-size: 20px;
+    	}
+    	/*----------  Contact Form 7  ----------*/
+    	.wpcf7 .cf7-form-control.left,
+    	.wpcf7 .cf7-form-control.right {
+    	    width: 100%;
+    	    margin: 0 0 20px;
+    	}
+    	.wpcf7 .cf7-form-control {
+    	    margin-bottom: 20px;
+    	}
+
+    	.slz-logo-wrapper .logo img {
+            max-width: 130px !important;
+        }
+        /*----------  Blog Author  ----------*/
+        .slz-blog-author {
+            box-shadow: 2px 3.5px 12px 0px rgba( 0, 0, 0, 0.1 );
+            padding-top: 30px;
+        }
+        .slz-blog-author .media-left {
+            display: block;
+            margin: 0 auto;
+        }
+        .slz-blog-author .media-right {
+            display: block;
+            width: 100%;
+            padding: 30px 30px 0;
+            text-align: center;
+        }
+        .slz-blog-author .media-right:before {
+            content: none;
+        }
+
+        .slz-list-block.slz-column-2 .slz-block-item-02 .block-title,
+        .slz-list-block.slz-column-1 .slz-block-item-02 .block-title {
+            font-size: 20px;
+            line-height: 1.4;
+        }
+    }
+
+/*----------  1.6. Media screen max width 380px  ----------*/
+    @media screen and (max-width: 380px) {
+
+        .slz-title-command .title-command-wrapper .title {
+            font-size: 24px ! important;
+        }
+    }
+
+/*----------  1.7. Media screen max width 320px  ----------*/
+
+
+    @media screen and (max-width: 320px) {
+        .slz-widget-material-download .slz-btn, .sc_material_download .slz-btn {
+            padding: 0 15px;
+        }
+
+        .slz-widget-material-download .slz-btn .btn-text, .sc_material_download .slz-btn .btn-text {
+            min-width: 0;
+        }
+
+        .slz-widget-material-download .slz-btn .btn-icon, .sc_material_download .slz-btn .btn-icon {
+            right: 15px;
+        }
+    }
+
+/*=====  End of RESPONSIVE SCREEN  ======*/

@@ -1,0 +1,21 @@
+#slz-ext-backups-status {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+#slz-ext-backups-status img {
+	vertical-align: text-bottom;
+}
+
+#slz-ext-backups-archives table thead,
+#slz-ext-backups-archives table tfoot,
+#slz-ext-backups-archives .tablenav.bottom .tablenav-pages,
+#slz-ext-backups-archives .tablenav .bulkactions,
+#slz-ext-backups-archives.no-archives .tablenav {
+	display: none;
+}
+
+.slz-ext-backups-description ul {
+	list-style-type: disc;
+	padding-left: 18px;
+}

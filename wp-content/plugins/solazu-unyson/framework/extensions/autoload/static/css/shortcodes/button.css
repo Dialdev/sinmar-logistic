@@ -1,0 +1,166 @@
+/*
+*  STYLE FOR BUTTON
+*
+*
+*  [Table of contents]
+*
+*  [&. Content / #key]
+*  [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+*
+*  Summary:
+*
+*
+*  1. Button
+*  2. Button Image
+*  3. Group Button
+*  4. Button Icon Absolute
+*  n. Responsive
+*
+*
+*/
+
+
+/*----------  1. Button  ----------*/
+    .slz-btn {
+        color: #fff;
+        height: 40px;
+        padding: 8px 30px;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 1px;
+        display: inline-block;
+        position: relative;
+        text-transform: uppercase;
+        border: 1px solid #da0f32;
+        background-color: #da0f32;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .slz-btn + .slz-btn {
+        margin-left: 15px;
+    }
+
+    .slz-btn:hover,
+    .slz-btn:focus {
+        border: 1px solid;
+        border-color: #4f93ce;
+        background-color: #4f93ce;
+        color: #ffffff;
+    }
+
+    .slz-btn > .btn-icon + .btn-text {
+        margin-left: 10px;
+    }
+
+    .slz-btn > .btn-text + .btn-icon {
+        margin-left: 10px;
+    }
+
+    .slz-btn.box-shadow {
+        box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.08);
+        -webkit-box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.08);
+    }
+
+    .slz-btn .icon-box-shadow {
+        box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.08);
+        -webkit-box-shadow: 3px 5px 10px 0px rgba(0, 0, 0, 0.08);
+    }
+
+/*----------  2. Button Image  -----------------*/
+    .btn-img {
+        width: 200px;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        background-color: transparent !important;
+    }
+
+    .btn-img:hover,
+    .btn-img:focus {
+        border: none;
+        background-color: transparent;
+    }
+
+    .btn-img:hover img,
+    .btn-img:focus img {
+        opacity: 0.9;
+    }
+
+    .btn-img img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .btn-img .btn-text {
+        display: none;
+    }
+
+/*----------  3. Group Button  -----------------*/
+    .slz-group-btn .slz-btn {
+        margin-left: 15px;
+    }
+
+    .slz-group-btn .slz-btn:first-child {
+        margin-left: 0;
+    }
+
+/*----------  4. Button Icon Absolute  ---------*/
+    .btn-absolute .btn-text {
+        margin-left: 0 !important;
+    }
+
+    .btn-absolute .btn-icon {
+        position: absolute;
+        opacity: 0;
+        right: 50%;
+        top: 50%;
+        border: none;
+        font-size: 14px;
+        margin-left: 0;
+        -ms-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    .btn-absolute:hover {
+        padding-right: 50px;
+    }
+
+    .btn-absolute:hover .btn-icon {
+        right: 20px;
+        opacity: 1;
+    }
+
+
+/*=====================================
+=            n. Responsive            =
+=====================================*/
+
+    @media screen and (max-width: 480px) {
+        .slz-group-btn .slz-btn,
+        .slz-group-btn .slz-btn:first-child {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .slz-group-btn .slz-btn + .slz-btn,
+        .slz-btn + .slz-btn {
+            margin-top: 15px;
+            margin-left: auto;
+        }
+    }
+    
+/*=====  End of n. Responsive  ======*/
+    

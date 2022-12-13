@@ -1,0 +1,72 @@
+/*
+*
+*
+*    1. Banner 01
+*
+*
+*    RESPONSIVE
+*
+*/
+
+
+/*-----------  1. Banner 01  ----------*/
+    .slz-banner-01{
+        overflow:hidden;
+    }
+    .slz-banner-01 .img-bg{
+        width:auto;
+
+    }
+    .slz-banner-01.style-2 .title{
+        text-align: left;
+    }
+    .slz-banner-01.style-2 .slz-btn{
+        padding:0 30px;
+    }
+/*-----------  RESPONSIVE  ------------*/
+    @media screen and (max-width: 1024px) {
+        .slz-banner-01 .content-wrapper {
+            padding: 30px;
+            padding-top: 0;
+        }
+
+        .slz-banner-01 .content-wrapper h1 {
+            margin-top: 0;
+        }
+        .slz-banner-01.style-2 .description{
+            width:70%;
+        }
+        .slz-banner-01.style-2 .slz-btn{
+            width:30%;
+        }
+    }
+
+    @media (max-width:768px){
+         .slz-banner-01.style-2 .description{
+            width:100%;
+        }
+        .slz-banner-01.style-2 .slz-btn{
+            width:100%;
+        }
+        .slz-banner-01.style-2 .title{
+            text-align: center;
+        }
+        .slz-banner-01.style-2 .description{
+            text-align: center;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .slz-banner-01 .img-bg {
+            width: 100%;
+            margin-bottom: 0;
+        }
+         .slz-banner-01.style-2 .description{
+            width:100%;
+        }
+        .slz-banner-01.style-2 .slz-btn{
+            width:100%;
+        }
+    }

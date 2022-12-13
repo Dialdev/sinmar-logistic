@@ -1,0 +1,32 @@
+<?php if ( ! defined( 'ABSPATH' ) ) {
+	die( 'Forbidden' );
+}
+
+class SLZ_Shortcode_Counterv2 extends SLZ_Shortcode
+{
+	protected function _render($atts, $content = null, $tag = '', $ajax = false)
+	{
+        $view_path = $this->locate_path('/views');
+
+		if( !$ajax ){
+
+            $data = $this->get_data( $atts );
+
+        } else
+            $data = $atts;
+		$data['counter_group'] = $this->get_config('counter_group');
+		$this->enqueue_static();
+
+		return slz_render_view($this->locate_path('/views/view.php'), array( 'data' => $data, 'view_path' => $view_path, 'instance' => $this ) );
+	}
+	public static function get_icon($icon_type,$icon_vc,$image_up){
+        $icon = '';
+        if($icon_type == '02'){
+            $icon = $image_up;
+        }else{
+            $icon = $icon_vc;
+        }
+        return $icon;
+    }
+
+}

@@ -1,0 +1,83 @@
+.slz-backend-option-type-multi-picker {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/* hide last inner option border */
+.slz-postbox .slz-option-type-multi-picker > .slz-backend-options-group.choice-group:after,
+.postbox-with-slz-options .slz-option-type-multi-picker > .slz-backend-options-group.choice-group:after,
+.slz-option-type-multi-picker.slz-option-type-multi-picker-with-borders > .choice-group > .slz-backend-option:after,
+.slz-option-type-multi-picker.slz-option-type-multi-picker-with-borders > .choice-group .slz-options-tabs-contents > .slz-inner > .slz-options-tab:after {
+	content: ' ';
+	display: block;
+	border-top: 1px solid #fff;
+	margin-top: -1px;
+	position: relative;
+}
+
+.slz-option-type-multi-picker > .choice-group {
+	display: none;
+	padding-bottom: 0;
+	border-bottom: 0;
+}
+
+.slz-option-type-multi-picker > .choice-group.chosen {
+	display: block;
+
+	-webkit-animation-name: slzFadeIn;
+	animation-name: slzFadeIn;
+
+	-webkit-animation-duration: .5s;
+	animation-duration: .5s;
+}
+
+.slz-option-type-multi-picker.slz-option-type-multi-picker-with-borders:not(.has-choice) > .picker-group > .slz-backend-option,
+.slz-option-type-multi-picker.slz-option-type-multi-picker-with-borders > .choice-group > .slz-backend-option-type-multi > div > div > div > div > .slz-backend-option:last-child,
+.slz-option-type-multi-picker.slz-option-type-multi-picker-without-borders > .choice-group > .slz-backend-option-type-multi > div > div > div > div > .slz-backend-option {
+	padding-bottom: 0; /* prevent backend-option double padding */
+}
+
+.slz-option-type-multi-picker.slz-option-type-multi-picker-with-borders.has-choice > .picker-group,
+.slz-option-type-multi-picker.slz-option-type-multi-picker-with-borders > .choice-group > .slz-backend-option:not(:last-child) {
+	border-bottom-width: 1px;
+}
+
+.slz-option-type-multi-picker.slz-option-type-multi-picker-without-borders > .picker-group,
+.slz-option-type-multi-picker.slz-option-type-multi-picker-with-borders:not(.has-choice) > .picker-group {
+	border-bottom-width: 0;
+}
+
+.slz-option-type-multi-picker > .picker-group > .slz-backend-option {
+	padding-top: 0; /* prevent backend-option double padding */
+	padding-bottom: 0; /* prevent backend-option double padding */
+}
+
+.slz-option-type-multi-picker.slz-option-type-multi-picker-with-borders > .picker-group > .slz-backend-option {
+	padding-bottom: 21px;
+}
+
+.slz-backend-option-type-multi-picker.slz-backend-option-design-customizer .slz-option-type-multi-picker > .picker-group {
+	padding-bottom: 10px;
+}
+
+/* tabs fixes */
+
+.slz-option-type-multi-picker > .choice-group .slz-options-tabs-wrapper > .slz-options-tabs-list,
+.slz-option-type-multi-picker > .choice-group .slz-options-tabs-wrapper > .slz-options-tabs-contents > .slz-inner > .slz-options-tab > .slz-options-tabs-wrapper > .slz-options-tabs-list {
+	padding-left: 27px; /* same as .slz-backend-option-design-default */
+}
+
+.slz-option-type-multi-picker > .choice-group .slz-options-tabs-wrapper > .slz-options-tabs-list {
+	padding-top: 24px; /* same as .slz-backend-option-design-default */
+}
+
+.slz-option-type-multi-picker > .choice-group .slz-options-tabs-wrapper > .slz-options-tabs-contents > .slz-inner > .slz-options-tab > .slz-options-tabs-wrapper > .slz-options-tabs-list {
+	padding-top: 20px;
+}
+
+.slz-option-type-multi-picker > .choice-group .slz-options-tabs-wrapper > .slz-options-tabs-contents {
+	margin-top: 0;
+}
+
+/* end: tabs fixes */
+

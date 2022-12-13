@@ -1,0 +1,105 @@
+/*
+*  STYLE FOR PRICING BOX
+*
+*
+*  [Table of contents]
+*
+*  [&. Content / #key]
+*  [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+*
+*  Summary:
+*
+*
+*  1. Pricing Box Layout 1
+*
+*
+*/
+
+
+/*----------  1. Pricing Box Layout 1  ----------*/
+    .slz-pricing-table-01 {
+        background-color: #fff;
+        padding: 30px;
+        position: relative;
+        text-align: center;
+        border: 1px solid #ddd;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .slz-pricing-table-01 .pricing-label {
+        position: absolute;
+        padding: 8px 16px;
+        color: #fff;
+        background-color: #db0f31;
+        top: 0;
+        right: 0;
+        -webkit-transform: rotate(90deg) translate(100%, 0);
+        -ms-transform: rotate(90deg) translate(100%, 0);
+        transform: rotate(90deg) translate(100%, 0);
+        -ms-transform-origin: right top;
+        transform-origin: right top;
+        -webkit-transform-origin: right top;
+    }
+
+    .slz-pricing-table-01 .pricing-header {
+        margin-bottom: 30px;
+    }
+
+    .slz-pricing-table-01 .pricing-header .title {
+        font-weight: 700;
+        font-size: 30px;
+        color: #213047;
+        margin-bottom: 30px;
+    }
+
+    .slz-pricing-table-01 .pricing-section {
+        font-size: 30px;
+        font-weight: 700;
+        color: #666c72;
+    }
+
+    .slz-pricing-table-01 .pricing-section .unit {
+        top: 0;
+        vertical-align: top;
+        font-size: inherit;
+        line-height: inherit;
+    }
+
+    .slz-pricing-table-01 .pricing-section .per {
+        font-size: 60%;
+        display: inline-block;
+        font-weight: 500;
+    }
+
+    .slz-pricing-table-01 .pricing-section .sub-title {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .slz-pricing-table-01 .pricing-body .pricing-option {
+        color: #666c72;
+        margin-bottom: 10px;
+    }
+
+    .slz-pricing-table-01 .pricing-footer {
+        margin-top: 30px;
+    }
+
+    .slz-pricing-table-01 .pricing-footer .btn {
+        width: 180px;
+        border: none;
+        color: #fff;
+        background-color: #337ab7;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+    }
+
+    .slz-pricing-table-01.active,
+    .slz-pricing-table-01:hover {
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+        -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.15);
+    }
+

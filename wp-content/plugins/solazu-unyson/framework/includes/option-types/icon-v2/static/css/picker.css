@@ -1,0 +1,364 @@
+.slz-icon-v2-preview-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.slz-icon-v2-preview-wrapper.slz-has-icon .slz-icon-v2-preview {
+    background-image: url(../img/transparent_bg.png);
+    background-size: 10px;
+}
+
+.slz-icon-v2-preview {
+    background-image: url('../img/no-image.png');
+    margin-right: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-size: contain;
+    box-sizing: border-box;
+}
+
+.slz-icon-v2-preview:hover {
+    opacity: 0.9;
+}
+
+.slz-icon-v2-preview i {
+    color: #7a7a7a;
+    background-repeat: no-repeat;
+}
+
+.slz-icon-v2-preview a {
+    position: absolute;
+    opacity: 0;
+    width: 12px;
+    height: 12px;
+    top: -9px;
+    right: -6px;
+    font-size: 14px !important;
+    outline: none;
+}
+
+.slz-icon-v2-preview-wrapper.slz-has-icon .slz-icon-v2-preview:hover {
+    opacity: 1;
+}
+
+.slz-icon-v2-preview-wrapper.slz-has-icon .slz-icon-v2-preview:hover a {
+    opacity: 1;
+}
+
+.slz-icon-v2-preview a:before {
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.slz-icon-v2-preview-wrapper[data-icon-type="custom-upload"] .slz-icon-v2-preview i {
+    background-size: cover;
+}
+
+.slz-icon-v2-preview-wrapper[data-icon-type="icon-font"] .slz-icon-v2-preview i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*** Small Preview ***/
+.slz-icon-v2-preview-small .slz-icon-v2-preview {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.slz-icon-v2-preview-small .slz-icon-v2-preview i {
+    font-size: 26px;
+    width: 26px;
+    height: 26px;
+}
+
+/*** Medium Preview ***/
+.slz-icon-v2-preview-medium .slz-icon-v2-preview {
+    width: 55px;
+    height: 55px;
+}
+
+.slz-icon-v2-preview-medium .slz-icon-v2-preview i {
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+/*** Large Preview ***/
+.slz-icon-v2-preview-large .slz-icon-v2-preview {
+    width: 70px;
+    height: 70px;
+}
+
+.slz-icon-v2-preview-large .slz-icon-v2-preview i {
+    font-size: 65px;
+    width: 65px;
+    height: 65px;
+}
+
+/*** Sauron Preview :) ***/
+.slz-icon-v2-preview-sauron .slz-icon-v2-preview {
+    background-image: url('../img/sauron.png');
+    width: 70px;
+    height: 70px;
+}
+
+.slz-icon-v2-preview-sauron .slz-icon-v2-preview i {
+    font-size: 65px;
+    width: 65px;
+    height: 65px;
+}
+
+/*** Icon Picker Modal *******************************************************/
+.slz-icon-v2-picker-modal li:first-child .nav-tab {
+    background: #fff;
+}
+
+.slz-icon-v2-picker-modal li .nav-tab {
+    background: #f1f1f1;
+}
+
+.slz-icon-v2-picker-modal li.ui-tabs-active .nav-tab {
+    background: #fff !important;
+    background-color: #fff !important;
+}
+
+.slz-icon-v2-picker-modal .slz-options-tabs-contents {
+    overflow-y: hidden !important;
+}
+
+.slz-icon-v2-picker-modal .slz-backend-option-design-default {
+    border: none;
+}
+
+.slz-icon-v2-picker-modal .slz-backend-option-design-default:not(.slz-backend-option-type-upload) {
+    padding: 0;
+}
+
+.slz-icon-v2-picker-modal .slz-icon-v2-toolbar {
+    padding: 30px 40px 20px;
+}
+
+.slz-icon-v2-picker-modal .slz-icon-v2-library-packs-wrapper {
+    overflow-y: auto;
+    overflow-x: hidden; 
+    padding: 0 20px;
+}
+
+.slz-icon-v2-picker-modal .slz-icon-v2-icon-favorites {
+    padding: 24px 20px;
+}
+
+.slz-icon-v2-picker-modal .media-frame-title {
+  display: none;
+}
+
+.slz-icon-v2-picker-modal .media-frame.hide-router .media-frame-content {
+  top: 0;
+}
+
+.slz-icon-v2-picker-modal .slz-options-tabs-wrapper > .slz-options-tabs-list {
+    background-color: #fcfcfc;
+}
+
+.slz-icon-v2-picker-modal .slz-options-tabs-wrapper > .slz-options-tabs-contents {
+    margin-top: 0;
+}
+
+.slz-icon-v2-picker-modal .slz-icon-v2-toolbar:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.slz-icon-v2-picker-modal .slz-icon-v2-toolbar > input {
+    margin-right: 3.8%;
+}
+
+.slz-icon-v2-picker-modal .slz-icon-v2-toolbar > input,
+.slz-icon-v2-picker-modal .slz-icon-v2-toolbar .selectize-control {
+    width: 48% !important;
+    float: left;
+}
+
+.slz-icon-v2-picker-modal .slz-icon-v2-toolbar .selectize-control .selectize-input > input {
+    display: none !important;
+}
+
+.slz-icon-v2-picker-modal h2 {
+    position: relative;
+    text-align: left;
+    font-size: 13px;
+    color: #0085ba;
+}
+
+.slz-icon-v2-picker-modal h2:first-of-type {
+    margin-top: 0;
+}
+
+.slz-icon-v2-picker-modal h2:only-of-type {
+    /* display: none; */
+}
+
+.slz-icon-v2-picker-modal h2 span {
+    position: relative;
+    padding: 0 10px;
+    background-color: #fff;
+    z-index: 2;
+    left: 10px;
+}
+
+.slz-icon-v2-picker-modal h2:before {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #d9edf5;
+}
+
+.slz-icon-v2-picker-modal h2:after {
+    position: absolute;
+    left: -50px;
+    top: 10px;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #d9edf5;
+}
+
+.slz-icon-v2-picker-modal .slz-option-html ul {
+    margin: 0;
+}
+
+.slz-icon-v2-picker-modal .slz-option-html ul:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.slz-icon-v2-picker-modal .slz-option-html ul li {
+    width: 60.6px;
+    height: 60.6px;
+    float: left;
+    margin: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.slz-icon-v2-picker-modal .slz-option-html ul li:hover {
+    border-color: #dedede;
+}
+
+.slz-icon-v2-picker-modal .slz-option-html ul li.selected {
+    border-color: #64bd1f;
+}
+
+.slz-icon-v2-picker-modal .slz-option-html ul li:after {
+    content: "\f147";
+    font-family: dashicons;
+    background-color: #64bd1f;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border-top-left-radius: 2px;
+    color: #fff;
+    line-height: normal;
+    font-size: 17px;
+    padding: 1px 0 0 1px;
+    opacity: 0;
+}
+
+.slz-icon-v2-picker-modal .slz-option-html ul li.selected:after {
+    opacity: 1;
+}
+
+.slz-icon-v2-picker-modal .slz-option-html ul li > i {
+    color: #666;
+    font-size: 22px;
+    text-align: center;
+}
+
+/*** Icon Grid Size, depending on modal size ***/
+/*** Small Modal ***/
+.slz-icon-v2-picker-modal.slz-modal-small .slz-option-html ul li {
+    width: 58.5px;
+    height: 58.5px;
+}
+
+/*** Large Modal ***/
+.slz-icon-v2-picker-modal.slz-modal-large .slz-option-html ul li {
+    width: 62.2px;
+    height: 62.2px;
+}
+
+
+/*** Favorited Icons ***/
+.slz-icon-v2-picker-modal .slz-option-html ul li a {
+    position: absolute;
+    padding: 5px;
+    top: -2px;
+    right: -2px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.slz-icon-v2-picker-modal .slz-option-html ul li:hover a {
+    opacity: 1;
+}
+
+.slz-icon-v2-picker-modal .slz-option-html ul li a i {
+    font-size: 12px;
+    width: 12px;
+    height: 12px;
+    color: #e0e0e0;
+}
+
+.slz-icon-v2-picker-modal .slz-option-html ul li a:hover i,
+.slz-icon-v2-picker-modal .slz-option-html ul li.slz-icon-v2-favorite i,
+.slz-icon-v2-picker-modal .slz-option-html .slz-icon-v2-icon-favorites ul li i {
+    color: #ffb900;
+}
+
+/*** Icon Packs Divider ***/
+.slz-icon-v2-icon-favorites h4 {
+    margin-top: 4px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/*** Favorited Icons Info **/
+.slz-icon-v2-info {
+    font-size: 12px !important;
+    line-height: 18px !important;
+    color: #FFC93C;
+}
+
+/*** Style Input Placeholder ***/
+.slz-icon-v2-picker-modal .slz-icon-v2-toolbar > input::-webkit-input-placeholder {
+    font-style: normal;
+    color: #333333;
+}
+
+.slz-icon-v2-picker-modal .slz-icon-v2-toolbar > input::-moz-placeholder {
+    font-style: normal;
+    color: #333333;
+}
+
+.slz-icon-v2-picker-modal .slz-icon-v2-toolbar > input:-ms-input-placeholder {
+    font-style: normal;
+    color: #333333;
+}

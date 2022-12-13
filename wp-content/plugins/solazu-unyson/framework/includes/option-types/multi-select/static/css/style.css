@@ -1,0 +1,27 @@
+.slz-option-type-multi-select.selectize-control.multi .selectize-input.has-items,
+.slz-option-type-multi-select .selectize-input {
+	padding: 0 0 3px 3px;
+	border-radius: 0;
+	border: 1px solid #ddd;
+}
+
+.slz-option-type-multi-select .selectize-input {
+	padding: 4px 6px;
+}
+
+.slz-option-type-multi-select.selectize-control.multi .selectize-input > div {
+	margin: 3px 3px 0 0;
+}
+
+.slz-option-type-multi-select .selectize-input.focus.input-active.dropdown-active:before,
+.slz-option-type-multi-select .selectize-input.focus.input-active.dropdown-active:before {
+	display: none;
+}
+
+.slz-option-type-multi-select .selectize-input.focus.input-active.dropdown-active:after {
+	border-width: 5px 5px 0 5px;
+}
+
+.slz-backend-option-input-type-multi-select .slz-option-help-in-input {
+	top: 4px !important;
+}

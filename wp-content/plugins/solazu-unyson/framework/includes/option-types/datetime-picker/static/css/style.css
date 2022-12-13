@@ -1,0 +1,11 @@
+.xdsoft_datetimepicker.xdsoft_noselect {
+	z-index: 560100; /* bigger than slz.OptionsModal's z-index */
+}
+
+.slz-backend-option-input-type-datetime-picker .slz-option-help-in-input {
+	top: 4px !important;
+}
+.slz-option-type-datetime-picker input[readonly] {
+	background-color: #fff;
+	cursor: pointer;
+}

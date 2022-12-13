@@ -1,0 +1,21 @@
+.slz-backend-option-input-type-gradient .slz-option-help-in-input {
+	top: 4px !important;
+}
+
+.slz-option-type-gradient .primary-color {
+	display: inline-block;
+}
+
+.slz-option-type-gradient .secondary-color {
+	display: inline-block;
+}
+
+.slz-option-type-gradient .delimiter {
+	display: inline-block;
+	padding: 0 4px;
+}
+
+#side-sortables .slz-option-type-gradient .secondary-color,
+#side-sortables .slz-option-type-gradient .primary-color {
+	width: inherit !important;
+}

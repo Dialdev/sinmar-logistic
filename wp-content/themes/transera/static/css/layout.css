@@ -1,0 +1,834 @@
+/*
+ *
+ *    [Table of contents]
+ *
+ *    [&. Content / #key]
+ *    [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+ *
+ *    Summary:
+ *
+ *    0. Global Style
+ *        - 0.1. Global Slick Dots Style
+ *        - 0.2. Global Block Title Hover
+ *        - 0.3. Global Slide Arrows
+ *    1. Article Template
+ *    2. Social
+ *    3. Main Title
+ *        - 3.1 Main Title
+ *        - 3.2 Main Title Style 1
+ *        - 3.3 Main Title Style 2
+ *    4. Contact Form 7
+ *    5. Button
+ *    6. Header
+ *    7. Footer
+ *    8. Minor Modifies
+ *
+ *
+ *
+ */
+
+/*=======================================
+=            0. Global Style            =
+=======================================*/
+    /* -------------------Menu-------------------------- */
+
+        .slz-header-wrapper .dropdown-toggle {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    
+    /*----------  0.1. Global Slick Dots Style  ----------*/
+    .slick-dots {
+        bottom: -30px;
+    }
+    .slick-dots li button:before {
+        content: '';
+        background-color: #fff;
+        border: 1px solid #b2b6b9;
+        opacity: 1;
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        z-index: 2;
+        transform: translate(40%, 40%);
+        -webkit-transform: translate(40%, 40%);
+        -moz-transform: translate(40%, 40%);
+        -ms-transform: translate(40%, 40%);
+        -o-transform: translate(40%, 40%);
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+    }
+    .slick-dots li button:after {
+        position: absolute;
+        content: '';
+        width: 16px;
+        height: 16px;
+        background-color: #fff;
+        border: 1px solid #dee1e3;
+        top: 0;
+        left: 0;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        z-index: 1;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+    }
+    .slick-dots li.slick-active button:before {
+        background-color: #db0f31;
+        border-color: #db0f31;
+    }
+    .slick-dots li.slick-active button:after {
+        background-color: #fff;
+        border-color: #fff;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+    /*----------  0.2. Global Block Title Hover  ----------*/
+    .block-title:hover {
+        color: #db0f30;
+    }
+
+    /*----------  0.3. Global Slide Arrows  ----------*/
+    .slz-carousel-wrapper .slick-arrow{
+        width:48px;
+        height:48px;
+        line-height:46px;
+        padding:0px;
+        color:#fff;
+        font-size:26px;
+        text-align:center;
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        border:1px solid #ececec;
+        background-color:transparent;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+    .slz-carousel-wrapper .slick-arrow:hover{
+        color:#db0f31;
+        border-color:#db0f31;
+    }
+    .slz-carousel-wrapper .slick-arrow:focus{
+        -webkit-box-shadow:none;
+        box-shadow:none;
+    }
+    .slz-carousel-wrapper .slick-arrow.btn-prev:before{
+        font-family:'FontAwesome';
+        content:"\f104";
+    }
+    .slz-carousel-wrapper .slick-arrow.btn-next:before{
+        font-family:'FontAwesome';
+        content:"\f105";
+    }
+    .slz-carousel-wrapper .slick-arrow i{
+        display:none;
+    }
+     .slz-carousel-wrapper .slick-arrow .text{
+         display:none;
+     }
+    .slz-blog-detail .slz-related-post .slick-arrow{
+        -webkit-border-radius:5px;
+        border-radius:5px;
+        width:32px;
+        height:32px;
+        line-height:30px;
+        font-size:16px;
+        top: calc(50% - 30px);
+    }
+    .slz-blog-detail .slz-related-post .slick-arrow:hover{
+        background-color:transparent;
+        border-color:#db0f31;
+        color:#db0f31;
+    }
+    .slz-blog-detail .slz-related-post .slick-arrow.btn-prev{
+        left:-40px;
+    }
+    .slz-blog-detail .slz-related-post.slz-carousel-wrapper:hover .slick-arrow.btn-prev{
+        left: 40px;
+    }
+    .slz-blog-detail .slz-related-post  .slick-arrow.btn-next{
+        left: auto;
+        right: -40px;
+    }
+    .slz-blog-detail .slz-related-post.slz-carousel-wrapper:hover .slick-arrow.btn-next{
+        right: 40px;
+    }
+
+    .slz-block-item-01 .block-image.has-quote .link:after,
+    .slz-blog-detail .block-image.has-quote .link:after {
+        opacity: 1;
+    }
+/*=======  End of Global Style  =======*/
+
+
+/*===========================================
+=            1. Article Template            =
+===========================================*/
+
+    .slz-article-not-found .heading {
+        padding: 20px;
+        border-left: 3px solid #337ab7;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+    .slz-article-not-found .page-content {
+        font-size: 16px;
+    }
+
+/*=======  End of Article Template  =======*/
+
+
+/*=================================
+=            2. Social            =
+=================================*/
+
+    .social a,
+    .social-list a {
+        color: #989b9f;
+        background-color: transparent;
+        border-radius: 0%;
+        overflow: hidden;
+        width: 20px;
+        height: auto;
+        display: inline-block;
+        text-align: center;
+        vertical-align: top;
+        margin: 0 6px;
+        position: relative;
+    }
+
+    .social a i,
+    .social-list a i {
+        position: relative;
+        z-index: 10;
+        color: inherit;
+    }
+
+
+    .social a:hover,
+    .social-list a:hover {
+        color: #DB0F32;
+    }
+
+
+    .slz-social-share .title {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .social .link.share-facebook:hover,
+    .social-list a.facebook:hover {
+        color: #365899;
+    }
+    .social .link.share-twitter:hover,
+    .social-list a.twitter:hover {
+        color: #1da1f2;
+    }
+
+    .social .link.share-google-plus:hover,
+    .social-list a.google-plus:hover {
+        color: #d73d32;
+    }
+
+    .social .link.share-pinterest:hover,
+    .social-list a.pinterest:hover {
+        color: #bd081c;
+    }
+
+    .social .link.share-linkedin:hover,
+    .social-list a.linkedin:hover {
+        color: #0077b5;
+    }
+
+    .social .link.share-digg:hover,
+    .social-list a.digg:hover {
+        color: #36465d;
+    }
+
+    .social .link.share-skype:hover,
+    .social-list a.skype:hover {
+        color: #00aff0;
+    }
+    .social .link.share-youtube:hover,
+    .social-list a.youtube:hover {
+        color: #e62117;
+    }
+    .social .link.share-rss:hover,
+    .social-list a.rss:hover {
+        color: #f36f24;
+    }
+    .social .link.share-flickr:hover,
+    .social-list a.flickr:hover {
+        color: #ff0084;
+    }
+
+/*=======  End of Social  =======*/
+
+
+/*=====================================
+=            3. Main Title            =
+=====================================*/
+
+    /*----------  3.1 Main Title  ----------*/
+    .sc_main_title {
+        margin-bottom: 60px;
+    }
+
+    .slz-main-title .title {
+    	font-weight: 900;
+    	text-transform: uppercase;
+    	padding: 0;
+    	color: #18364a;
+    }
+    .slz-main-title .title .main-color {
+    	display: none;
+    }
+
+    .sc_main_title.style-1 .slz-main-title:before {
+        content: none;
+    }
+
+    /*----------  3.2 Main Title Style 1  ----------*/
+    .sc_main_title.style-1 img {
+    	margin: 0;
+    }
+    .sc_main_title.style-1 i {
+    	font-size: 35px;
+    	color: #da0f32;
+
+    }
+    .sc_main_title.style-1 .slz-main-title .title {
+    	font-size: 45px;
+    	line-height: 1;
+    }
+    .sc_main_title.style-1 .slz-main-title .subtitle {
+    	font-size: 16px;
+    	text-transform: uppercase;
+    	margin-top: 5px;
+    	letter-spacing: 3px;
+    	color: #18364a;
+    }
+    /*----------  3.3 Main Title Style 2  ----------*/
+    .sc_main_title.style-2 img,
+    .sc_main_title.style-2 i {
+        margin: 0;
+        position: absolute;
+        top: 13px;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+    }
+    .sc_main_title.style-2 .slz-main-title img + .title {
+    	text-align: left;
+    }
+    .sc_main_title.style-2 i {
+        font-size: 24px;
+        color: #da0f32;
+    }
+    .sc_main_title.style-2 .slz-main-title .title {
+    	font-size: 24px;
+    	display: inline-block;
+    	padding-left: 25px;
+    }
+    .sc_main_title.style-2 .slz-main-title .subtitle {
+    	display: none;
+    }
+
+/*======  End of Main Title  ========*/
+
+
+/*=========================================
+=            4. Contact Form 7            =
+=========================================*/
+
+    .wpcf7 form {
+        position: relative;
+    }
+    .wpcf7 .cf7-form-control {
+        position: relative;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .wpcf7 .cf7-form-control.transparent .wpcf7-not-valid-tip {
+        /*color: #fff;*/
+    }
+    .wpcf7 .cf7-form-control.transparent input,
+    .wpcf7 .cf7-form-control.transparent select {
+        color: #fff;
+    }
+    .wpcf7 .cf7-form-control.transparent input,
+    .wpcf7 .cf7-form-control.transparent textarea,
+    .wpcf7 .cf7-form-control.transparent select {
+        background-color: transparent;
+        border-color: rgba(255, 255, 255, 0.5);
+    }
+    .wpcf7 .cf7-form-control.transparent input:focus,
+    .wpcf7 .cf7-form-control.transparent select:focus {
+        border-color: rgba(255, 255, 255, 1);
+    }
+    .wpcf7 .cf7-form-control.transparent input::-webkit-input-placeholder,
+    .wpcf7 .cf7-form-control.transparent select::-webkit-input-placeholder {
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .wpcf7 .cf7-form-control.transparent input:-moz-placeholder,
+    .wpcf7 .cf7-form-control.transparent select:-moz-placeholder {
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .wpcf7 .cf7-form-control.transparent input::-moz-placeholder,
+    .wpcf7 .cf7-form-control.transparent select::-moz-placeholder {
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .wpcf7 .cf7-form-control.transparent input:-ms-input-placeholder,
+    .wpcf7 .cf7-form-control.transparent select:-ms-input-placeholder {
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .wpcf7 .cf7-form-control.left,
+    .wpcf7 .cf7-form-control.right {
+        width: 50%;
+        display: inline-block;
+    }
+    
+    .wpcf7 .cf7-form-control > span {
+        display: block;
+        width: 100%;
+    }
+    .wpcf7 .cf7-form-control input,
+    .wpcf7 .cf7-form-control select {
+        width: 100%;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border: 1px solid #a8b8c3;
+        padding: 10px 20px;
+    }
+    .wpcf7 .cf7-form-control i {
+        position: absolute;
+        right: 15px;
+        top: 20px;
+        color: #e1e9ee;
+        width: 14px;
+        text-align: center;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        z-index: 1;
+    }
+    .wpcf7 .cf7-form-control i.rotate-up {
+        transform: translateY(-50%) rotate(-90deg);
+        -webkit-transform: translateY(-50%) rotate(-90deg);
+        -moz-transform: translateY(-50%) rotate(-90deg);
+        -ms-transform: translateY(-50%) rotate(-90deg);
+        -o-transform: translateY(-50%) rotate(-90deg);
+    }
+    .wpcf7 .cf7-form-control i.rotate-down {
+        transform: translateY(-50%) rotate(90deg);
+        -webkit-transform: translateY(-50%) rotate(90deg);
+        -moz-transform: translateY(-50%) rotate(90deg);
+        -ms-transform: translateY(-50%) rotate(90deg);
+        -o-transform: translateY(-50%) rotate(90deg);
+    }
+    .wpcf7 .cf7-form-control.textarea i {
+        top: 20px;
+    }
+    .wpcf7 .cf7-form-control input:focus,
+    .wpcf7 .cf7-form-control select:focus,
+    .wpcf7 .cf7-form-control textarea:focus {
+        border-color: #db0f30;
+    }
+    .wpcf7 .cf7-form-control textarea {
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border: 1px solid #a8b8c3;
+        padding: 10px 20px;
+        color: #7d909d;
+        resize: vertical;
+        width: 100%;
+        height: 135px;
+    }
+    .wpcf7 .cf7-btn-submit-wrapper {
+        text-align: center;
+    }
+    .wpcf7 .cf7-btn-submit {
+        position: relative;
+        display: inline-block;
+        z-index: 1;
+    }
+    .wpcf7 .cf7-btn-submit input {
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #fff;
+        padding: 12px 50px;
+        border-radius: 45px;
+        -webkit-border-radius: 45px;
+        background-color: #db0f32;
+        border: 1px solid #db0f32;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-moz-transition: all 0.3s ease;
+    }
+    .wpcf7 .cf7-btn-submit input.btn-submit-loadding {
+        padding-right: 70px;
+    }
+    .wpcf7 .cf7-btn-submit.btn-alt input {
+        background-color: #18364a;
+        border-color: #18364a;
+    }
+
+    .wpcf7 .cf7-btn-submit input:hover {
+        background-color: #fff;
+        color: #db0f32;
+        border-color: #db0f32;
+    }
+    .wpcf7 .cf7-btn-submit.btn-alt input:hover {
+        color: #18364a;
+        border-color: #fff;
+    }
+    .wpcf7 .wpcf7-not-valid-tip {
+        position: absolute;
+        padding-left: 20px;
+        line-height: 30px;
+    }
+    div.wpcf7 img.ajax-loader {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+        z-index: 2;
+    }
+    div.wpcf7-validation-errors {
+        width: 100%;
+    }
+
+
+    .slz-change-color .wpcf7 .cf7-form-control select:focus {
+        border-color: #000;
+    }
+
+    .wpcf7 .wpcf7-radio .wpcf7-list-item,
+    .wpcf7 .wpcf7-checkbox .wpcf7-list-item{
+        margin: 0;
+        display: block;
+    }
+
+    .wpcf7 .wpcf7-radio .wpcf7-list-item + .wpcf7-list-item,
+    .wpcf7 .wpcf7-checkbox .wpcf7-list-item + .wpcf7-list-item {
+        margin-top: 20px;
+        
+    }
+
+    .wpcf7 .wpcf7-radio .wpcf7-list-item > input,
+    .wpcf7 .wpcf7-checkbox .wpcf7-list-item > input {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+        width: auto;
+    }
+
+    .wpcf7 .wpcf7-radio .wpcf7-list-item > span,
+    .wpcf7 .wpcf7-checkbox .wpcf7-list-item > span {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 0 0 10px;
+        width: auto;
+    }
+
+    .wpcf7 .cf7-form-control.transparent span {
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+/*=======  End of Contact Form 7  =======*/
+
+/*=================================
+=            5. Button            =
+=================================*/
+
+    .slz-btn {
+        line-height: 45px;
+        height: 45px;
+        padding: 0 50px;
+        font-weight: 400;
+        font-size: 16px;
+        background-color: #18364a;
+        border-color: #18364a;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        color: #fff;
+    }
+    .slz-btn:hover {
+        color: #18364a;
+        background-color: #fff;
+        border-color: #fff;
+    }
+    .slz-btn .btn-icon:before {
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+    }
+    .slz-btn.box-shadow {
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .slz-btn .btn-text,
+    .slz-btn .btn-icon {
+        color: inherit;
+    }
+
+    .page-custom {
+        margin-top: -170px;
+    }
+
+/*=======  End of Button  =======*/
+
+
+/*=================================
+=            6. Header            =
+=================================*/
+
+    .slz-menu-wrapper .current-menu-item > a,
+    .slz-menu-wrapper > li:hover > a,
+    .slz-main-menu .sub-menu > li:hover > a {
+        color: #18364a;
+    }
+
+    .slz-main-menu .sub-menu {
+        border-color: #db0f31;
+    }
+
+/*=======  End of Header  =======*/
+
+/*=================================
+=            6. Footer            =
+=================================*/
+    /*----------  Footer Top  ----------*/
+    .slz-footer-top {
+        padding: 100px 0;
+    }
+    footer .slz-widgets.slz-dark .slz-footer-top .widget-title,
+    footer .slz-widgets.slz-dark .slz-footer-top .title-widget {
+        color: #db0f30;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    .slz-footer-top .slz-widget-contact-info .item .text {
+        padding-left: 10px;
+    }
+
+    .slz-footer-top .slz-widget-contact-info .item {
+        width: auto;
+    }
+
+
+    .slz-footer-top .slz-widget-contact-info .item .icons {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    footer .slz-widgets .slz-footer-top .text-c .title-widget,
+    footer .slz-widgets .slz-footer-top .text-c .widget-title {
+        text-align: center;
+    }
+
+    footer .slz-widgets .slz-footer-top .text-r .title-widget,
+    footer .slz-widgets .slz-footer-top .text-r .widget-title {
+        text-align: right;
+    }
+
+    .slz-footer-top .text-c .slz-widget-contact-info .item {
+        margin: 0 auto;
+    }
+
+    .slz-footer-top .text-r .slz-widget-contact-info .item {
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    .slz-footer-bottom .social i {
+        color: inherit !important;
+    }
+
+    .text-c .slz-widget-about-us .slz-logo {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .text-r .slz-widget-about-us .slz-logo {
+        left: auto;
+        right: 0;
+    }
+
+    .slz-footer-top .slz-widget-about-us .slz-logo {
+        margin: 0;
+    }
+    /*----------  Footer Widget General Style  ----------*/
+    footer .widget-title.title-widget.logo-title {
+        min-height: 24px;
+    }
+    footer .slz-widgets .widget-title,
+    footer .slz-widgets .title-widget {
+        border: none;
+        padding-bottom: 0;
+        margin-bottom: 40px;
+        font-size: 18px;
+        text-align: left;
+        font-weight: 500;
+    }
+    footer .slz-widget + .slz-widget {
+        margin-top: 30px;
+    }
+
+    footer .slz-widget-send-mail {
+        text-align: left;
+    }
+    /*----------  Widget About Us  ----------*/
+    footer .slz-widget-about-us .logo-title .slz-logo {
+        height: auto;
+    }
+    /*----------  Widget Categories  ----------*/
+    footer .slz-widget-categories .link {
+        line-height: 24px;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    footer .slz-widget-categories .link:hover {
+        padding: 0;
+        box-shadow: none;
+    }
+    footer .slz-widget-categories .link .icons {
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        text-align: center;
+        font-size: 7px;
+        width: 8px;
+    }
+    footer .slz-widget-categories .link .icons:before {
+        content: "\f111";
+    }
+    footer .slz-widget-categories .link .text {
+        font-size: 14px;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        margin-left: 10px;
+    }
+    footer .slz-widget-categories .link:hover .icons {
+        color: #db0f30;
+    }
+    footer .slz-widget-categories .link:hover .text {
+        color: #db0f30;
+    }
+    /*----------  Widget Gallery  ----------*/
+    footer .slz-widget-gallery .widget-content {
+        margin: 0 -5px;
+    }
+    footer .slz-widget-gallery .thumb,
+    footer .slz-widget-gallery .thumb:after {
+        border-radius: 0;
+        -webkit-border-radius: 0;
+    }
+    footer .slz-widget-gallery .thumb:before {
+        padding-top: 100%;
+    }
+    /*----------  Widget Newsletter  ----------*/
+    footer .slz-widget-send-mail .widget-content form {
+        font-size: 0;
+        margin-top: 30px;
+    }
+    footer .slz-widget-send-mail .widget-content .form-control {
+        padding: 0;
+        display: inline-block;
+        width: calc( 100% - 40px );
+        margin-bottom: 0;
+        font-size: 14px;
+        height: 30px;
+        line-height: 30px;
+    }
+    footer .slz-widget-send-mail .slz-btn {
+        font-size: 0;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        border-bottom: 1px solid #e9ebef;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        line-height: 30px;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        vertical-align: top;
+    }
+    footer .slz-widget-send-mail .slz-btn:before {
+        font-size: 14px;
+        background-color: transparent;
+        width: 0;
+        height: 0;
+        line-height: inherit;
+        color: #db0f30;
+    }
+    footer .slz-widget-send-mail .slz-btn:after {
+        content: none;
+    }
+    footer .slz-widget-send-mail .widget-content .form-control:focus ~.slz-btn {
+        border-bottom-color: #db0f30;
+    }
+    footer .slz-widget-send-mail .slz-btn:hover {
+        background-color: transparent;
+        padding: 0;
+    }
+    footer .slz-widget-send-mail .slz-btn:hover:before {
+        left: 0;
+        background-color: transparent;
+    }
+
+/*=======  End of Footer  =======*/
+
+
+/*=========================================
+=            8. Minor Modifies            =
+=========================================*/
+
+    .slz-banner-01 .content-wrapper {
+        padding: 80px 50px;
+        padding-top: 40px;
+    }
+
+    .slz-list-block.slz-list-logo .item {
+        margin-top: 60px;
+    }
+
+    .slz-list li {
+        padding: 2px 0;
+    }
+    .slz-carousel-wrapper .slick-dotted.slick-slider {
+        margin-bottom: 40px;
+    }
+
+    .slz-banner-01 .description {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+/*=======  End of Minor Modifies  =======*/
+
+
+.purchase-wrap .purchase-btn {
+    border-radius: 40px;
+}

@@ -1,0 +1,359 @@
+/*
+*  STYLE FOR POST GRID
+*
+*
+*  [Table of contents]
+*
+*  [&. Content / #key]
+*  [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+*
+*  Summary:
+*
+*
+*  1. General
+*  2. Grid Layout 01
+*  3. Grid Layout 02
+*  4. Grid Layout 03
+*  5. Grid Layout 04
+*  6. Grid Layout 05
+*  7. Grid Layout 06
+*  8. Grid Layout 07
+*  n. Responsive
+*
+*
+*/
+
+
+/*----------  1. General  ---------------------*/
+    .slz-block-grid {
+        margin: -15px;
+    }
+
+    .slz-block-grid .block-element {
+        float: left;
+        padding: 15px;
+    }
+
+    .slz-block-grid.right .block-element {
+        float: right;
+    }
+
+    .slz-block-grid .small-block .block-title {
+        font-size: 16px;
+    }
+
+/*----------  2. Grid Layout 01  ---------------*/
+    .slz-block-grid.style-1 .small-block {
+        width: 25%;
+    }
+
+    .slz-block-grid.style-1 .small-block .block-info {
+        display: none;
+    }
+
+    .slz-block-grid.style-1 .big-block {
+        width: 50%;
+    }
+
+    .slz-block-grid.style-1 .big-block .block-image:before {
+        padding-top: calc(67% + 10px);
+    }
+
+/*----------  3. Grid Layout 02  ---------------*/
+    .slz-block-grid.style-2 .small-block {
+        width: 35%;
+    }
+
+    .slz-block-grid.style-2 .small-block .block-info {
+        display: none;
+    }
+
+    .slz-block-grid.style-2 .big-block {
+        width: 65%;
+    }
+
+    .slz-block-grid.style-2 .big-block .block-image:before {
+        padding-top: calc(75% - 9px);
+    }
+
+/*----------  4. Grid Layout 03  ---------------*/
+    .slz-block-grid.style-3 .small-block {
+        width: 25%;
+    }
+
+    .slz-block-grid.style-3 .small-block .block-info {
+        display: none;
+    }
+
+    .slz-block-grid.style-3 .medium-block {
+        width: 50%;
+    }
+
+    .slz-block-grid.style-3 .medium-block .block-image .img-full {
+    	width: 100%;
+	    height: auto;
+	    top: 50%;
+	    -webkit-transform: translate(-50%, -50%);
+	    -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	    -o-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+    }
+
+    .slz-block-grid.style-3 .medium-block .block-info {
+        display: none;
+    }
+
+    .slz-block-grid.style-3 .medium-block .block-image:before {
+        padding-top: 50%;
+    }
+
+    .slz-block-grid.style-3 .big-block {
+        width: 50%;
+    }
+
+    .slz-block-grid.style-3 .big-block .block-image:before {
+        padding-top: calc(90% - 15px);
+    }
+
+/*----------  5. Grid Layout 04  ---------------*/
+    .slz-block-grid.style-4 .block-element {
+        width: 50%;
+    }
+
+    .slz-block-grid.style-4 .block-image:before {
+        padding-top: 67%;
+    }
+
+/*----------  6. Grid Layout 05  ---------------*/
+    .slz-block-grid.style-5 .block-element {
+        width: 33.3333%;
+    }
+
+/*----------  7. Grid Layout 06  ---------------*/
+    .slz-block-grid.style-6 .big-block {
+        width: 50%;
+    }
+
+    .slz-block-grid.style-6 .small-block {
+        width: 20%;
+    }
+
+/*----------  8. Grid Layout 07  ---------------*/
+    .slz-block-grid.style-7 .medium-block {
+        width: 33.3333%;
+    }
+
+    .slz-block-grid.style-7 .small-block {
+        width: 25%;
+    }
+
+/*=====================================
+=            n. Responsive            =
+=====================================*/
+
+	@media screen and (max-width: 1024px) {
+	    .slz-block-grid.style-2 .big-block .block-image:before {
+	        padding-top: calc(75% - 5px);
+	    }
+
+	    .slz-block-grid.style-3 .big-block .block-image:before {
+	        padding-top: calc(90% - 10px);
+	    }
+	}
+
+	@media screen and (max-width: 768px) {
+	    .slz-block-grid.style-1 .small-block {
+	        width: 50%;
+	    }
+
+	    .slz-block-grid.style-1 .big-block {
+	        width: 100%;
+	    }
+
+	    .slz-block-grid.style-1 .big-block .block-image:before {
+	        padding-top: 67%;
+	    }
+
+	    .slz-block-grid.style-2 .small-block {
+	        width: 50%;
+	    }
+
+	    .slz-block-grid.style-2 .big-block {
+	        width: 100%;
+	    }
+
+	    .slz-block-grid.style-2 .big-block .block-image:before {
+	        padding-top: 67%;
+	    }
+
+	    .slz-block-grid.style-3 .small-block {
+	        width: 50%;
+	    }
+
+	    .slz-block-grid.style-3 .medium-block {
+	        width: 100%;
+	    }
+
+	    .slz-block-grid.style-3 .medium-block .block-image .img-full {
+    	    width: auto;
+		    height: 100%;
+		    top: 0;
+		    margin: 0;
+		    transform: translateX(-50%);
+		    -webkit-transform: translateX(-50%);
+		    -moz-transform: translateX(-50%);
+		    -ms-transform: translateX(-50%);
+		    -o-transform: translateX(-50%);
+	    }
+
+	    .slz-block-grid.style-3 .big-block {
+	        width: 100%;
+	    }
+
+	    .slz-block-grid.style-3 .big-block .block-image:before {
+	        padding-top: 67%;
+	    }
+
+	    .slz-block-grid.style-4 .block-element .block-text {
+	    	display: none;
+	    }
+
+		.slz-block-grid.style-5 .block-element {
+			width: 50%;
+		}
+
+	    .slz-block-grid.style-5 .block-element-1 {
+	    	width: 100%;
+	    }
+
+		.slz-block-grid.style-5 .block-element .block-title {
+			font-size: 16px;
+		}
+
+		.slz-block-grid.style-5 .block-element.block-element-1 .block-title {
+			font-size: 20px;
+		}
+		
+		.slz-block-grid.style-5 .block-element .block-info,
+	    .slz-block-grid.style-5 .block-element .block-text {
+	    	display: none;
+	    }
+		
+		.slz-block-grid.style-5 .block-element.block-element-1 .block-info,
+	    .slz-block-grid.style-5 .block-element.block-element-1 .block-text {
+	    	display: block !important;
+	    }
+
+		.slz-block-grid.style-6 .block-element {
+			width: 50%;
+		}
+
+	    .slz-block-grid.style-6 .block-element-1 {
+	    	width: 100%;
+	    }
+
+	    .slz-block-grid.style-6 .block-element-2 .block-title {
+	    	font-size: 16px;
+	    }
+
+	    .slz-block-grid.style-6 .block-element .block-info,
+	    .slz-block-grid.style-6 .block-element .block-text {
+	    	display: none;
+	    }
+
+	    .slz-block-grid.style-6 .block-element-1 .block-info,
+	    .slz-block-grid.style-6 .block-element-1 .block-text {
+	    	display: block;
+	    }
+
+		.slz-block-grid.style-7 .block-element {
+			width: 50%;
+		}
+
+	    .slz-block-grid.style-7 .block-element-1 {
+	    	width: 100%;
+	    }
+
+	    .slz-block-grid.style-7 .block-element-2 .block-title,
+	    .slz-block-grid.style-7 .block-element-3 .block-title {
+	    	font-size: 16px;
+	    }
+
+	    .slz-block-grid.style-7 .block-element .block-info,
+	    .slz-block-grid.style-7 .block-element .block-text {
+	    	display: none;
+	    }
+
+	    .slz-block-grid.style-7 .block-element-1 .block-info,
+	    .slz-block-grid.style-7 .block-element-1 .block-text {
+	    	display: block;
+	    }
+	}
+
+	@media screen and (max-width: 767px) {
+	    .slz-block-grid.style-1,
+	    .slz-block-grid.style-2,
+	    .slz-block-grid.style-3,
+	    .slz-block-grid.style-4,
+	    .slz-block-grid.style-5,
+	    .slz-block-grid.style-6,
+	    .slz-block-grid.style-7 {
+	        margin: 0 -10px;
+	    }
+	    .slz-block-grid.style-1 .block-element,
+	    .slz-block-grid.style-2 .block-element,
+	    .slz-block-grid.style-3 .block-element,
+	    .slz-block-grid.style-4 .block-element,
+	    .slz-block-grid.style-5 .block-element,
+	    .slz-block-grid.style-6 .block-element,
+	    .slz-block-grid.style-7 .block-element {
+	        padding: 10px;
+	    }
+	}
+
+	@media screen and (max-width: 600px) {
+		.slz-block-grid.style-4 .block-element {
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		.slz-block-grid .slz-block-item-01 .block-content {
+			padding: 10px;
+		}
+
+		.slz-block-grid .small-block .block-title,
+		.slz-block-grid.style-6 .block-element-2 .block-title,
+		.slz-block-grid.style-5 .block-element .block-title {
+			font-size: 14px;
+		}
+
+		.slz-block-grid.style-1 .small-block {
+	        width: 50%;
+	    }
+	    .slz-block-grid.style-1 .small-block .block-info {
+	        display: none;
+	    }
+	    .slz-block-grid.style-2 .small-block {
+	        width: 50%;
+	    }
+	    .slz-block-grid.style-2 .small-block .block-info {
+	        display: none;
+	    }
+	    .slz-block-grid.style-3 .small-block {
+	        width: 50%;
+	    }
+	    .slz-block-grid.style-3 .medium-block .block-info {
+	        display: block;
+	    }
+	    .slz-block-grid.style-3 .medium-block .block-image:before {
+	        padding-top: 67%;
+	    }
+
+	    .slz-block-grid .block-text {
+	    	display: none !important;
+	    }
+	}
+
+/*=====  End of n. Responsive  ======*/

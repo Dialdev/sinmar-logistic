@@ -1,0 +1,67 @@
+/* controls */
+
+.slz-option-type-form-builder .slz-form-builder-item-type-radio .slz-form-item-controls .slz-form-item-control-buttons {
+	display: none;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-radio:hover .slz-form-item-controls .slz-form-item-control-buttons {
+	display: inline-block;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-radio .slz-form-item-controls .slz-form-item-control-buttons > a,
+.slz-option-type-form-builder .slz-form-builder-item-type-radio .slz-form-item-controls .slz-form-item-control-buttons > a:hover {
+	text-decoration: none;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-radio .slz-form-item-controls .slz-form-item-control-buttons a.slz-form-item-control-required {
+	color: #999999;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-radio .slz-form-item-controls .slz-form-item-control-buttons a.slz-form-item-control-required.required {
+	color: #ff0000;
+}
+
+/* end: controls */
+
+
+/* preview */
+
+.slz-option-type-form-builder .slz-form-builder-item-type-radio .slz-form-item-preview {
+	padding: 5px 0;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-radio .slz-form-item-preview .slz-form-item-preview-label {
+	padding: 5px 0 10px;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-radio .slz-form-item-preview .slz-form-item-preview-label span {
+	display: none;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-radio .slz-form-item-preview .slz-form-item-preview-label span.required {
+	display: inline;
+	color: #ff0000;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-radio .slz-form-item-preview .slz-form-item-preview-choices .slz-form-item-preview-choices-list .if-list-open,
+.slz-option-type-form-builder .slz-form-builder-item-type-radio .slz-form-item-preview .slz-form-item-preview-choices .slz-form-item-preview-choices-list.open .if-list-closed {
+	display: none;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-radio .slz-form-item-preview .slz-form-item-preview-choices .slz-form-item-preview-choices-list.open .if-list-open {
+	display: inline;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-radio .slz-form-item-preview .slz-form-item-preview-choices .slz-form-item-preview-choice {
+	margin: 5px 0;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-radio .slz-form-item-preview .slz-form-item-preview-choices .slz-form-item-preview-choice a {
+	text-decoration: none;
+}
+
+.slz-option-type-form-builder .slz-form-builder-item-type-radio .slz-form-item-preview .slz-form-item-preview-choices .slz-form-item-preview-choices-list:not(.open) .slz-form-item-preview-choice:not(:first-child) {
+	display: none;
+}
+
+/* end: preview */

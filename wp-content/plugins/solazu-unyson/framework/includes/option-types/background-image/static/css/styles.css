@@ -1,0 +1,23 @@
+.slz-option-type-background-image > .type .slz-option-type-radio div {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.slz-option-type-background-image > .predefined,
+.slz-option-type-background-image > .custom {
+	margin-top: 15px;
+}
+
+.slz-option-type-background-image div.slz-option-type-radio {
+	margin: 0 0 9px -15px;
+	font-size: 14px;
+}
+
+.slz-option-type-background-image.no-choices > .type {
+	display: none;
+}
+
+.slz-option-type-background-image.no-choices > .predefined,
+.slz-option-type-background-image.no-choices > .custom {
+	margin-top: 0;
+}

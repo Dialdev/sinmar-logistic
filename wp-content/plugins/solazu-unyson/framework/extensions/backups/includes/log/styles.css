@@ -1,0 +1,14 @@
+#slz-ext-backups-log #slz-ext-backups-log-show-button .button-hide,
+#slz-ext-backups-log #slz-ext-backups-log-list {
+	display: none;
+}
+
+#slz-ext-backups-log.show-list #slz-ext-backups-log-show-button .button-view {
+	display: none;
+}
+#slz-ext-backups-log.show-list #slz-ext-backups-log-show-button .button-hide {
+	display: inline;
+}
+#slz-ext-backups-log.show-list #slz-ext-backups-log-list {
+	display: block;
+}

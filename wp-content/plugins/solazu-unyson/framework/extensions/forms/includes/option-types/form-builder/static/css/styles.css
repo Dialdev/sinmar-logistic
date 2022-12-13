@@ -1,0 +1,30 @@
+.slz-option-type-form-builder .slz-form-builder-item-style-default {
+	border: 1px dashed #dddddd;
+	background-color: #f8f8f8;
+	padding: 10px;
+}
+
+.slz-option-type-form-builder .slz-builder-item-width-changer {
+	height: 20px;
+	display: inline-block;
+}
+
+.slz-option-type-form-builder .builder-item-type .item-type-icon-title .item-type-icon img {
+	opacity: 0.3;
+}
+
+.slz-option-type-form-builder .builder-item-type:hover .item-type-icon-title .item-type-icon img {
+	opacity: 0.45;
+}
+
+.slz-option-type-form-builder .builder-item .slz-form-item-controls .slz-form-item-control-buttons > a {
+	font-size: 16px;
+}
+
+.slz-backend-option .slz-form-builder-item-type-form_header_title .slz-form-item-preview-subtitle-edit .slz-builder-item-inline-text-editor input {
+	width: 50% !important;
+}
+
+body.rtl .slz-option-type-form-builder .slz-form-item-controls-right.slz-col-xs-5.slz-text-right {
+	text-align: left;
+}

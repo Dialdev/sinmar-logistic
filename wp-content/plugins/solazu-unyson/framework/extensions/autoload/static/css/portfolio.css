@@ -1,0 +1,289 @@
+/*
+*  STYLE DEFAULT FOR PORTFOLIO
+*
+*
+*  [Table of contents]
+*
+*  [&. Content / #key]
+*  [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+*
+*  Summary:
+*
+*
+*  1. General
+*  2. Portfolio Layout 2
+*  3. Portfolio Layout 3
+*  4. Portfolio Carousel
+*  5. Portfolio Category
+*
+*
+*/
+
+
+
+/*----------  1. General  --------------------*/
+    .sc_portfolio_list .inline_block {
+        position: relative;
+        float: none;
+        margin-left: -3px;
+        left: 1.5px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+/*----------  2. Portfolio Layout 2  ----------*/
+    .slz-block-item-03 {
+        font-size: 0;
+    }
+
+    .slz-block-item-03 .block-image,
+    .slz-block-item-03 .block-content,
+    .slz-block-item-03 .block-text {
+        font-size: 14px;
+    }
+
+    .slz-block-item-03 .block-image:before {
+        padding-top: 100%;
+    }
+
+    .slz-block-item-03 .block-content {
+        margin-top: 20px;
+    }
+
+    .slz-block-item-03 .block-text {
+        margin-top: 15px;
+    }
+
+    .slz-block-item-03 .block-content .block-title {
+        margin-bottom: 5px;
+    }
+
+    .slz-block-item-03 .block-content .ratings {
+        display: inline-block;
+        line-height: 24px;
+        vertical-align: top;
+        margin-right: 35px;
+        margin-bottom: 20px;
+    }
+
+    .slz-block-item-03 .block-content .block-read-more {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 5px;
+    }
+
+    .slz-block-item-03 .block-content .ratings + .block-read-more {
+        margin-top: 0;
+    }
+
+    .slz-block-item-03 .block-content .ratings .star-rating,
+    .slz-block-item-03 .block-content .ratings .number {
+        display: inline-block;
+        vertical-align: top;
+        line-height: inherit;
+    }
+
+    .slz-block-item-03 .block-content .ratings .number { 
+        margin-left: 10px;
+    }
+
+    .slz-block-item-03 .block-content .block-category {
+        margin-bottom: 15px;
+    }
+
+    .slz-block-item-03.style-2 .block-image {
+        display: inline-block;
+        width: 170px;
+        vertical-align: top;
+    }
+
+    .slz-block-item-03.style-2 .block-content {
+        display: inline-block;
+        vertical-align: top;
+        width: calc(100% - 170px);
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .slz-block-item-03.style-2 .block-image + .block-content {
+        padding-left: 25px;
+        padding-top: 5px;
+    }
+
+    .slz-block-item-03.style-2 .block-text {
+        margin-top: 20px;
+    }
+
+    .slz-block-item-03 .link-preview {
+        position: absolute;
+        z-index: 5;
+        left: 0;
+        right: 0;
+        bottom: -50px;
+        text-align: center;
+        color: #fff;
+        padding: 1px 6px;
+        text-transform: capitalize;
+        background-color: #ccc;
+    }
+
+    .slz-block-item-03:hover .link-preview {
+        bottom: 0;
+    }
+
+    .slz-block-item-03 .block-content .block-category,
+    .slz-block-item-04 .block-content .block-category {
+        text-transform: capitalize;
+        position: relative;
+        font-weight: 400;
+        font-size: 15px;
+        color: #989b9f;
+        margin: 0 0 10px 0;
+        vertical-align: top;
+    }
+
+/*----------  3. Portfolio Layout 3  ----------*/
+    .slz-block-item-04 .block-text {
+        margin-top: 15px;
+    }
+
+    .slz-block-item-04 .block-image:before {
+        padding-top: 110%;
+    }
+
+    .slz-block-item-04 .block-image-wrapper {
+        position: relative;
+    }
+
+    .slz-block-item-04 .block-image {
+        margin-bottom: 30px;
+    }
+
+    .slz-block-item-04 .block-content {
+        padding: 25px;
+    }
+
+    .slz-block-item-04 .block-sub-image-wrapper {
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        z-index: 3;
+        bottom: -30px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .slz-block-item-04 .block-content .block-title {
+        margin-bottom: 5px;
+    }
+
+    .slz-block-item-04 .block-content .ratings {
+        display: inline-block;
+        line-height: 24px;
+        vertical-align: top;
+    }
+
+    .slz-block-item-04 .block-content .block-read-more {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 10px;
+    }
+
+    .slz-block-item-04 .block-content .ratings + .block-read-more {
+        margin-left: 35px;
+        margin-top: 0;
+    }
+
+    .slz-block-item-04 .block-content .ratings .star-rating,
+    .slz-block-item-04 .block-content .ratings .number {
+        display: inline-block;
+        vertical-align: top;
+        line-height: inherit;
+    }
+
+    .slz-block-item-04 .block-content .ratings .number { 
+        margin-left: 10px;
+    }
+
+    .slz-block-item-04 .block-content .block-category {
+        margin-bottom: 10px;
+    }
+
+/*----------  4. Portfolio Carousel  ----------*/
+    .portfolio_slide_slick {
+        font-size: 0;
+    }
+
+    .portfolio_slide_slick .feature-image {
+        width: 40%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .portfolio_slide_slick .slz-block-item-03.portfolio-item {
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .portfolio_slide_slick .feature-image + .slz-block-item-03.portfolio-item {
+        width: 60%;
+        padding-left: 100px;
+    }
+
+/*----------  5. Portfolio Category  ----------*/
+    .sc_project_category .slz-counter-item-1 {
+        color: #666c72;
+        text-align: center;
+    }
+
+    .sc_project_category .slz-counter-item-1 .wrapper-icon {
+        font-size: 60px;
+    }
+
+    .sc_project_category .slz-counter-item-1 .icon-cell {
+        display: block;
+        text-align: center;
+    }
+
+    .sc_project_category .slz-counter-item-1 .icon-cell + .content-cell {
+        margin-top: 15px;
+    }
+
+    .sc_project_category .slz-counter-item-1 .content-cell {
+        display: block;
+        text-align: center;
+    }
+
+    .sc_project_category .slz-counter-item-1 .content-cell .number {
+        line-height: 1;
+        font-size: 40px;
+        font-weight: 600;
+        color: #213047;
+    }
+
+    .sc_project_category .slz-counter-item-1 .content-cell .title {
+        font-size: 16px;
+        margin-bottom: 10px;
+        text-transform: capitalize;
+    }
+
+    .sc_project_category .slz-counter-item-1 .content-cell .title:last-child {
+        margin-bottom: 0;
+    }
+
+    .sc_project_category .slz-counter-item-1 .content-cell .description {
+        margin-bottom: 10px;
+    }
+
+    .sc_project_category .slz-counter-item-1 .content-cell .description:last-child {
+        margin-bottom: 0;
+    }
+    
+    .sc_project_category .slz-counter-item-1 .content-cell + .icon-cell {
+        margin-top: 15px;
+    }

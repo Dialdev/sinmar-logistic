@@ -1,0 +1,50 @@
+
+/* Add widget  CSS */
+/* Widget CSS */
+form.slz-add-widget{
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	margin: 10px 0 0;
+	padding: 10px;
+	text-align: center;
+	height:170px;
+}
+form.slz-add-widget .slz_style_wrap{
+	float:left;
+	width:300px;
+	height:40px;
+	margin:10px 20px;
+}
+form.slz-add-widget .slz_button{
+	float:left;
+	border:none;
+	border-radius: 3px;
+	background: #62b4fe;
+	color:#fff;
+	font-weight:bold;
+	height:40px;
+	padding:0 15px;
+	margin-top: 10px;
+}
+form.slz-add-widget .slz_button:hover{
+	background-color: #7bc0fe;
+	border-color: #7bc0fe;
+}
+form.slz-add-widget .slz_button:active{
+	box-shadow: 0 3px 3px rgba(0,0,0,0.5) inset;
+}
+
+.sidebar-slz-custom{
+	position: relative;
+}
+
+.slz-sidebar-delete-button{
+	font-size: 25px;
+	font-weight:bold;
+	color: #ccc;
+	position: absolute;
+	z-index: 100;
+	left: 270px;
+	top: 11px;
+}

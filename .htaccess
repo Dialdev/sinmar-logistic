@@ -1,0 +1,51 @@
+
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+<IfModule mod_expires.c> 
+ExpiresActive On ExpiresDefault "access plus 1 month"  
+ExpiresByType image/gif "access plus 2 months" 
+ExpiresByType image/jpeg "access plus 2 months" 
+ExpiresByType image/png "access plus 2 months" 
+</IfModule>
+
+
+Redirect 301 /cargo-2/tank-containers/ http://sinmarlogistic.ru
+Redirect 301 /cargo-2/ http://sinmarlogistic.ru
+Redirect 301 /flexi-tank/ http://sinmarlogistic.ru
+Redirect 301 /liner-bags/ http://sinmarlogistic.ru
+Redirect 301 /logistic/ http://sinmarlogistic.ru
+Redirect 301 /chemistry/ http://sinmarlogistic.ru
+Redirect 301 /generalcargo/intermodal-container-transportation-general/ http://sinmarlogistic.ru
+Redirect 301 /generalcargo/ http://sinmarlogistic.ru
+Redirect 301 /typesoftransportation/intermodal-transportation-types/ http://sinmarlogistic.ru/service/perevozki-negabaritnyh-i-tyazhelovesnyh-gruzov/
+Redirect 301 /typesoftransportation/automobile-transportation-types/ http://sinmarlogistic.ru/service/perevozki-negabaritnyh-i-tyazhelovesnyh-gruzov/
+Redirect 301 /typesoftransportation/transportation-by-rail-types/ http://sinmarlogistic.ru/service/zheleznodorozhnyie-perevozki/
+Redirect 301 /typesoftransportation/transportation-by-sea-types/ http://sinmarlogistic.ru/service/morskie-perevozki/
+Redirect 301 /typesoftransportation/ http://sinmarlogistic.ru
+Redirect 301 /solutions/containers-for-pallet-loads-solutions http://sinmarlogistic.ru/service/dopolnitelnye-uslugi/
+Redirect 301 /solutions/transport-of-dangerous-goods-solutions/ http://sinmarlogistic.ru/service/dopolnitelnye-uslugi/
+Redirect 301 /solutions/fast-container-train-solutions/ http://sinmarlogistic.ru/service/dopolnitelnye-uslugi/
+Redirect 301 /solutions/ http://sinmarlogistic.ru/service/dopolnitelnye-uslugi/
+Redirect 301 /services-2/forwarding-services/ http://sinmarlogistic.ru/service/dopolnitelnye-uslugi/
+Redirect 301 /services-2/door-to-door-delivery-services/ http://sinmarlogistic.ru/service/dopolnitelnye-uslugi/
+Redirect 301 /services-2/terminal-handling-of-cargo-services/ http://sinmarlogistic.ru/service/dopolnitelnye-uslugi/
+Redirect 301 /services-2/insured-cargo-services/ http://sinmarlogistic.ru/service/dopolnitelnye-uslugi/
+Redirect 301 /services-2/ http://sinmarlogistic.ru/service/dopolnitelnye-uslugi/
+Redirect 301 /pricescontainertransport http://sinmarlogistic.ru
+Redirect 301 /pricesterminalhandling http://sinmarlogistic.ru
+Redirect 301 /prices/ http://sinmarlogistic.ru
+Redirect 301 /contact-us/company-office/ http://sinmarlogistic.ru/contact/
+Redirect 301 /about-sinmar-logistics/ http://sinmarlogistic.ru/about/
+
+
+
+# END WordPress

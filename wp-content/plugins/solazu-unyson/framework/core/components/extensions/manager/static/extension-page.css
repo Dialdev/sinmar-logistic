@@ -1,0 +1,23 @@
+#slz-extension-page .slz-extension-page-title {
+	padding-right: 0;
+}
+
+#slz-extension-page .slz-extension-page-title .button,
+#slz-extension-page .slz-extension-page-title .button-primary,
+#slz-extension-page .slz-extension-page-title .button-primary:active {
+	vertical-align: middle;
+}
+
+#slz-extension-page .slz-flash-message + br {
+	display: none;
+}
+
+
+#slz-extension-docs.slz-postbox > .insider {
+	margin-top: 0 !important;
+}
+
+#slz-extension-docs hr {
+	margin-left: -27px;
+	margin-right: -27px;
+}

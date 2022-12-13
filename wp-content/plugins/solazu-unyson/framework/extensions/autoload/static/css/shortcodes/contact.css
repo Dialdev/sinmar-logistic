@@ -1,0 +1,58 @@
+/*
+*  STYLE FOR CONTACT
+*
+*
+*  [Table of contents]
+*
+*  [&. Content / #key]
+*  [Let press Ctrl + f and type of paste the key, then press Enter to search the content ]
+*
+*  Summary:
+*
+*
+*  1. Contact 01
+*
+*
+*/
+
+
+/*----------  1. Contact 01  ----------*/
+    .slz-contact-01 {
+        text-align: center;
+        padding: 40px;
+    }
+    
+    .slz-contact-01 .contact-title {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .slz-contact-01 .contact-title .slz-icon {
+        padding-right: 10px;
+    }
+    
+    .slz-contact-01 .contact-title .text {
+        display: inline-block;
+    }
+    
+    .slz-contact-01 .contact-content {
+        padding-top: 20px;
+        font-size: 16px;
+        font-weight: 500;
+        opacity: 0.9;
+    }
+    
+    .slz-contact-01 .contact-content .slz-icon {
+        padding-right: 5px;
+    }
+    
+    .slz-contact-01 .contact-content .text {
+        display: inline-block;
+    }
+    
+    .slz-contact-01 .contact-content .blur {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 400;
+        opacity: 0.7;
+    }

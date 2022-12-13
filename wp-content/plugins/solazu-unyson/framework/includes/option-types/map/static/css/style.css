@@ -1,0 +1,30 @@
+.slz-option-maps-tab.second {
+	display: none;
+}
+
+@media (min-width: 783px) {
+	.slz-option-maps-tab.second .inner {
+		padding-right: 10px;
+	}
+
+	.slz-force-xs .slz-option-maps-tab.second .inner {
+		padding-right: 0;
+	}
+}
+
+.slz-option-type-map .map-googlemap {
+	height: 218px;
+}
+
+.slz-option-type-map .slz-option-map-inputs {
+	margin-bottom: 10px;
+}
+
+.slz-option-maps-toggle {
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.pac-container {
+	z-index: 160005;
+}
